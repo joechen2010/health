@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>插入显示不同时段不同的问候语参数设置</title>
+<script language="JavaScript" src="../../KS_Inc/Common.js"></script>
+<script language="javascript">
+function OK() {
+    var Val;
+    Val = '{$GetWenhouyu('+document.myform.str1.value+','+document.myform.str2.value+','+document.myform.str3.value+','+document.myform.str4.value+','+document.myform.str5.value+','+document.myform.str6.value+','+document.myform.str7.value+','+document.myform.str8.value+')}';  
+    window.returnValue = Val;
+    window.close();
+}
+</script>
+<link href="Editor.css" rel="stylesheet"></head>
+<body>
+<form name="myform">
+  <br>
+  <table  width='96%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+<tr>
+<td>
+<FIELDSET align=center>
+ <LEGEND align=left>显示不同时段不同的问候语设置(支持WML语言)</LEGEND>
+ <table  width='100%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+  <tr>
+    <td align="right"><div align="center">时段22~06：</div></td>
+    <td ><input name="str1" type="text" id="str1" size="30" value="夜里好!注意身体，别太晚了。"></td>
+  </tr>
+  <tr>
+    <td align="right"><div align="center">时段06~09：</div></td>
+    <td ><input name="str2" type="text" id="str2" size="30" value="早上好!昨晚休息得好吗？"></td>
+  </tr>
+    <tr>
+    <td align="right"><div align="center">时段09~12：</div></td>
+    <td ><input name="str3" type="text" id="str3" size="30" value="上午好!又是一个阳光灿烂的日子。"></td>
+  </tr>
+      <tr>
+    <td align="right"><div align="center">时段12~14：</div></td>
+    <td ><input name="str4" type="text" id="str4" size="30" value="中午好!吃过午饭了吗？"></td>
+  </tr>
+    <tr>
+    <td align="right"><div align="center">时段14~17：</div></td>
+    <td ><input name="str5" type="text" id="str5" size="30" value="外面太阳大吗？"></td>
+  </tr>
+    <tr>
+    <td align="right"><div align="center">时段17~18：</div></td>
+    <td ><input name="str6" type="text" id="str6" size="30" value="下午好!可别打瞌睡哦。"></td>
+  </tr>
+    <tr>
+    <td align="right"><div align="center">时段18~19：</div></td>
+    <td ><input name="str7" type="text" id="str7" size="30" value="傍晚好!今天的工作完成了吗？"></td>
+  </tr>
+    <tr>
+    <td align="right"><div align="center">时段19~22：</div></td>
+    <td ><input name="str8" type="text" id="str8" size="30" value="晚上好!现在的速率还行吧。"></td>
+  </tr>
+
+  
+</table>
+</FIELDSET>
+</td>
+</tr>
+<tr><td><div align="center"><input TYPE='button' value=' 确 定 ' onCLICK='OK()'></div></td></tr>
+</table>
+</form>
+</body>
+</html>
+ 

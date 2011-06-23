@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="gb2312"?>
+<labeltemplate>
+   <label name="log">
+    <![CDATA[
+	      <table width="98%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="67%"><div align="left">{$ShowLogTopic}{$ShowLogInfo}</div></td>
+          <td width="33%"><div align="center">{$ShowWeather}</div></td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><table cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <tr>
+          <td>{$ShowLogText}</td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><table cellSpacing=0 cellPadding=0 width="100%" align=center border=0>
+        <tr>
+          <td width="26%">
+            <div align=right>
+              <p align=right>{$ShowLogMore} </p>
+          </div></td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td> </td>
+  </tr>
+</table>
+	]]>
+   </label>
+   
+   <label name="userinfo">
+    <![CDATA[
+	<table cellSpacing=0 cellPadding=0 width="98%" border=0>
+          
+          <tr>
+            <td width="35%" rowspan="11" align="center">{$GetUserFace}</td>
+            <td height=20 align="center">会员：</td>
+            <td>{$GetUserName}</td>
+          </tr>
+          <tr>
+            <td width="35%" height=20 align="center">姓名：</td>
+            <td width="65%">{$GetRealName}</td>
+          </tr>
+          <tr>
+            <td height=20 align="center">性别：</td>
+            <td>{$GetSex}</td>
+          </tr>
+          <tr>
+            <td height=20 align="center">生日：</td>
+            <td>{$GetBirthday}</td>
+          </tr>
+          <tr>
+            <td height=20 align="center">电话：</td>
+            <td>{$GetHomeTel}</td>
+          </tr>
+          <tr>
+            <td height=20 align="center">邮箱：</td>
+            <td>{$GetEmail}</td>
+          </tr>
+          <tr>
+            <td height=20 align="center">主页：</td>
+            <td>{$GetHomePage}</td>
+          </tr>
+          <tr>
+            <td height=20 align="center">QQ号：</td>
+            <td>{$GetQQ}</td>
+          </tr>
+          <tr>
+            <td height=20 align="center">地区：</td>
+            <td>{$GetUserArea}</td>
+          </tr>
+          <tr>
+            <td height=20 align="center">地址：</td>
+            <td>{$GetAddress}</td>
+          </tr>
+          <tr>
+            <td height=20 align="center">邮编：</td>
+            <td>{$GetZip}</td>
+          </tr>
+          <tr>
+             <td align="center"><a href="javascript:void(0)" onclick="ksblog.sendMsg(event,'{$GetUserName}')">发送短信</a> <a href="javascript:void(0)" onclick="ksblog.addF(event,'{$GetUserName}')">加为好友</a></td>
+            <td height=20 align="center">签名：</td>
+            <td height=20 align="center">签名：</td>
+            <td>{$GetSign} </td>
+          </tr>
+        </table>
+
+	]]>
+   </label>
+   
+      <label name="companyinfo">
+    <![CDATA[
+	<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="margin_t_5 tb">
+          <tr>
+            <td height="27" background="skin/enterprise1/tit-bg.gif" class="tb_b_1"><span class="title_02">联系信息</span></td>
+          </tr>
+          <tr>
+            <td height="150" valign="bottom">
+			 <table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="140">
+				  ◆ 联系人： {$GetContactMan}<br><br>
+                  ◆ 电话： {$GetTelphone}<br><br>
+                  ◆ 传真： {$GetFax} <br><br>
+                  ◆ 手机： {$GetMobile} <br><br>
+                  ◆ QQ号码： {$GetQQ} <br><br>
+                  ◆ 电子邮箱： {$GetEmail} <br><br>
+                  ◆ 详细地址： {$GetAddress}<br><br>
+                  ◆ 邮政编码： {$GetZipCode}<br></td>
+              </tr>
+            </table></td>
+          </tr>
+      </table>
+
+	]]>
+   </label>
+
+   
+</labeltemplate>

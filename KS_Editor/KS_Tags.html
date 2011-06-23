@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>插入Tags参数设置</title>
+<script language="JavaScript" src="../KS_Inc/Common.js"></script>
+<script language="javascript">
+function OK() {
+    var Val;
+    Val = '{=GetTags('+document.myform.sorts.value+','+document.myform.num.value+')}';  
+    window.returnValue = Val;
+    window.close();
+}
+</script>
+<link href="Editor.css" rel="stylesheet"></head>
+<body>
+<form name="myform">
+  <br>
+  <table  width='96%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+<tr>
+<td>
+<FIELDSET align=center>
+ <LEGEND align=left>显示Tags设置</LEGEND>
+ <table  width='100%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+  <tr >
+    <td width="40%" align="right"><div align="center">显示Tags数：</div></td>
+    <td width="60%" ><input name="num" type="text" id="num" value="50" size="6">
+    个</td>
+  </tr>
+  <tr>
+    <td align="right"><div align="center">Tags排序方式：</div></td>
+    <td ><select name="sorts">
+      <option value="1">点击数降序(热门Tags)</option>
+      <option value="2">最后访问时间降序</option>
+      <option value="3">添加时间</option>
+    </select>
+    </td>
+  </tr>
+</table>
+</FIELDSET>
+</td>
+</tr>
+<tr><td><div align="center"><input TYPE='button' value=' 确 定 ' onCLICK='OK()'></div></td></tr>
+</table>
+</form>
+</body>
+</html>
+ 

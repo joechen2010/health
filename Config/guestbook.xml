@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="gb2312"?>
+<guestbook date="2010-2-24 9:50:27" todaynum="0" yesterdaynum="4" maxdaynum="36" topicnum="191" postnum="278">
+	<template name="error1">
+		<![CDATA[
+   		<div class='errtips' style='text-align:center;'><div style='text-align:left;width:500px;'>
+		 <li>对不起,您没有进入本版面的权限.本版面至少要求是本站会员才可以查看!</li>
+			   <li><a href='javascript:ShowLogin()'><font color=red>点此登录</font></a>或<a href='../user/reg/'><font color=red>点此注册</font></a>新会员!</li>
+		</div>
+		 <div style="height:50px;line-height:50px;"><a href="javascript:history.back()">返回上一页</a>   <a href="javascript:window.close()">关闭本页</a></div>
+		</div>
+   ]]>
+	</template>
+	<template name="error2">
+		<![CDATA[
+   		<div class='errtips' style='text-align:center;'><div style='text-align:left;width:500px;'>
+		 <li>对不起,您所在的用户组级别没有进入本版面的权限!</li>
+		</div>
+		 <div style="height:50px;line-height:50px;"><a href="javascript:history.back()">返回上一页</a>   <a href="javascript:window.close()">关闭本页</a></div>
+		</div>
+   ]]>
+	</template>
+	<template name="error3">
+		<![CDATA[
+   		<div class='errtips' style='text-align:center;'><div style='text-align:left;width:500px;'><b>出错啦！</b><br><li>很抱歉，系统设置至少是本站会员才可以发表！</li><li><a href='javascript:ShowLogin()'><font color=red>点此登录</font></a>或<a href='../user/reg/'><font color=red>点此注册</font></a>新会员!</li></div>
+		 <div style="height:50px;line-height:50px;"><a href="javascript:history.back()">返回上一页</a>   <a href="javascript:window.close()">关闭本页</a></div>
+		</div>
+   ]]>
+	</template>
+	<template name="error4">
+		<![CDATA[
+   		<div class='errtips' style='text-align:center;'><div style='text-align:left;width:500px;'><b>出错啦！</b><br><li>很抱歉，您所在的用户级组没有在此版面发表的权限！</li></div>
+		 <div style="height:50px;line-height:50px;"><a href="javascript:history.back()">返回上一页</a>   <a href="javascript:window.close()">关闭本页</a></div>
+		</div>
+   ]]>
+	</template>
+	<template name="boardclass">
+		<![CDATA[
+   		<table border="0" width="100%" style="margin-bottom:8px" align="center" class="glist" cellpadding="0" cellspacing="0">
+			<tr><td style="padding-left:20px;height:35px;background:url(images/cat_bg.gif)"><strong><a href="index.asp?pid={$BoardID}">{$BoardName}</a></strong></td></tr>
+			<tr>
+			<td style='padding:5px'>
+			   <!--boardlist-->
+			</td>
+		   </tr>
+	  </table>
+   ]]>
+	</template>
+	<template name="board">
+		<![CDATA[
+		   <table width="95%" style="margin-bottom:15px" align="center" cellpadding="0" cellspacing="0">
+			<tr class="board">
+				<td width="60" style="text-align:center"/>
+				
+				 <div style="text-align:center;width:51px;height:48px;padding-top:5px;background:url(images/b.gif) no-repeat{IF:{$TodayNum}>0} 0 -52px{/IF}">
+				 {IF:{$TodayNum}>0}
+				  <span style="color:red">{$TodayNum}</span>
+				 {/If}
+				 {IF:{$TodayNum}=0}
+				  {$TodayNum}
+				 {/If}
+				 <br/>
+				 今日
+				 </div>
+				
+				</td>
+				<td>
+				<strong><a href="index.asp?boardid={$BoardID}" class="newlink">{$BoardName}</a></strong><br />
+				{$Intro}<br />
+				<span>版主：{$Master}  | 最新：{$NewTopic}  |  主题：<em>{$TotalSubject}</em>   |  帖子：<em>{$TotalReply}</em></span></td>
+				<td width="1%" style="text-align:right"><a href="index.asp?boardid=2"></a></td>
+			</tr>		
+			</table>
+   ]]>
+	</template>
+	<template name="list">
+		<![CDATA[
+		<table border="0" width="100%" align="center" class="glist" cellpadding="0" cellspacing="0">
+		    <thead class="category">
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>标题</td>
+					<td>作者</td>
+					<td>回复/查看</td>
+					<td>最后发表</td>
+				</tr>
+			 </thead>
+				[loop]
+				<tbody class="topiclist">
+				<tr  onmouseover="this.className='tron'" onmouseout="this.className='trout'">
+					<td>&nbsp;</td>
+					<td>{$Ico}</td>
+					<td>
+					<a href="display.asp?id={$TopicID}">{$Subject}</a>
+					</td>
+					<td>{$Author}<div class="time">{$PubTime}</div></td>
+					<td align="center"><font color=#ff6600>{$ReplayTimes}</font>/{$Hits}</td>
+					<td>
+					{$LastReplayUser}
+					<div class="time">{$LastReplayTime}</div>
+					</td>
+				</tr>
+				</tbody>
+				[/loop]
+		 </table>
+		 
+		 <table border="0" width="100%">
+		 <tr>
+		   <form name="search" method="get" action="Index.asp">
+		   <td>关键字:<input type="text" name="keyword" id="keyword"> <input type="radio" name="SearchType" value="1" checked>主题 <input type="radio" name="SearchType" value="2">作者 <input type="image" border="0" onclick="return(checksearch())" src="{$GetInstallDir}images/btn.gif" align="absmiddle">
+		   </td>
+		   </form>
+		   <td>{$PageStr}</td>
+		 </tr>
+		 </table>
+	]]>
+	</template>
+	<template name="post">
+		<![CDATA[
+		<script src="../ks_inc/common.js" type="text/javascript"></script>
+		<script type="text/javascript">
+		  function getCode()
+          { 
+			 jQuery("#showVerify").html("<img style='cursor:pointer' src='../plus/verifycode.asp?n='+Math.random() onClick='this.src=\"../plus/verifycode.asp?n=\"+ Math.random();'  align='absmiddle'>");
+			}
+		  function InsertFileFromUp(FileList,InstallDir)
+		  { 
+				Files=FileList.split("|");
+				for(var i=0;i<Files.length-1;i++)
+				{     var ext=getFilePic(Files[i]);
+					  var files=Files[i].split('/');
+					  var file=files[files.length-1];
+					  var br='';
+					  if (i!=Files.length-1) br='<br />';
+					  var fileext = Files[i].substring(Files[i].lastIndexOf(".") + 1, Files[i].length).toLowerCase();
+                      if (fileext=="gif" || fileext=="jpg" || fileext=="jpeg" || fileext=="bmp" || fileext=="png")
+					  {
+					   insertHTMLToEditor('<img src="'+Files[i]+'" border="0"/><br/>');	
+					  }
+					  else
+					  {
+					  var str="<img border=0 src="+InstallDir+"KS_Editor/images/FileIcon/"+ext+"> <a href='"+Files[i]+"'  target='_blank'>[点击浏览该文件:"+file+"]</a>"+br;
+					  insertHTMLToEditor(str);	
+					  }
+					  {IF:KS.Setting(59)="0"}
+					    if (i==0){
+						 document.getElementById('pic').value=Files[i];
+						}
+					  {/IF}
+				 }
+		}
+		function insertHTMLToEditor(codeStr) 
+			{ 
+				oEditor=FCKeditorAPI.GetInstance("Memo");
+				if(oEditor   &&   oEditor.EditorWindow){ 
+					oEditor.InsertHtml(codeStr); 
+				} 
+			} 
+            // 按文件扩展名取图，并产生链接
+			function getFilePic(url)
+			{
+				var sExt;
+				sExt=url.substr(url.lastIndexOf(".")+1);
+				sExt=sExt.toUpperCase();
+				var sPicName;
+				switch(sExt)
+				{
+				case "TXT":
+					sPicName = "txt.gif";
+					break;
+				case "CHM":
+				case "HLP":
+					sPicName = "hlp.gif";
+					break;
+				case "DOC":
+					sPicName = "doc.gif";
+					break;
+				case "PDF":
+					sPicName = "pdf.gif";
+					break;
+				case "MDB":
+					sPicName = "mdb.gif";
+					break;
+				case "GIF":
+					sPicName = "gif.gif";
+					break;
+				case "JPG":
+					sPicName = "jpg.gif";
+					break;
+				case "BMP":
+					sPicName = "bmp.gif";
+					break;
+				case "PNG":
+					sPicName = "pic.gif";
+					break;
+				case "ASP":
+				case "JSP":
+				case "JS":
+				case "PHP":
+				case "PHP3":
+				case "ASPX":
+					sPicName = "code.gif";
+					break;
+				case "HTM":
+				case "HTML":
+				case "SHTML":
+					sPicName = "htm.gif";
+					break;
+				case "ZIP":
+				case "RAR":
+					sPicName = "zip.gif";
+					break;
+				case "EXE":
+					sPicName = "exe.gif";
+					break;
+				case "AVI":
+					sPicName = "avi.gif";
+					break;
+				case "MPG":
+				case "MPEG":
+				case "ASF":
+					sPicName = "mp.gif";
+					break;
+				case "RA":
+				case "RM":
+					sPicName = "rm.gif";
+					break;
+				case "MP3":
+					sPicName = "mp3.gif";
+					break;
+				case "MID":
+				case "MIDI":
+					sPicName = "mid.gif";
+					break;
+				case "WAV":
+					sPicName = "audio.gif";
+					break;
+				case "XLS":
+					sPicName = "xls.gif";
+					break;
+				case "PPT":
+				case "PPS":
+					sPicName = "ppt.gif";
+					break;
+				case "SWF":
+					sPicName = "swf.gif";
+					break;
+				default:
+					sPicName = "unknow.gif";
+					break;
+				}
+				return sPicName;
+			
+			}
+			
+		</script>
+				
+	    <table width="90%" border="0" cellspacing="0" cellpadding="0" align="center" class="font">
+		       <form action="Save_Post.asp" method="post" name="myform" id="myform">
+                          <tr> 
+                            <td width="15%" height="25" align="right"><b>主&nbsp;&nbsp;题 ：</b></td>
+                            <td height="25" >
+							<select name=font onchange="DoTitle(this.options[this.selectedIndex].value)" class='jd_tx1'><OPTION selected value="">话题</OPTION><option value=[原创]>[原创]</option><option value=[转帖]>[转帖]</option><option value=[灌水]>[灌水]</option><option value=[讨论]>[讨论]</option><option value=[求助]>[求助]</option><option value=[推荐]>[推荐]</option><option value=[公告]>[公告]</option><option value=[注意]>[注意]</option><option value=[帖图]>[帖图]</option><option value=[建议]>[建议]</option><option value=[下载]>[下载]</option><option value=[分享]>[分享]</option></select>
+							<input name="Subject" size="45" maxlength="150" class=inputtext>
+                              <span style="color:#FF0000">*</span></td>
+                          </tr>
+						  {$SelectBoard}
+						  
+						  {IF:KS.Setting(59)="1"}
+                            <td  height="25" align="right" ><b>用户名 ：</b></td>
+                            <td height="25" ><input name="Name" maxlength="15" value="{$UserName}" {$User_Enabled}class=inputtext size="36" >
+                            <span style="color:#FF0000">*</span></td>
+			               <td></td>
+                          </tr>
+                          <tr> 
+                            <td height="25" align="right" ><b>信&nbsp;&nbsp;箱 ：</b></td>
+                            <td height="25" ><input name="Email" value="{$UserEmain}" size="36" maxlength="50" class=inputtext>
+                              <span style="color:#FF0000">*</span></td>
+							  <td rowspan="3" align="left" width="500">
+							  <INPUT type=hidden value=1 name="pic" id="pic"><img title=点击选择头像 style="CURSOR: hand" onClick="window.open('guestselect.asp?action=face','face','width=480,height=400,resizable=1,scrollbars=1')" 
+            height=90 src="{$GetInstallDir}Images/Face/1.gif" width="80" border="0" name="showimages" id="showimages"> 
+			<select onchange="document.getElementById('pic').value=this.value;document.getElementById('showimages').src='{$GetInstallDir}images/face/'+this.value+'.gif';" size=1 name=Image> 
+              {$ImageList}
+			   </select>  </td>
+                          </tr>
+                          <tr> 
+                            <td height="25" align="right" ><b>主&nbsp;&nbsp;页 ：</b></td>
+                            <td height="25" ><input name="Homepage" size="36" maxlength="50" value="{$UserHomePage}" class=inputtext ></td>
+							</tr>
+                          <tr> 
+                            <td height="25" align="right" ><b>QQ号码 ：</b></td>
+                            <td height="25"> <input name="Oicq" maxlength="10" value="{$UserQQ}" class=inputtext size="25" ></td>
+                          </tr>
+                          <tr> 
+                            <td height="25" align="right" ><b>留言查看 ：</b></td>
+                            <td height="25"> 
+							<input type="radio" name="Purview" value="0" checked> 所有人可见 
+							<br/>
+							<input type="radio" value="1" name="Purview"> 仅自己和管理员可见
+							
+							</td>
+                          </tr>
+
+						  {/IF}
+						  
+                          <tr {$CodeTF}>
+                            <td height="25" align="right"><b>附加码 ：</b></td>
+                            <td height="25"><input name="Code" type="text" class=inputtext size="8" onFocus="getCode();"> <span id="showVerify"></span> 
+                             &lt;-- 请输入左边的数字							</td>
+                            <td>&nbsp;</td>
+                          </tr>
+                          <tr>
+                            <td height="25" align="right"> <b>当前心情 ：</b></td>
+                            <td>{$EmotList}</td>
+							<td>&nbsp;</td>
+                          </tr>
+						  {IF:KS.Setting(59)="0"}
+						   <input type="hidden" value="" name="pic" id="pic" />
+						  {/IF}
+						  <tr>
+                            <td height="30" align="right"> <b>上传附件 ：</b></td>
+                            <td><iframe id='UpFileFrame' name='UpFileFrame' src='../user/User_UpFile.asp?Type=File&ChannelID=9994' frameborder=0 scrolling=no width='100%' height='30' allowtransparency="true"></iframe></td>
+							<td>&nbsp;</td>
+                          </tr>
+
+
+                          <tr> 
+						    <td align="right"><b>发表内容 ：</b>
+							{IF:KS.Setting(59)<>"1"}
+							<br/><br/>回复可见标记格式：<br/><font color=red>[post]隐藏内容[/post]</font>
+							{/IF}
+							
+							</td>
+                            <td height="140" colspan=2>
+							<textarea style="display:none" id="Memo" name="Memo"></textarea>
+							<iframe id="content___Frame" src="../KS_Editor/FCKeditor/editor/fckeditor.html?InstanceName=Memo&amp;Toolbar=Basic" width="95%" height="290" frameborder="0" scrolling="no"></iframe>
+							  </td>
+                          </tr>
+						  {IF:KS.Setting(59)<>"1"}
+                          <tr>
+                            <td height="25" align="right"> <b>发帖选项 ：</b></td>
+                            <td colspan=2 style="color:#999999">IP选项：<input type="radio" name="showip" value="0" checked>隐藏
+							<input type="radio" name="showip" value="1">显示
+							
+							签名选项：
+							<input type="radio" name="showsign" value="0">隐藏
+							<input type="radio" name="showsign" value="1" checked>显示
+							</td>
+                          </tr>
+                          <tr>
+                            <td height="25" align="right"> <b>加密选项 ：</b></td>
+                            <td colspan=2 style="color:#999999">会员需要拥有<input type="text" name="showscore" value="0" size="4" style="text-align:center;border:1px solid #ccc;height:18px;">个积分以上才可以查看此帖。
+							</td>
+                          </tr>
+						  {/IF}
+                         
+                          <tr>
+                            <td colspan="3" height="45" align="center">
+<input type="submit" class=inputbutton value="立即发表" name="Submit" onclick="return(checkform())">
+&nbsp;
+<input type="button" value="重新设置" name="cmdExit" class="inputbutton" onClick=" history.back()"></td>
+                          </tr>
+						   </form>
+                        </table> 
+	]]>
+	</template>
+	<template name="display">
+		<![CDATA[
+		<table class="glist" cellspacing="0" width="100%" cellpadding="0" style="word-break:break-all;">
+		<tr>
+		 <td colspan="2" class="title" style="background:#E8F3FD;height:28px">
+		 	  <table width="100%">
+			   <tr>
+				 <td><b>主题：{$Subject}</b></td>
+				 <td align="right">已有 <font color=red>{$Hits}</font> 人关注过本帖</td>
+				 <td width="90" align="center">
+				 <li style="position:relative;cursor:pointer" onMouseOver="$('#subtopic').show();" onMouseOut="$('#subtopic').hide();">
+				      <b>主题管理</b>
+					  <div style="border:#e4e7ec 1px solid;text-align:center;z-index:999;position:absolute;top:15px;white-space : nowrap; margin:0 ;background:#fff;display:none;right:8px;width:80px" id="subtopic">
+					  {$ManageMenu}
+					  </div>
+				 </li>
+				 </td>
+			   </tr>
+			  </table>	 
+
+		 </td>
+		</tr> 
+		</table> 
+		[loop]
+		<table class="glist" cellspacing="0" width="100%" cellpadding="0" style="table-layout:fixed;margin-bottom:8px;word-break:break-all;">
+		<tr>
+			<td style="width:200px;height:25px;border-bottom:1px solid #E4E7EC;border-right:1px solid #e4e7ec;background:#E8F3FD;" valign="middle">{$UserName}</span></td>
+			<td style="border-bottom:1px solid #E4E7EC; background:#E8F3FD;">
+			  <table width="100%">
+			   <tr>
+				 <Td>{$UserMenu}</td>
+				 <td align="right">第 {$N} 楼</td>
+			   </tr>
+			  </table>	 
+
+			</td>
+		</tr>
+		<tr>
+		  <td rowspan="2" valign="top" style="text-align:center;border-right:1px solid #E4E7EC; background:#E8F3FD;">{$UserInfo}</td>
+		  <td valign="top" style="line-height:120%">
+		   <b style="font-size:12px;line-height:15px;">{$Subject}</b>&nbsp;&nbsp;<span style="line-height:20px; "> Post Date：{$PubTime}&nbsp;&nbsp;&nbsp;Post IP：{$PubIP}</span>
+		  <div id="content{$N}" style="word-wrap:break-word;word-break:break-all;overflow:hidden;font-size:9pt;text-indent:24px;">           
+		   <!--帖子右边广告--> 
+		   <div id="rightAd" style="clear:right;float:right;padding:10px;background:#FFF;color:#999;line-height:130%;">{$ShowRightAd}</div>
+		   <!--右边广告结束-->
+		   
+		   {$Content}
+		  </div>
+		
+		</td>
+		</tr>
+
+		<tr>
+		  <td align="right">
+			  <table border="0" width="100%">
+	
+			   <td style="border-top:1px solid #f1f1f1">{$Jing}</td>
+			   <td style="border-top:1px solid #f1f1f1">
+			   {$UserSign}
+			   <div style="text-align:right">{$ManageMenu} | <a href="#top"><img border="0" src="images/p_up.gif" alt="回到顶部"  />TOP</a></div>
+			   </td>
+			   </tr>
+			   </table>
+			   <!--帖子底部广告-->
+			    {$ShowBottomAd}
+				<!--帖子底部广告结束-->
+		</td>
+		</tr>
+		</table>
+		[/loop]
+		
+	]]>
+	</template>
+	<template name="replayform">
+		<![CDATA[
+	{$PageStr}
+	<a name="reply"></a>
+	{IF:(KS.Setting(54)<>"3" And KS.C("UserName")<>"") or KS.Setting(54)="3" }
+	<table class="glist" width="100%" cellspacing="0" cellpadding="0">
+	<form name="replayform" action="save_reply.asp" method="post">
+<tr id="title_input">
+	<td colspan="2" valign="middle" class="title">
+	  <table width="100%">
+	   <tr>
+	     <Td>回复主题：{$Subject}</td>
+		 <td align="right"><a href="index.asp">返回列表页</a></td>
+	   </tr>
+	  </table>	 
+  </tr>
+<tr>
+	<td align="center" style="width:200px;padding:10px;background:#FAFDFF;text-align:center;border-right:1px solid #e4e7ec;">
+	  <input type="radio" name="txthead" value="1" Checked >
+	  <img src="../Images/Face1/Face1.gif" border="0">
+	  <input type="radio" name="txthead" value="2" >
+	  <img src="../Images/Face1/Face2.gif" border="0">
+	  <input type="radio" name="txthead" value="3" >
+	  <img src="../Images/Face1/Face3.gif" border="0">
+	  <input type="radio" name="txthead" value="4" >
+	  <img src="../Images/Face1/Face4.gif" border="0"><br/>
+	  <input type="radio" name="txthead" value="5" >
+	  <img src="../Images/Face1/Face5.gif" border="0">
+	  <input type="radio" name="txthead" value="6" >
+	  <img src="../Images/Face1/Face6.gif" border="0">
+	  <input type="radio" name="txthead" value="7" >
+	  <img src="../Images/Face1/Face7.gif" border="0">
+	  <input type="radio" name="txthead" value="8" >
+	  <img src="../Images/Face1/Face8.gif" border="0"><br/>
+	  <input type="radio" name="txthead" value="9" >
+	  <img src="../Images/Face1/Face9.gif" border="0">
+	  <input type="radio" name="txthead" value="10" >
+	  <img src="../Images/Face1/Face10.gif" border="0">
+	  <input type="radio" name="txthead" value="11" >
+	  <img src="../Images/Face1/Face11.gif" border="0">
+	  <input type="radio" name="txthead" value="12" >
+	  <img src="../Images/Face1/Face12.gif" border="0"><br/>
+	  <input type="radio" name="txthead" value="13" >
+	  <img src="../Images/Face1/Face13.gif" border="0">
+	  <input type="radio" name="txthead" value="14" >
+	  <img src="../Images/Face1/Face14.gif" border="0">
+	  <input type="radio" name="txthead" value="15" >
+	  <img src="../Images/Face1/Face15.gif" border="0">
+	  <input type="radio" name="txthead" value="16" >
+	  <img src="../Images/Face1/Face16.gif" border="0"><br/>
+	  <input type="radio" name="txthead" value="17" >
+	  <img src="../Images/Face1/Face17.gif" border="0">
+	  <input type="radio" name="txthead" value="18" >
+	  <img src="../Images/Face1/Face18.gif" border="0">
+	  <input type="radio" name="txthead" value="19" >
+	  <img src="../Images/Face1/Face19.gif" border="0">
+	  <input type="radio" name="txthead" value="20" >
+	  <img src="../Images/Face1/Face20.gif" border="0"><br/>
+	  <input type="radio" name="txthead" value="21" >
+	  <img src="../Images/Face1/Face22.gif" border="0">
+	  <input type="radio" name="txthead" value="23" >
+	  <img src="../Images/Face1/Face23.gif" border="0">
+	  <input type="radio" name="txthead" value="24" >
+	  <img src="../Images/Face1/Face25.gif" border="0">
+	  <input type="radio" name="txthead" value="26" >
+	  <img src="../Images/Face1/Face26.gif" border="0"><br/>
+	  <input type="radio" name="txthead" value="27" >
+	  <img src="../Images/Face1/Face27.gif" border="0">
+	  <input type="radio" name="txthead" value="28" >
+	  <img src="../Images/Face1/Face28.gif" border="0">
+	  <input type="radio" name="txthead" value="29" >
+	  <img src="../Images/Face1/Face29.gif" border="0">
+	  <input type="radio" name="txthead" value="30" >
+    <img src="../Images/Face1/Face30.gif" border="0"><br/>	</td>
+	<td style="padding:0px;margin:0px;">
+	<iframe id='UpFileFrame' name='UpFileFrame' src='../user/User_UpFile.asp?Type=File&ChannelID=9994' frameborder=0 scrolling=no width='100%' height='30' allowtransparency="true"></iframe>
+	<span><textarea name="Content" style="display:none;width:100%;height:200px;margin:0;padding:0;"></textarea><iframe id="content___Frame" src="../KS_Editor/FCKeditor/editor/fckeditor.html?InstanceName=Content&amp;Toolbar=Basic" width="100%" height="180" frameborder="0" scrolling="no"></iframe></span></td>
+</tr>
+<tr>
+	<td valign="top" style="background:#FAFDFF;">	</td>
+	<td style="background:#FAFDFF;">
+    <input type="submit" value="OK!发表回复" id="submit" name="submit" onclick="return(checkform())" style="margin:3px;margin-left:0px;" />
+	<input type="hidden" value="{$TopicID}" name="TopicID">
+	<input type="hidden" value="{$BoardID}" name="BoardID">
+	<input type="hidden" value="{$Page}" name="Page">
+	<strong>签名：</strong>
+	<input type="radio" name="showsign" value="0">显示
+	<input type="radio" name="showsign" value="1" checked>隐藏
+	&nbsp;&nbsp;
+	<strong>发帖IP：</strong>
+	<input type="radio" name="showip" value="1">显示
+	<input type="radio" name="showip" value="0" checked>隐藏
+	
+	
+	</td>
+</tr>
+ </form>
+</table>
+ {/If}
+ 
+		<script type="text/javascript">
+		  function InsertFileFromUp(FileList,InstallDir)
+		  { 
+				Files=FileList.split("|");
+				for(var i=0;i<Files.length-1;i++)
+				{     var ext=getFilePic(Files[i]);
+					  var files=Files[i].split('/');
+					  var file=files[files.length-1];
+					  var br='';
+					  if (i!=Files.length-1) br='<br />';
+					  var fileext = Files[i].substring(Files[i].lastIndexOf(".") + 1, Files[i].length).toLowerCase();
+                      if (fileext=="gif" || fileext=="jpg" || fileext=="jpeg" || fileext=="bmp" || fileext=="png")
+					  {
+					   insertHTMLToEditor('<img src="'+Files[i]+'" border="0"/><br/>');	
+					  }
+					  else
+					  {
+					  var str="<img border=0 src="+InstallDir+"KS_Editor/images/FileIcon/"+ext+"> <a href='"+Files[i]+"'  target='_blank'>[点击浏览该文件:"+file+"]</a>"+br;
+					  insertHTMLToEditor(str);	
+					  }
+				 }
+		}
+		function insertHTMLToEditor(codeStr) 
+			{ 
+				oEditor=FCKeditorAPI.GetInstance("Content");
+				if(oEditor   &&   oEditor.EditorWindow){ 
+					oEditor.InsertHtml(codeStr); 
+				} 
+			} 
+
+ createXMLHttp=function() {
+	if(window.XMLHttpRequest){
+		return new XMLHttpRequest();
+	} else if(window.ActiveXObject){
+		return new ActiveXObject("Microsoft.XMLHTTP");
+	} 
+	throw new Error("XMLHttp object could be created.");
+}
+ajaxReadText=function(file,fun,p){
+	var xmlObj = createXMLHttp();
+	xmlObj.onreadystatechange = function(){
+		if(xmlObj.readyState == 4){
+			if (xmlObj.status ==200){
+				obj = xmlObj.responseText;
+				eval(fun);
+			}
+			else{
+				alert("读取文件出错,错误号为 [" + xmlObj.status  + "]");
+			}
+		}
+	}
+	xmlObj.open ('POST', file, true);
+	xmlObj.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+	xmlObj.send (p);
+}
+
+	function checkform()
+	{ 
+		if (FCKeditorAPI.GetInstance('Content').GetXHTML()==""){
+		alert("请填写回复内容");
+		return false;
+		}
+		return true;
+    }
+	function reply(id,user,time)
+	{  
+	   var str="<div style='margin :5px 20px; border : 1px solid #cccccc; padding : 5px;background : #f9f9f9; line-height : normal;'><b>以下是引用 "+user +"在"+time+"的发言：</b><br>"+document.getElementById('content'+id).innerHTML+"</div>";
+	    oEditor=FCKeditorAPI.GetInstance("Content");
+		oEditor.EditorDocument.body.innerHTML="";
+		if(oEditor   &&   oEditor.EditorWindow){ 
+			oEditor.EditorDocument.body.innerHTML=str; 
+		} 
+	}
+	var currn=1;
+	var currtype=1;
+	function edit(type,n,id){
+	   currn=n;
+	   currtype=type;
+	   ajaxReadText('edit.asp','editback(obj,'+n+')','action=show&type='+type+'&id='+id);
+	}
+	function editback(obj,n){
+	  if (obj=='error'){
+	   alert('对不起,您没有修改帖子的权限!');
+	   }
+	  else{
+	  document.getElementById('content'+n).innerHTML=obj;
+	  }
+	}
+	function EditSave(id){
+     if (currtype==1)
+{	 ajaxReadText('edit.asp','editok(obj)','action=save&type='+currtype+'&id='+id+'&title='+escape(document.getElementById('etitle').value)+'&content='+escape(FCKeditorAPI.GetInstance('Content'+id).GetXHTML()));
+  }else{	 ajaxReadText('edit.asp','editok(obj)','action=save&type='+currtype+'&id='+id+'&content='+escape(FCKeditorAPI.GetInstance('Content'+id).GetXHTML()));
+  }
+  
+	}
+	function editok(obj){
+	  if (obj=='error')
+	   alert('对不起,您没有修改帖子的权限!');
+	  else{
+		 alert('恭喜,帖子编辑成功!');
+		 document.getElementById('content'+currn).innerHTML=obj;
+		}
+	}
+	// 按文件扩展名取图，并产生链接
+			function getFilePic(url)
+			{
+				var sExt;
+				sExt=url.substr(url.lastIndexOf(".")+1);
+				sExt=sExt.toUpperCase();
+				var sPicName;
+				switch(sExt)
+				{
+				case "TXT":
+					sPicName = "txt.gif";
+					break;
+				case "CHM":
+				case "HLP":
+					sPicName = "hlp.gif";
+					break;
+				case "DOC":
+					sPicName = "doc.gif";
+					break;
+				case "PDF":
+					sPicName = "pdf.gif";
+					break;
+				case "MDB":
+					sPicName = "mdb.gif";
+					break;
+				case "GIF":
+					sPicName = "gif.gif";
+					break;
+				case "JPG":
+					sPicName = "jpg.gif";
+					break;
+				case "BMP":
+					sPicName = "bmp.gif";
+					break;
+				case "PNG":
+					sPicName = "pic.gif";
+					break;
+				case "ASP":
+				case "JSP":
+				case "JS":
+				case "PHP":
+				case "PHP3":
+				case "ASPX":
+					sPicName = "code.gif";
+					break;
+				case "HTM":
+				case "HTML":
+				case "SHTML":
+					sPicName = "htm.gif";
+					break;
+				case "ZIP":
+				case "RAR":
+					sPicName = "zip.gif";
+					break;
+				case "EXE":
+					sPicName = "exe.gif";
+					break;
+				case "AVI":
+					sPicName = "avi.gif";
+					break;
+				case "MPG":
+				case "MPEG":
+				case "ASF":
+					sPicName = "mp.gif";
+					break;
+				case "RA":
+				case "RM":
+					sPicName = "rm.gif";
+					break;
+				case "MP3":
+					sPicName = "mp3.gif";
+					break;
+				case "MID":
+				case "MIDI":
+					sPicName = "mid.gif";
+					break;
+				case "WAV":
+					sPicName = "audio.gif";
+					break;
+				case "XLS":
+					sPicName = "xls.gif";
+					break;
+				case "PPT":
+				case "PPS":
+					sPicName = "ppt.gif";
+					break;
+				case "SWF":
+					sPicName = "swf.gif";
+					break;
+				default:
+					sPicName = "unknow.gif";
+					break;
+				}
+				return sPicName;
+			
+			}
+
+</script>
+	]]>
+	</template>
+</guestbook>

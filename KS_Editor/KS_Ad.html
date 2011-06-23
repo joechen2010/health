@@ -1,0 +1,71 @@
+<html>
+<head>
+<title>插入对联广告参数设置</title>
+<script language="JavaScript" src="../KS_Inc/Common.js"></script>
+<script language="javascript">
+function OK() {
+    var Val;
+	if (document.myform.leftsrc.value=='')
+	  {
+	   alert('请输入左联地址!')
+	   document.myform.leftsrc.focus();
+	   return false;
+	  }
+	  if (document.myform.rightsrc.value=='')
+	  {
+	   alert('请输入右联地址!')
+	   document.myform.rightsrc.focus();
+	   return false;
+	  }
+	 if (document.myform.closesrc.value=='')
+	  {
+	   alert('请输入关闭图标地址!')
+	   document.myform.closesrc.focus();
+	   return false;
+	  }
+    Val = '{=JS_Ad("'+document.myform.leftsrc.value+'","'+document.myform.rightsrc.value+'","'+document.myform.closesrc.value+'",'+document.myform.speed.value+')}';  
+    window.returnValue = Val;
+    window.close();
+}
+</script>
+ 
+<link href="editor.css" rel="stylesheet"></head>
+<body>
+<form name="myform">
+  <br>
+  <table  width='96%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+<tr>
+<td>
+<FIELDSET align=center>
+ <LEGEND align=left>对联广告设置</LEGEND>
+ <table  width='100%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+  <tr >
+    <td align="right"><div align="center">左联Flash地址</div></td>
+    <td ><input name="leftsrc" type="text" id="leftsrc" size="60">
+      100*250</td>
+  </tr>
+  <tr >
+    <td align="right"><div align="center">右联Flash地址</div></td>
+    <td ><input name="rightsrc" type="text" id="rightsrc" size="60">
+      100*250</td>
+  </tr>
+  <tr >
+    <td align="right"><div align="center">左右联底部关闭小图标</div></td>
+    <td ><input name="closesrc" type="text" id="closesrc" value="/images/close.gif" size="40">
+      输入&quot;0&quot;不显示</td>
+  </tr>
+  <tr >
+    <td width="24%" align="right"><div align="center">滑动速度</div></td>
+    <td width="76%" ><input name="speed" type="text" id="speed" value="0.8" size="8" onBlur="CheckNumber(this,'滚动速度');">
+    范围 0.1~1.0 值越大,速度越快</td>
+  </tr>
+</table>
+</FIELDSET>
+</td>
+</tr>
+<tr><td><div align="center"><input TYPE='button' value=' 确 定 ' onCLICK='OK()'></div></td></tr>
+</table>
+</form>
+</body>
+</html>
+ 

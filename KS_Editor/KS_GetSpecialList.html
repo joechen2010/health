@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>专辑列表参数设置</title>
+<script language="JavaScript" src="../KS_Inc/Common.js"></script>
+<script language="javascript">
+function OK() {
+    var Val,type,ShowMouseTX,ShowDetailTF;
+	
+	for (var i=0;i<document.myform.type.length;i++){
+	 var KM = document.myform.type[i];
+	if (KM.checked==true)	   
+		type = KM.value
+	}
+
+	for (var i=0;i<document.myform.ShowDetailTF.length;i++){
+	 var KM = document.myform.ShowDetailTF[i];
+	if (KM.checked==true)	   
+		ShowDetailTF = KM.value
+	}
+
+    Val = '{=GetMusicSpecialList('+type+','+document.myform.Num.value+','+document.myform.ColNum.value+','+document.myform.PhotoWidth.value+','+document.myform.PhotoHeight.value+','+document.myform.SpecialNameLen.value+','+ShowDetailTF+')}';  
+    window.returnValue = Val;
+    window.close();
+}
+</script>
+
+<link href="Editor.css" rel="stylesheet">
+<style type="text/css">
+<!--
+.STYLE1 {color: #FF0000}
+-->
+</style>
+</head>
+<body>
+<form name="myform">
+  <br>
+  <table  width='96%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+<tr>
+<td>
+<FIELDSET align=center>
+ <LEGEND align=left>专辑列表参数设置</LEGEND>
+ <table  width='100%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+  <tr >
+    <td align="right"><div align="center">列表属性</div></td>
+    <td ><input name="type" type="radio" value="0" checked>
+      最新专辑
+        <input type="radio" name="type" value="1">
+        推荐专辑
+        <input type="radio" name="type" value="2">
+        热点专辑</td>
+  </tr>
+  <tr >
+    <td width="24%" align="right"><div align="center">列出多少张专辑</div></td>
+    <td width="76%" ><input name="Num" type="text" id="Num" value="10" size="8" onBlur="CheckNumber(this,'列出多少张专辑');">
+      张</td>
+  </tr>
+  <tr >
+    <td align="right"><div align="center">专辑排列列数</div></td>
+    <td ><input name="ColNum" type="text" id="ColNum" value="1" size="8" onBlur="CheckNumber(this,'专辑排列列数');">
+      px</td>
+  </tr>
+  <tr >
+    <td align="right"><div align="center">专辑图片的宽度</div></td>
+    <td ><input name="PhotoWidth" type="text" id="PhotoWidth" value="90" size="8" onBlur="CheckNumber(this,'专辑图片的宽度');">
+px</td>
+  </tr>
+  <tr >
+    <td align="right"><div align="center">专辑图片的高度</div></td>
+    <td ><input name="PhotoHeight" type="text" id="PhotoHeight" value="80" size="8" onBlur="CheckNumber(this,'专辑图片的高度');">
+px</td>
+  </tr>
+  <tr >
+    <td align="right"><div align="center">取专辑名称字数</div></td>
+    <td ><input name="SpecialNameLen" type="text" id="SpecialNameLen" value="8" size="8" onBlur="CheckNumber(this,'取专辑名称字数');"> 
+      字 一个汉字=两个英文字符 </td>
+  </tr>
+  <tr >
+    <td align="right"><div align="center">是否显示发行公司及发行日期</div></td>
+    <td ><input name="ShowDetailTF" type="radio" value="true" checked>
+是
+  <input type="radio" name="ShowDetailTF" value="false">
+否 　显示歌曲的详细，如下载，收藏等</td>
+  </tr>
+</table>
+</FIELDSET></td>
+</tr>
+<tr><td><div align="center"><input TYPE='button' value=' 确 定 ' onCLICK='OK()'></div></td></tr>
+<tr>
+  <td height="30"><div align="center"><span class="STYLE1">备注：些标签音乐频道通用</span></div></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
+ 

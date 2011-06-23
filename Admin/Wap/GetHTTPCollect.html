@@ -1,0 +1,88 @@
+<html>
+<head>
+<title>插入小偷参数设置</title>
+<script language="JavaScript" src="../../KS_Inc/Common.js"></script>
+<script language="javascript">
+function OK() {
+    var Val;
+    Val = '{HTTP_'+document.myform.strName.value+'('+document.myform.strURL.value+','+document.myform.strCode.value+','+document.myform.strTime.value+','+document.myform.strStart.value+','+document.myform.strOver.value+','+document.myform.strIncluL.value+','+document.myform.strIncluR.value+','+document.myform.strReplace.value+')}';  
+    window.returnValue = Val;
+    window.close();
+}
+</script>
+<link href="Editor.css" rel="stylesheet"></head>
+<body>
+<form name="myform">
+  <br>
+  <table  width='96%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+<tr>
+<td>
+<FIELDSET align=center>
+ <LEGEND align=left>显示小偷设置</LEGEND>
+ <table  width='100%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+ 
+   <tr >
+    <td width="40%" align="right">标签名称：</td>
+    <td width="60%" ><input name="strName" type="text" size="40" value=""><br/><font color="#ff0000">限使入英文和数字</font></td>
+  </tr>
+  
+    <tr >
+    <td width="40%" align="right">远程网址：</td>
+    <td width="60%" ><textarea name="strURL" cols="40" rows="2"></textarea><br/><font color="#ff0000">如:http://wap.kesion.com/Index.asp</font></td>
+  </tr>
+  
+  <tr >
+    <td width="40%" align="right">编码格式：</td>
+    <td width="60%" ><select name="strCode">
+      <option value="utf-8">UTF-8</option>
+      <option value="gb2312">GB2312</option>
+      <option value="auto">自动取得</option>
+    </select></td>
+  </tr>
+  
+  <tr >
+    <td width="40%" align="right">缓存时间：</td>
+    <td width="60%" ><input name="strTime" type="text" onBlur="CheckNumber(this,'缓存时间字符');" size="6" value="30"><br/><font color="#ff0000">不使用缓存填入"0",方法一:如"20:20:00"时间后更新缓存填入"20:20:00",方法二:每30分钟自动更新缓存填入"30"</font></td>
+  </tr>
+  
+    <tr >
+    <td width="40%" align="right">开始字符串：<br/><font color="#ff0000">删除代码中的回车</font></td>
+    <td width="60%" ><textarea name="strStart" cols="40" rows="2"></textarea></td>
+  </tr>
+  
+    <tr >
+    <td width="40%" align="right">结束字符串：<br/><font color="#ff0000">删除代码中的回车</font></td>
+    <td width="60%" ><textarea name="strOver" cols="40" rows="2"></textarea></td>
+  </tr>
+  
+   <tr >
+    <td width="40%" align="right">是否包含开始字符串：</td>
+    <td width="60%" ><select name="strIncluL">
+      <option value="True">是</option>
+      <option value="False">否</option>
+    </select></td>
+  </tr>
+
+    <tr >
+    <td width="40%" align="right">是否包含结束字符串：</td>
+    <td width="60%" ><select name="strIncluR">
+      <option value="True">是</option>
+      <option value="False">否</option>
+    </select></td>
+  </tr>
+
+    <tr >
+    <td width="40%" align="right">数据过滤替换：</td>
+    <td width="60%" ><textarea name="strReplace" cols="40" rows="5"></textarea><br/><font color="#ff0000">说明：过滤替换字符设定规则为 要过滤的字符=>>过滤后的字符 ，每个过滤字符用$$分割开。</font></td>
+  </tr>
+
+</table>
+</FIELDSET>
+</td>
+</tr>
+<tr><td><div align="center"><input TYPE='button' value=' 确 定 ' onCLICK='OK()'></div></td></tr>
+</table>
+</form>
+</body>
+</html>
+ 

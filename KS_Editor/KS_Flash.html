@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>插入Flash参数设置</title>
+<script language="JavaScript" src="../KS_Inc/Common.js"></script>
+<script language="javascript">
+function OK() {
+    var Val;
+    Val = '{=GetFlash('+document.myform.FlashWidth.value+','+document.myform.FlashHeight.value+')}';  
+    window.returnValue = Val;
+    window.close();
+}
+</script>
+<link href="Editor.css" rel="stylesheet"></head>
+<body>
+<form name="myform">
+  <br>
+  <table  width='96%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+<tr>
+<td>
+<FIELDSET align=center>
+ <LEGEND align=left>显示Flash设置</LEGEND>
+<table  width='100%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+  <tr >
+    <td width="40%" align="right"><div align="center">Flash宽度：</div></td>
+    <td width="60%" ><input name="FlashWidth" type="text" onBlur="CheckNumber(this,'Flash播放器宽度');" size="6" value="550">
+      px</td>
+  </tr>
+  <tr>
+    <td align="right"><div align="center">Flash高度：</div></td>
+    <td ><input name="FlashHeight" type="text" size="6" onBlur="CheckNumber(this,'Flash播放器高度');" value="380">
+    px</td>
+  </tr>
+</table>
+</FIELDSET>
+</td>
+</tr>
+<tr><td><div align="center"><input TYPE='button' value=' 确 定 ' onCLICK='OK()'></div></td></tr>
+</table>
+</form>
+</body>
+</html>
+ 

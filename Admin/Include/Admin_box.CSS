@@ -1,0 +1,13 @@
+a{text-decoration: none;} /* 链接无下划线,有为underline */ 
+a:link {color: #000000;} /* 未访问的链接 */
+a:visited {color: #000000;} /* 已访问的链接 */
+a:hover{color: #FF0000;text-decoration: underline;} /* 鼠标在链接上 */ 
+a:active {color: #FF0000;} /* 点击激活链接 */
+td	{font-family:  "Verdana, Arial, Helvetica, sans-serif"; font-size: 11.5px;  text-decoration:none ; text-decoration:none ; }
+body  {  background:#F1F6F9;margin:0px; font:9pt 宋体; FONT-SIZE: 9pt;text-decoration: none;
+	OVERFLOW: scroll; 
+	OVERFLOW-X: hidden;
+
+	 }
+
+

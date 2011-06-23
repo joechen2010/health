@@ -1,0 +1,53 @@
+body{margin:0;padding:0;font-size:small;font-family:Verdana, Arial, Helvetica, sans-serif;}
+ul{margin:0;padding:0;}
+li{margin:0;padding:0;list-style:none;}
+img{border:0;}
+form{margin:0;padding:0;}
+a{text-decoration:none;color:#000;}
+a.cs{text-decoration:none;color:#FFF;}
+p{margin:0;padding:0;}
+input{background:white;border:solid 1px #000000;font-size:small;font-family:Verdana, Arial, Helvetica, sans-serif;padding:0;}
+#wrap{width:100%;}
+#top{background:url(top_bg.gif) repeat-x;height:60px;background-color:#afd6e7;}
+#site-logo{width:126px;height:50px;float:left;}
+#site-set{width:60px;height:50px;float:right;}
+#site-set p{margin:0;padding:0;}
+#site-set p a{text-decoration:none;color:white;}
+#menu{height:16px;padding-top:3px;border:1px #000000 solid;background:#3173aa url(menu_bg.gif) repeat;text-align:center;}
+#new-soft{background:#52a8d4;padding:3px;}
+#soft-icon{width:30px;height:30px;float:left;margin:5px;}
+.line{height:1px;background:#00488c;overflow:hidden;clear:both;}
+.left-title{width:95px;height:14px;float:left;}
+.right-handle{width:40px;height:13px;padding-top:1px;float:right;}
+.list-box{padding:3px 5px;clear:both;}
+.list-box p.soft-list{text-align:left;}
+.list-box p{text-align:center;padding:3px 0;clear:both;}
+#soft-list{width:100%;border:0;border-collapse:collapse;font-size:small;}
+.td-style1{background:#b8dcee;font-size:small;}
+.td-style2{font-size:small;}
+.result{background:#52a8d4;border:1px solid #00488c;clear:both;padding:3px;}
+.title{background:#000;padding:3px;font-weight:bold;color:white;}
+.top{background:#ffcba8;padding:3px;}
+.pages,.handle,.gray-box{background:#cccccc;clear:both;padding:3px;}
+.box{padding:3px;}
+#search{background:#52a8d4;border:1px solid #00488c;}
+input.button{background:#52a8d4;border:1px solid #000000;}
+#game-pic{width:58px;height:65px;float:left;margin:3px 2px;}
+#game-list{width:150px;float:left;clear:none;text-align:left;padding-left:5px}
+#themes-pics{padding:3px 0;margin:0;}
+#themes-pics div{width:50px;float:left;padding-right:5px;}
+#ebook-pic{width:52px;float:left;margin:3px 2px;display:inline;}
+#ebook-list{width:160px;padding-bottom:5px;float:left;margin:0;clear:none;text-align:left;padding-left:5px;}
+.clear{width:100%;height:1px;overflow:hidden;clear:both;}
+#bottom-menu{background:#52a8d4;border:1px solid #00488c;text-align:center;clear:both;}
+#bottom-nav,#copyright{text-align:center;padding:5px 0;}
+
+
+
+/*----------------------------Font Color and size------------------------------*/
+.white{color:white;}
+.green{color:#00ff00;}
+.blank{color:blank;}
+.magenta{color:#ec008c;}
+.orange{color:#52a8d4;}
+.gray{color:#999999;}

@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>插入简介字符参数设置</title>
+<script language="JavaScript" src="../../KS_Inc/Common.js"></script>
+<script language="javascript">
+function OK() {
+    var Val;
+    Val = '{=GetContentIntro('+document.myform.strlen.value+')}';  
+    window.returnValue = Val;
+    window.close();
+}
+</script>
+<link href="Editor.css" rel="stylesheet"></head>
+<body>
+<form name="myform">
+  <br>
+  <table  width='96%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+<tr>
+<td>
+<FIELDSET align=center>
+ <LEGEND align=left>显示简介字符设置</LEGEND>
+ <table  width='100%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+  <tr >
+    <td width="40%" align="right"><div align="center">显示的字符：</div></td>
+    <td width="60%" ><input name="strlen" type="text" onBlur="CheckNumber(this,'每页显示的字符');" size="6" value="50"></td>
+  </tr>
+</table>
+</FIELDSET>
+</td>
+</tr>
+<tr><td><div align="center"><input TYPE='button' value=' 确 定 ' onCLICK='OK()'></div></td></tr>
+</table>
+</form>
+</body>
+</html>
+ 

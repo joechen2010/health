@@ -1,0 +1,67 @@
+BODY {
+	text-align:center; SCROLLBAR-FACE-COLOR: #f6f6f6; FONT-SIZE: 10.5pt; MARGIN: 0px; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #cccccc; SCROLLBAR-3DLIGHT-COLOR: #cccccc; SCROLLBAR-ARROW-COLOR: #330000; SCROLLBAR-TRACK-COLOR: #f6f6f6; SCROLLBAR-DARKSHADOW-COLOR: #ffffff; TEXT-DECORATION: none
+}
+A {
+	TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #000000
+}
+A:visited {
+	COLOR: #333333
+}
+A:hover {
+	COLOR: #ae0927
+}
+A:active {
+	COLOR: #0000ff
+}
+
+TD {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; LINE-HEIGHT: 150%; FONT-FAMILY: "ÀŒÃÂ"
+}
+BUTTON {
+	FONT-SIZE: 9pt; HEIGHT: 20px
+}
+SELECT {
+	FONT-SIZE: 9pt; HEIGHT: 20px
+}
+LI {LIST-STYLE-TYPE: none
+}
+UL {
+	MARGIN-left: 0px; 
+}
+.table_border1 {
+	BORDER:#C2DAED 1px solid; BACKGROUND: #fff;
+}
+.table_border2 {
+ Border:1px solid #F7E1C8; Backgound
+ }
+
+ 
+ /* ========== ∑÷¿‡À—À˜ ====== */
+#searchNav{margin:0 auto;font-size: 10.5pt;}
+.sN{repeat-x; float:left}
+.sN div{}
+.sN .l{no-repeat; float:left}
+.sN .c{float:left;}
+.sN .c .sNav{margin:0 auto;}
+.sN .c .sNav ul{ float:left;}
+.sN .c .sNav li{ float:left; list-style:none;}
+.sN .c .sNav li a{ color:#0000FF;}
+.sN .c .sNav li a:visited{ color:#0000FF;}
+.sN .c .sNav li a:hover{ color:#FF0000; text-decoration:underline;}
+.sN .c .sNav li img{ }
+.stag0{float:left;list-style:none;}
+.stag1{ width:45px; height:24px; cursor:pointer; line-height:24px; font-family: Arial; padding-top:2px; text-align:center;}
+.stag{ width:45px; height:24px; cursor:pointer;  no-repeat;  font-family:Arial; font-weight:bold; line-height:24px; padding-top:2px; text-align:center}
+
+.sN .r{ width:5px;float:left}
+.sN_Content{ border-top:none; text-align:left; float:left;}
+.sN_Content div{ float:left;}
+.sN_Content .input{ margin-top:5px;}
+.sN_Content .input .in{ width:380px;font-size:14px; float:left;}
+.sN_Content .s{ margin:5px 3px 0;}
+.sN_Content .s input{ line-height:25px; border:0px none; cursor:pointer;no-repeat; text-align:center; font-size:13px; color:#fff}
+.sN_Content .s1{ margin-top:8px; line-height:24px;}
+.sN_Content .s1 a{ margin:0 5px;}

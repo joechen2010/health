@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>插入用户登录排行参数设置</title>
+<script language="JavaScript" src="../KS_Inc/Common.js"></script>
+<script language="javascript">
+function OK() {
+    var Val;
+    Val = '{=GetTopUser('+document.myform.num.value+','+document.myform.more.value+')}';  
+    window.returnValue = Val;
+    window.close();
+}
+</script>
+<link href="Editor.css" rel="stylesheet"></head>
+<body>
+<form name="myform">
+  <br>
+  <table  width='96%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+<tr>
+<td>
+<FIELDSET align=center>
+ <LEGEND align=left>显示用户登录排行设置</LEGEND>
+ <table  width='100%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+  <tr >
+    <td width="40%" align="right"><div align="center">显示用户数：</div></td>
+    <td width="60%" ><input name="num" type="text" id="num" value="5" size="6">
+      位</td>
+  </tr>
+  <tr>
+    <td align="right"><div align="center">更多链接：</div></td>
+    <td ><input name="more" type="text" id="more" value="more..." size="20"> 留空不输出</td>
+  </tr>
+</table>
+</FIELDSET>
+</td>
+</tr>
+<tr><td><div align="center"><input TYPE='button' value=' 确 定 ' onCLICK='OK()'></div></td></tr>
+</table>
+</form>
+</body>
+</html>
+ 

@@ -1,0 +1,104 @@
+a{text-decoration: none;} /* 链接无下划线,有为underline */ 
+a:link {color: #000000;} /* 未访问的链接 */
+a:visited {color: #000000;} /* 已访问的链接 */
+a:hover{color: #FF0000;text-decoration: underline;} /* 鼠标在链接上 */ 
+a:active {color: #FF0000;} /* 点击激活链接 */
+td	{font-family:  "Verdana, Arial, Helvetica, sans-serif"; font-size: 11.5px; color: #000000; text-decoration:none ; text-decoration:none ; }
+BODY {
+font-family:  "Verdana, Arial, Helvetica, sans-serif"; font-size: 11.5px;
+FONT-SIZE: 9pt;
+color:#000000;
+text-decoration: none;
+scrollbar-face-color: #EAF0F5;
+scrollbar-highlight-color: #ffffff; scrollbar-shadow-color:#cccccc; scrollbar-3dlight-color: buttonface; scrollbar-arrow-color: #000000; scrollbar-track-color:#EAF0F5; scrollbar-darkshadow-color: #ffffff;
+}
+.LeftMouseOver {
+	TEXT-DECORATION: underline
+}
+.LeftMouseOut {
+	TEXT-DECORATION: none
+}
+.HighlightItem {
+	padding-left:10;
+	cursor:default;
+	font-size:9pt;
+	background-Color:highlight;
+	color:white;
+	width: 100%;
+	line-height: 25px;
+}
+.sort{
+	background:#EAF0F5;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-top: 1px solid threedhighlight;
+	border-left: 1px solid threedhighlight;
+	border-right: 1px solid threedshadow;
+	border-bottom: 1px solid threedshadow;
+}
+.sortbutton{
+	background:#EAF0F5;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-top: 1px solid threedhighlight;
+	border-left: 1px solid threedhighlight;
+	border-right: 1px solid threedshadow;
+	border-bottom: 1px solid threedshadow;
+}
+.buttonstyle{
+    font-size:9pt;
+   	background:url(../Images/Button.gif);
+	width:60px;
+	height:24px;
+    padding-left: 5px;
+	padding-right: 5px;
+	border-top: 0px solid threedhighlight;
+	border-left:0px solid threedhighlight;
+	border-right:0px solid threedshadow;
+	border-bottom: 0px solid threedshadow;
+}
+.Default
+{
+	border-right: 1px solid;
+	border-top: 1px solid;
+	font-size: 12px;
+	border-left: 1px solid;
+	border-bottom: 1px solid;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	border-color: Black;
+	cursor: default;
+
+}
+.Selected
+{   background:url(../Images/PageButton.gif);
+	border-right: 1px solid;
+	border-top: 1px solid;
+	font-size: 12px;
+	border-left: 1px solid;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	border-color: Black;
+	cursor: default;
+
+}
+.ToolBarButtonLine {
+	border-bottom: 1px solid;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	border-color: Black;
+}
+.FolderItem {
+	cursor: default;
+}
+.FolderSelectItem {
+	background-color:highlight;
+	cursor: default;
+	color: white;
+}
+.3d {
+	BORDER-RIGHT: #000 1px inset; BORDER-TOP: #000 1px inset; BORDER-LEFT: #000 1px inset; BORDER-BOTTOM: #000 1px inset
+	}
+.hr {BORDER-TOP: #000000 1px solid; BORDER-BOTTOM: #ffffff 1px solid;}
+.textbox {
+	BORDER-RIGHT: #666 1px solid; BORDER-TOP: #666 1px solid; FONT-SIZE: 12px; BACKGROUND: #ffffff; BORDER-LEFT: #666 1px solid; COLOR: #000; BORDER-BOTTOM: #666 1px solid
+}
+.FolderSelected{filter:Alpha(Opacity=50);}
+div.quote {margin :5px; border : 1px solid #cccccc; padding : 5px;background : #f9f9f9; line-height : normal;} 

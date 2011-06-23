@@ -1,0 +1,35 @@
+/*===== CSS theme file for CalendarXP 6.0 (Totally configurable) =====*/
+/* Calendar Head - the cells showing "Sunday", "Monday" .... */
+.CalHead {cursor:default; text-align:center; font:bold 7.5pt Tahoma, Verdana, sans-serif; color:#565656;}
+/* Day Cell - the container cell of each day */
+.CalCell {cursor:pointer; text-align:center;}
+/* Day Number */
+.CellAnchor {text-decoration:none; font:9pt verdana;}
+
+/* WeekNo Head - the top cell in the week number column */
+.WeekHead {cursor:default; text-align:center; font:bold 10pt arial; color:cyan;}
+/* WeekNo Column Cell - the cells of the week number column */
+.WeekCol {cursor:default; text-align:center; font:bold 9pt arial; background:cyan;}
+
+/* Month navigators - the "<" or ">" used to move to previous or next month */
+.MonthNav {vertical-align:middle; height:22; width:18; font:10pt Fixedsys; color:black;}
+A.MonthNav:hover {color:yellow}
+A.MonthNav:active {color:red}
+
+/* styles for the 3 calendar portions (actually 3 table TDs) */
+.CalTop {text-align:center;}
+.CalMiddle {}
+.CalBottom {text-align:center;}
+
+/* Calendar title - showing year and month */
+.CalTitle {vertical-align:middle; font:10pt arial; color:black;}
+
+/* The style of internal floating div/layer tags */
+.FreeDiv {}
+
+/*===== Above CSS are commonly used in the script engine =====*/
+
+/*====== Following are additional per-theme styles ======*/
+.Today {text-decoration:none; font:bold 10pt verdana; color:white;}
+A.Today:hover {color:yellow;}
+A.Today:active {color:red;}

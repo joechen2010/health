@@ -1,0 +1,182 @@
+body
+{
+font-size: 9pt;
+background-color: #FFFFFF;
+MARGIN: 0px; 
+COLOR: #434343; 
+FONT-FAMILY: Arial, Helvetica, sans-serif, Verdana,宋体;
+background-position:center;
+text-decoration: none;
+}
+*{ margin:0; padding:0; font-family:"宋体",Arial; word-wrap:break-word; word-break:break-all;  }
+h1,h2,h3,h4,h5,h6{ font-size:12px;}
+img{ border:0;}
+li{ list-style:none;}
+.d_default {
+	 color:#999999
+}
+.d_on {
+	 color:#999999
+}
+.d_ok {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 24px; BACKGROUND: url(ok.gif) no-repeat 4px 50%; PADDING-BOTTOM: 2px;  PADDING-TOP: 2px; 
+}
+.d_err {
+	color:#FFAA71;PADDING-RIGHT: 0px; PADDING-LEFT: 24px; BACKGROUND: url(error.gif)  no-repeat 4px 50%; PADDING-BOTTOM: 2px; PADDING-TOP: 2px;
+}
+/* 单元格TD的css定义:这里为总的表格定义，为一般表格的的单元格风格设置，可定义内容为背景、字体颜色、样式等 */
+td
+{font-family:宋体;font-size: 9pt;line-height: 150%;}
+TABLE {
+	FONT-SIZE: 12px; COLOR: #333333; LINE-HEIGHT: 20px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+SELECT {
+	FONT-SIZE: 12px; COLOR: #333333; BACKGROUND-COLOR: #fbfbf4
+}
+INPUT {
+	FONT-SIZE: 12px
+}
+.textarea {
+	FONT-SIZE: 12px
+}
+
+a{font-size:12px;COLOR: #2c602f; TEXT-DECORATION: none
+}
+a:hover {COLOR: #f60; TEXT-DECORATION: underline}
+
+
+A.teamname:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #ff6600; LINE-HEIGHT: 18px; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
+A.teamname:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #666600; LINE-HEIGHT: 18px; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+/***************************用户系统******************************************************/
+
+div.RegLicense {
+	BORDER-RIGHT: #666666 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #666666 1px solid; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 5px; OVERFLOW: auto; BORDER-LEFT: #666666 1px solid; WIDTH: 98%; COLOR: #000000; PADDING-TOP: 5px; BORDER-BOTTOM: #666666 1px solid; HEIGHT: 380px; BACKGROUND-COLOR: #ffffff;text-align:left
+}
+
+.Title
+{ 
+    background:#B5E580;
+    font-weight: bold;
+}
+.tdbg{
+    background:#ffffff;
+}
+.tdbgmouseover{
+    background:#ffffff;
+}
+.border
+{
+    border: 0px solid #efefef;background:#ffffff;
+}
+.textbox
+{ border: 1px solid #a7a7a7;background:#ffffff;height:23px;
+  ryo:expression(onfocus=function(){this.style.backgroundColor='#EEF8FE'},onblur=function(){this.style.backgroundColor=''})
+}
+.Button{cursor: pointer;height:23px; border:1px solid #cccccc;background:url(button_bg.gif);}
+.button_on { background:url(button_on.gif); height:23px;  border:1px solid #cccccc; cursor: pointer;}
+.foot{margin:20px;}
+/*导航菜单*/
+.head{width:100%; background:url(head_bg.gif) repeat-x; height:57px;}
+#head{width:980px;margin:0px auto;}
+.head  {
+	COLOR: #2c602f
+}
+.head #head_right {
+	display: inline;float: right;margin: 17px 30px 0px 0px; text-align:right;
+}
+.head #head_right li{float:left;}
+.head #head_right img{padding-top:7px;}
+.head #head_left {
+	float:left;width:330px;height:50px;
+}
+
+/*===============注册表单=====================*/
+/*密码强度*/
+.regbox .rank { border:none; background:url(../../images/rank.gif) no-repeat; width:125px; height:22px; vertical-align:middle; cursor:default; }
+.regbox .r0 { background-position:0 0; }
+.regbox .r1 { background-position:0 -22px; }
+.regbox .r2 { background-position:0 -44px; }
+.regbox .r3 { background-position:0 -66px; }
+.regbox .r4 { background-position:0 -88px; }
+.regbox .r5 { background-position:0 -110px; }
+.regbox .r6 { background-position:0 -132px; }
+.regbox .r7 { background-position:0 -154px; }
+#regmain{text-align:center;}
+.regbox .st1{text-align:left;margin:20px;}
+.regbox {padding:0px 20px 0px 20px;width:940px !important;width:980px;text-align:left;margin:0 auto; }
+.regbox #regtop{height:1px;font-size:1px;background:url(../images/bj_top.jpg) no-repeat;}
+.regbox #regbottom{height:12px;font-size:1px;background:url(../images/bj_bottom.jpg) no-repeat;}
+.regbox #regcenter{padding-top:20px;padding-bottom:20px;border-left: 1px solid #9ACB00;border-right: 1px solid #9ACB00;}
+.regbox dl { padding:.2em 0; margin:0}
+.regbox dt{  height:30px;margin:0;width:20%; float:left; padding-right:2em;text-align:right; font-size:12px; }
+.regbox dd{ width:25%; float:left;padding-right:2em; margin:0}
+.regbox dd.Tips { width:44%;text-align:left;height:30px;padding-right:0; margin:0}
+.regbox .cc{clear:both}
+.regbox .input{height:22px;border:1px solid #ccc;width:200px;}
+/*注册表单结束*/
+
+
+
+.regtype {
+	left: 120px;
+	top: 115px;
+	width: 320px;
+	margin-bottom: 0px;
+	z-index: 100;
+	position: absolute;
+	background: #E8F8E3;
+	border: 1px #B5E580 solid;
+	height:300px;
+	overflow-x:no;
+	overflow-y:auto;
+	text-align:center
+}
+.red{color:red}
+.splittd{border-bottom:1px solid #efefef;}
+.t_head{background:#EFF6FF;background:url(daohang_2.gif);height:25px;line-height:25px;font-weight:bold;padding-left:10px;}
+/*======新增样式=====*/
+  .contenttitle{font-size:14px;color:#6699CC;font-weight:bold}
+  .contenttitle a{font-size:14px;}
+  .contenttitle a:link{color:#006699;text-decoration:underline}
+  .contenttitle a:visited{;color:#006699;text-decoration:underline}
+  .contenttitle a:hover{color:#6699CC;text-decoration:underline}
+  .Contenttips span{color:#999999}
+  .Contenttips span a:link{color:#999999}
+  .Contenttips span a:visited{color:#999999}
+  .Contenttips span a:hover{color:#ff6600}
+  a.box{height:23px;border:1px solid #A0CC75;padding:3px}
+  a.box:link{color:#2c602f;text-decoration:none}
+  a.box:visited{color:#2c602f;text-decoration:none}
+  a.box:hover{color:#2c602f;text-decoration:none}
+/* TABS模块 */
+.tbox{border:#B5E580 1px solid;padding-bottom:10px;}
+
+.daohang{text-align:left;padding-left:80px;background:url(bg_daohang.gif) no-repeat;height:30px;line-height:30px;}
+
+.tabs{margin-top:10px; margin-bottom:5px; border-bottom:1px solid #A0CC75;height:27px;}
+.tabs ul{ margin-left:10px; display:inline; float:left; border-right:1px solid #A0CC75; position:relative; bottom:-1px;}
+.tabs li{ border-left:1px solid #A0CC75; border-top:1px solid #A0CC75; line-height:26px; color:#2C602F; padding:0 10px; background:#fff url(tagbg.gif) 0 top repeat-x; cursor:pointer; float:left;}
+.tabs li.select{ background:#fff; cursor:auto;}
+
+/*下拉定位*/
+.rl{position:relative;}
+.abs{border:#B5E580 1px solid;text-align:center;z-index:999;position:absolute;top:15px;white-space : nowrap; margin:0 ;background:#E8F8E3;display:none;left:0px;}
+.abs dl{background:url(images/bullet_go.png) no-repeat 2px;text-align:left;margin:0px;padding-left:17px;height:25px;line-height:25px;border-bottom:1px solid #fff;}
+
+.clear{clear:both}
+
+/*通用分页样式*/
+#fenye{clear:both;}
+#fenye a{text-decoration:none}
+#fenye .prev,#fenye .next{width:52px; text-align:center;}
+#fenye a.curr{padding-left:5px;padding-right:5px;overflow:hidden;background:#1f3a87; border:1px solid #dcdddd; color:#fff; font-weight:bold; text-align:center;}
+#fenye a.curr:visited {color:#fff;}
+#fenye a{margin:5px 4px 0 0; color:#1E50A2;background:#fff; display:inline-table; border:1px solid #dcdddd; float:left; text-align:center;height:22px;line-height:22px}
+#fenye a.num{width:22px;}
+#fenye a:visited{color:#1f3a87;} 
+#fenye a:hover{color:#fff; background:#1E50A2; border:1px solid #1E50A2;float:left;}
+#fenye span{display:block;margin:10px}

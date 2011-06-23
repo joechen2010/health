@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="gb2312"?>
+<labeltemplate>
+   <label name="proimages">
+    <![CDATA[
+	        <style type="text/css">
+			.defaultSmallPic{border: #a1a1a1 1px solid; PADDING: 2px;MARGIN-LEFT: 5px;WIDTH: {$SmallWidth}px;height:{$SmallHeight}px; MARGIN-RIGHT: 5px;}
+			.CurrSmallPic{border: #ff3300 1px solid; PADDING: 2px;MARGIN-LEFT: 5px;WIDTH: {$SmallWidth}px;height:{$SmallHeight}px; MARGIN-RIGHT: 5px;FILTER: Alpha(Opacity=60);}
+			</style>   
+			<script src="{$GetInstallDir}ks_inc/ZoomImage.js" type="text/javascript"></script>
+			<script>
+			var defaultbigpic='{$DefaultBigPic}';
+			var defaultsmallpic='{$DefaultSmallPic}';
+			var currobj=null;
+			function PhotoAjax(){
+				var xhrObj=null;
+				if(window.XMLHttpRequest){
+					xhrObj=new XMLHttpRequest();
+				}
+				else if(window.ActiveXObject){
+				try{
+				xhrObj=new ActiveXObject("Microsoft.XMLHTTP");
+				}
+				catch(e1)
+				{
+				try{xhrObj=new ActiveXObject("MSXML2.XMLHTTP");}
+				catch(e2){
+				try{xhrObj=new ActiveXObject("MSXML3.XMLHTTP");}
+				catch(e3){alert("创建Ajax失败："+e3)}
+				}
+				}
+				}
+				else
+				{
+				alert("未能识别的浏览器");
+				}
+				return xhrObj;
+			}
+			var photoajax=new PhotoAjax;
+			function ajaxLoadAction(url,request,method,fun)
+			{ 
+				method=method.toUpperCase();
+				if (method=='GET')
+				{
+					urls=url.split("?");
+					if (urls[1]=='' || typeof urls[1]=='undefined')
+					{
+						url=urls[0]+"?"+request;
+					}
+					else
+					{
+						url=urls[0]+"?"+urls[1]+"&"+request;
+					}
+					
+					request=null;
+				}
+				photoajax.open(method,url,true);
+				if (method=="POST")
+				{
+					photoajax.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+				}
+				photoajax.onreadystatechange=function(){
+					 eval(fun+'()');
+				}
+				photoajax.send(request);
+			  }
+			  function LoadByGroup(installdir,groupname,proid)
+			  { 
+			   ajaxLoadAction(installdir+'shop/loadgrouppic.asp','proid='+proid+'&groupname=' +groupname,'get','groupcallback');
+			  }
+			  function groupcallback()
+			  {
+				  if (photoajax.readyState==4)
+				  {
+					var s=photoajax.responseText;
+					s=s.split('|||');
+					if (s[0]!='')
+					{
+					document.getElementById('GroupImgList').innerHTML=s[0];
+					document.getElementById('ColorArea').innerHTML=s[1];
+					}
+				  }
+				  else{
+					document.getElementById('ColorArea').innerHTML="loading...";
+				  }
+			  }
+			 function ShowPhoto(smallpic,bigpic)
+			 {
+			  document.getElementById('PreSmallPic').src=smallpic;
+			  document.getElementById('PreSmallPic').bigimg=bigpic;
+			 }
+			 function SetDefaultPhoto(obj,smallpic,bigpic)
+			 {
+			  defaultbigpic=bigpic;
+			  defaultsmallpic=smallpic;
+			  var imgs=GroupImgList.getElementsByTagName('img');
+			  for(var i=0;i<imgs.length;i++){
+			  imgs[i].className='DefaultSmallPic';
+			  }
+			  currobj=obj;
+			  obj.className='CurrSmallPic';
+			 }
+			 function SetMouseOutPhoto()
+			 {
+			  document.getElementById('PreSmallPic').src=defaultsmallpic;
+			  document.getElementById('PreSmallPic').bigimg=defaultbigpic;
+			 }
+			function ZoomImage_Setimg(event)
+			{    
+			 var img = document.getElementById("PreSmallPic");
+			 var bg = document.getElementById("Pic_bg");
+			 var drag = document.getElementById("Drag_Box");
+			 var prev = document.getElementById("Prev_Win");        
+			 ZoomImage_ShowPicBG(img, bg, drag, prev, img.height,img.width,250,250,800,800, event);
+			}
+			function ZoomImage_DragBox(event)
+			{
+			ZoomImage_DragImg(document.getElementById("Pic_bg"),event);
+			}
+			</script>
+		<table width="300" border="0">
+			<form>
+		  <tr>
+			<td align="center"style="POSITION: relative">
+					 <div id=Div_Img onmouseover=ZoomImage_Setimg(event) onmouseleave=ZoomImage_HidePicBG(event) style="POSITION: relative" onMouseOut="ZoomImage_HidePicBG(event)">
+									  <div onMouseMove="ZoomImage_DragBox(event)" id="Drag_Box" style="border-right: lightgrey 1px solid; border-top: lightgrey 1px solid; Z-INDEX: 2; visibility: hidden; overflow: hidden; border-left: lightgrey 1px solid; cursor: hand; border-bottom: lightgrey 1px solid; POSITION: absolute; background-color: transparent" ></div>
+									  <div onMouseMove="ZoomImage_DragBox(event)" id="Pic_bg" style="Z-INDEX: 1; FILTER: Alpha(Opacity=60); visibility: hidden; OVERFLOW: hidden; POSITION: absolute; background-color: lightgrey; moz-opacity: 0.6"></div>
+									  <div id=Prev_Win style="Z-INDEX: 999; visibility: hidden; OVERFLOW: hidden; POSITION: absolute"></DIV>
+									  <IMG class="ProductImg" id="PreSmallPic" style="border-top-WIDTH: 0px; border-left-WIDTH: 0px; border-bottom-WIDTH: 0px; border-right-WIDTH: 0px" src="{$DefaultSmallPic}" alt="{$GetProductName}" bigimg="{$DefaultBigPic}" width="{$BigWidth}" height="{$BigHeight}"></div>
+									  <div style="margin-top:2px;text-align:center;cursor:pointer" onClick="window.open('{$GetInstallDir}shop/ShowPic.asp?u='+document.getElementById('PreSmallPic').bigimg,'', 'alwaysRaised=1,dependent=1,resizable=0,scrollbars')"><img src="{$GetInstallDir}images/look.gif"></div>
+										<br />
+			</td> 
+		  </tr>
+		  <tr>
+			<td id="GroupImgList">
+			{$GroupImgList}
+			</td>
+		  </tr>
+		  <tr>
+			<td>
+			  {$DefaultGroupStr}
+			</td>
+		  </tr>
+		  </form>
+		</table>
+	]]>
+   </label>
+  </labeltemplate>

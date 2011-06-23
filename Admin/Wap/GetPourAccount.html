@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>插入倒计时参数设置</title>
+<script language="JavaScript" src="../../KS_Inc/Common.js"></script>
+<script language="javascript">
+function OK() {
+    var Val;
+    Val = '{=GetPourAccount('+document.myform.StrExplain.value+','+document.myform.StrTime.value+')}';  
+    window.returnValue = Val;
+    window.close();
+}
+</script>
+<link href="Editor.css" rel="stylesheet"></head>
+<body>
+<form name="myform">
+  <br>
+  <table  width='96%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+<tr>
+<td>
+<FIELDSET align=center>
+ <LEGEND align=left>显示倒计时设置</LEGEND>
+ <table  width='100%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+  <tr >
+    <td width="40%" align="right"><div align="center">说明：</div></td>
+    <td width="60%" ><input name="StrExplain" type="text" size="30" value=""> 如:离奥运会开幕还有</td>
+  </tr>
+  <tr>
+    <td align="right"><div align="center">时间：</div></td>
+    <td ><input name="StrTime" type="text" size="30" value=""> 如:2008-8-8</td>
+  </tr>
+</table>
+</FIELDSET>
+</td>
+</tr>
+<tr><td><div align="center"><input TYPE='button' value=' 确 定 ' onCLICK='OK()'></div></td></tr>
+</table>
+</form>
+</body>
+</html>
+ 

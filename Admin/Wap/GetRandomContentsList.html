@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>内容页相关列表参数设置</title>
+<script language="JavaScript" src="../../KS_Inc/Common.js"></script>
+<script language="javascript">
+function OK() {
+    var Val;
+    Val = '{$GetRandomContentsList('+document.myform.strHead.value+','+document.myform.strTail.value+','+document.myform.strNum.value+','+document.myform.strTitleNum.value+')}';  
+    window.returnValue = Val;
+    window.close();
+}
+</script>
+<link href="Editor.css" rel="stylesheet"></head>
+<body>
+<form name="myform">
+  <br>
+  <table  width='96%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+<tr>
+<td>
+<FIELDSET align=center>
+ <LEGEND align=left>内容页相关列表设置</LEGEND>
+ <table  width='100%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+  <tr >
+    <td width="40%" align="right"><div align="center">头导航类型：</div></td>
+    <td width="60%" ><input name="strHead" type="text" size="30" value=""></td>
+  </tr>
+  <tr >
+    <td width="40%" align="right"><div align="center">尾导航类型：</div></td>
+    <td width="60%" ><input name="strTail" type="text" size="30" value="<br/>"></td>
+  </tr>
+  <tr>
+    <td align="right"><div align="center">显示栏目数量：</div></td>
+    <td ><input name="strNum" type="text" onBlur="CheckNumber(this,'显示栏目数量');" size="30" value="5"></td>
+  </tr>
+    <tr>
+    <td align="right"><div align="center">链接标题字符：</div></td>
+    <td ><input name="strTitleNum" type="text" onBlur="CheckNumber(this,'链接标题字符');" size="30" value="30">1个中文等于2字符</td>
+  </tr>
+
+
+</table>
+</FIELDSET>
+</td>
+</tr>
+<tr><td><div align="center"><input TYPE='button' value=' 确 定 ' onCLICK='OK()'></div></td></tr>
+</table>
+</form>
+</body>
+</html>
+ 

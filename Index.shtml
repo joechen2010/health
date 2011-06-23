@@ -1,0 +1,3473 @@
+<html>
+<head><title>中华健康医学网x — 大型健康医学类信息集聚门户 — 引领健康生活e时代！</title>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name="Keywords" content="中华健康医学网,中康网,中康在线,心理健康,饮食,健身,美容,睡眠,两性,精神,情感,娱乐,疾病,治疗,康复,中华医搜,医院大全,中医,西医,健康社区,健康问答,心理,健康自测"/>
+<meta name="Description" content="中华健康医学网始终致力于改善并提高国人的生活质量而努力，设有趣味实用的健康新闻资讯频道，引领时尚健康生活的健康时尚频道、近万种疾病数据库、全国3万余家医院数据库，近百万的医师专家信息，数十万家的药品生产企业及经营企业数据库，同时为增加网站互动性，开设了医问医答、中华医搜、健康商城、博人堂、展会招商等频道，是目前国内最具发展潜力的健康医学类门户网站。中华健康医学网 — 引领健康生活e时代！"/>
+<link href="/images/style.css" type=text/css rel=stylesheet>
+<base target="_blank">
+<script type="text/javascript">
+function nTabs(thisObj,Num){
+if(thisObj.className == "active")return;
+var tabObj = thisObj.parentNode.id;
+var tabList = document.getElementById(tabObj).getElementsByTagName("li");
+for(i=0; i <tabList.length; i++)
+{
+if (i == Num)
+{
+   thisObj.className = "active";
+      document.getElementById(tabObj+"_Content"+i).style.display = "block";
+}else{
+   tabList[i].className = "normal";
+   document.getElementById(tabObj+"_Content"+i).style.display = "none";
+}
+}
+}
+</script>
+</head>
+<body topmargin="0" leftmargin="0" > 
+<div align="center">
+  <center>
+  <table cellSpacing=0 cellPadding=0 width=960 bgColor=#ffffff border=0 height="108" style="border-collapse: collapse" bordercolor="#111111">
+    <tr>
+      <td height="30">        
+      <div align="center">
+        <center>
+        <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#EEEEEE" width="941" id="AutoNumber14" height="35">
+          <tr>
+            <td width="100%" background="/Images/sy_001.gif">
+            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber15">
+              <tr>
+                <td width="22%">
+                <p align="center"><a href="#" onclick="javascript:window.external.addFavorite('http://'+location.hostname+(location.port!=''?':':'')+location.port,'中华健康医学网');">加入收藏</a> | <a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://'+location.hostname+(location.port!=''?':':'')+location.port);" href="#">设为首页</a> | <script src="http://192.168.3.251:88/KS_Inc/language.js" type="text/javascript"></script></td>
+                <td width="3%">
+                　</td>
+                <td width="52%">
+                <p align="center"><iframe width="520" height="22" id="toplogin" name="toplogin" src="/user/userlogin.asp?action=Top" frameborder="0" scrolling="no" allowtransparency="true"></iframe></td>
+                <td width="23%">
+                <script language=JavaScript>
+                var day="";
+                var month="";
+                var ampm="";
+                var ampmhour="";
+                var myweekday="";
+                var year="";
+                mydate=new Date();
+                myweekday=mydate.getDay();
+                mymonth=mydate.getMonth()+1;
+                myday= mydate.getDate();
+                myyear= mydate.getYear();
+                year=(myyear > 200) ? myyear : 1900 + myyear;
+                if(myweekday == 0)
+                weekday=" 星期日 ";
+                else if(myweekday == 1)
+                weekday=" 星期一 ";
+                else if(myweekday == 2)
+                weekday=" 星期二 ";
+                else if(myweekday == 3)
+                weekday=" 星期三 ";
+                else if(myweekday == 4)
+                weekday=" 星期四 ";
+                else if(myweekday == 5)
+                weekday=" 星期五 ";
+                else if(myweekday == 6)
+                weekday=" 星期六 ";
+                document.write("<table border='0' cellpadding='0' cellspacing='0' style='border-collapse: collapse' bordercolor='#111111' width='98%' id='AutoNumber1'>");
+                document.write("<tr>");
+                document.write("<td width='15%' rowspan='2'>");
+                document.write("<p align='center'><font color='#ff6600';font face='Times New Roman';font size='5'>"+myday+"</font></p>");
+                document.write("</td>");
+                document.write("<td width='85%'>");
+                document.write("<font color='#ff6600';font face='华文细黑';font size='2'>"+year+"年"+mymonth+"月</font>");
+                document.write("</td>");
+                document.write("</tr>");
+                document.write("<tr>");
+                document.write("<td width='85%'>");
+                document.write("<font color='#808080';>"+weekday+"</font>");
+                document.write("<iframe src='http://m.weather.com.cn/m/p1/weather1.htm' width='130' height='12' marginwidth='0' marginheight='0' hspace='0' vspace='0' frameborder='0' scrolling='No'></iframe>");
+                document.write("</td>");
+                document.write("</tr>");
+                document.write("</table>");
+                </script>
+                </td>
+              </tr>
+            </table>
+            </td>
+          </tr>
+        </table>
+        </center>
+      </div>
+      </td>
+    </tr>
+    <tr>
+      <td height="5" bgcolor="#FFFFFF"></td>
+    </tr>
+    <tr>
+      <td height="1">
+        <table cellSpacing=0 cellPadding=0 width="98%" align=center border=0>
+          <tr>
+            <td width=230 height=80><a href="http://www.jk899.com/"><img height=68 src="/images/logo.jpg" width=200 border=0></a></td>
+            <td>
+              <table cellSpacing=0 cellPadding=0 width="100%" border=0>
+                <tr>
+                  <td><style type="text/css">
+<!--
+.listNum li { height:30px; line-height:20px; list-style:none; background:none; padding-left:5px;margin-top:9px;}
+.listNum li span { background:url('images/tech_tg_lmy_018.gif') no-repeat; width:75px; height:32px; display:block; float:left; text-align:center; font-size:10px; line-height:11px; color:#fff}
+.MenuStyle td { background:url('images/tech_tg_lmy_022.gif') no-repeat right 0; width:112px; height:32px; text-align:center; margin-bottom:1px; cursor:pointer; font-size:14px; color:#039; line-height:26px}
+.MenuStyle td.selectd { background:url('images/tech_tg_lmy_021.gif') no-repeat right 0; color:#333}
+.MenuStyle01 td { background:url('images/tech_tg_lmy_016.gif') no-repeat right 0; width:87px; height:33px; text-align:center; margin-bottom:1px; cursor:pointer; font-size:12px; color:#c63; line-height:26px}
+.MenuStyle01 td.selectd { background:url('images/tech_tg_lmy_015.gif') no-repeat right 0; color:#333}
+ul.liHeight { padding:5px 0 5px 8px;}
+.liHeight li { height:30px; line-height:20px;}
+.line01 { background:url('images/tech_tg_lmy_008.gif') repeat-x; height:1px; font-size:0; line-height:0; margin:3px 0}
+-->
+</style>
+<!--舌签 start-->
+<script language="javascript" type="text/javascript">
+function Show_SubLmy(id_num,num){ //舌签功能
+	for(var i = 0;i <= 11;i++){
+		if(GetObj("S_MenuMy_" + id_num + i)){GetObj("S_MenuMy_" + id_num + i).className = '';}
+		if(GetObj("S_ContMy_" + id_num + i)){GetObj("S_ContMy_" + id_num + i).style.display = 'none';}
+	}
+	if(GetObj("S_MenuMy_" + id_num + num)){GetObj("S_MenuMy_" + id_num + num).className = 'selectd';}
+	if(GetObj("S_ContMy_" + id_num + num)){GetObj("S_ContMy_" + id_num + num).style.display = 'block';}
+}
+function GetObj(objName){
+	if(document.getElementById){
+		return eval('document.getElementById("' + objName + '")');
+	}else{
+		return eval('document.all.' + objName);
+	}
+}
+</script> 
+<!--舌签 end-->
+<!--内容开始-->
+	<div style="background:url('images/tech_tg_lmy_017.gif') repeat-x; height:33px; border-top:0px solid #E5E5E5">
+	<table cellspacing="0" class="MenuStyle01" style="margin:1px;">
+		<tr valign="top">
+		<td id="S_MenuMy_x1" class="selectd" onmouseover="Show_SubLmy('x',1); return false">网  页</td>
+		<td id="S_MenuMy_x2" onmouseover="Show_SubLmy('x',2); return false">新  闻</td>
+		<td id="S_MenuMy_x3" onmouseover="Show_SubLmy('x',3); return false">健  康</td>
+		<td id="S_MenuMy_x4" onmouseover="Show_SubLmy('x',4); return false">疾  病</td>
+		<td id="S_MenuMy_x5" onmouseover="Show_SubLmy('x',5); return false">药  品</td>
+		<td id="S_MenuMy_x6" onmouseover="Show_SubLmy('x',6); return false">医  院</td>
+		<td id="S_MenuMy_x7" onmouseover="Show_SubLmy('x',7); return false">医  生</td>
+		<td id="S_MenuMy_x8" onmouseover="Show_SubLmy('x',8); return false">药  企</td>
+		<td id="S_MenuMy_x9" onmouseover="Show_SubLmy('x',9); return false">图  库</td>
+		<td id="S_MenuMy_x10" onmouseover="Show_SubLmy('x',10); return false">商  城</td>
+		<td id="S_MenuMy_x11" onmouseover="Show_SubLmy('x',11); return false">问  答</td>
+		</tr>
+	</table>
+	</div>
+	<!-- 1 -->
+	<div id="S_ContMy_x1" class="listNum">
+	<ul class="listNum">
+	<li>
+<script type="text/javascript">
+<!--
+  google_ad_client = "pub-9250227561726899";
+  google_ad_format = "configurable_sdo";
+  google_link_target = 2;
+  google_color_bg = "ffffff";
+  google_color_link = "000000";
+  google_color_text = "000000";
+  google_encoding = "GB2312";
+  google_box_len = 21;
+  google_logo_pos = "left";
+  google_rs_pos = "right";
+  google_ad_height = 30;
+  google_ad_width = 500;
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_sdo.js">
+</script>
+</li>
+	</ul>
+	</div>
+	<!-- 1 -->
+	<!-- 2 -->
+	<div id="S_ContMy_x2" class="listNum" style="display:none;">
+	<ul class="listNum">
+	<li><span></span></li>
+    </ul>
+	</div>
+	<!-- 2 -->
+	<!-- 3 -->
+	<div id="S_ContMy_x3" class="listNum" style="display:none;">
+	<ul class="listNum">
+	<li><span></span></li>
+	</ul>
+	</div>
+	<!--3-->
+	<!-- 4 -->
+	<div id="S_ContMy_x4" class="listNum" style="display:none;">
+	<ul class="listNum">
+	<li><span></span></li>
+	</ul>
+	</div>
+	<!--4-->
+	<!-- 5 -->
+	<div id="S_ContMy_x5" class="listNum" style="display:none;">
+	<ul class="listNum">
+	<li><span></span></li>
+	</ul>
+	</div>
+	<!--5-->
+	<!-- 6 -->
+	<div id="S_ContMy_x6" class="listNum" style="display:none;">
+		<ul class="listNum">
+			<li><span></span></li>
+		</ul>
+	</div>
+	<!--6-->
+	<!-- 7 -->
+	<div id="S_ContMy_x7" class="listNum" style="display:none;">
+		<ul class="listNum">
+			<li><span></span></li>
+		</ul>
+	</div>
+	<!--7-->
+	<!-- 8 -->
+	<div id="S_ContMy_x8" class="listNum" style="display:none;">
+		<ul class="listNum">
+			<li><span></span></li>
+		</ul>
+	</div>
+	<!--8-->
+	<!-- 9 -->
+	<div id="S_ContMy_x9" class="listNum" style="display:none;">
+		<ul class="listNum">
+			<li><span></span></li>
+		</ul>
+	</div>
+	<!--9-->
+	<!-- 10 -->
+	<div id="S_ContMy_x10" class="listNum" style="display:none;">
+		<ul class="listNum">
+			<li><span></span></li>
+		</ul>
+	</div>
+	<!--10-->
+	<!-- 11 -->
+	<div id="S_ContMy_x11" class="listNum" style="display:none;">
+		<ul class="listNum">
+			<li><span></span></li>
+		</ul>
+	</div>
+	<!--11-->
+    </table><!--排行榜end--></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    </table></center>
+</div>
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="960" id="AutoNumber4" bgcolor="#FFFFFF">
+    <tr>
+      <td width="100%">
+      <div align="center">
+        <center>
+        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="941" id="AutoNumber5" height="70">
+          <tr>
+              <td width="100%" background="/Images/sy_dhbj.gif" height="70">
+              <div align="center">
+                <center>
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="98%" id="AutoNumber2" height="60">
+                  <tr>
+                    <td width="2%" height="60">
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber7">
+                      <tr>
+  <td width="30" height="48" onMouseOver="this.background='images/sy_bj_02.gif';" onMouseOut="this.background='images/sy_bj_01.gif';" background="images/sy_bj_01.gif">
+  <p align="center" style="margin-top: 0; margin-bottom:0">
+  <font face="黑体" color="#FFFFFF" style="font-size: 12pt">互<br>动</font></td>
+                      </tr>
+                    </table>
+                    </td>
+                    <td width="9%" height="60">
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="96%" id="AutoNumber12" height="48">
+                      <tr>
+                        <td width="45%" height="24" align="center">
+                        <a href="/bbs/"><font color="#FFFFFF">健康社区</font></a></td>
+                        <td width="7%" height="24" align="center">
+                        <font color="#FFFFFF">|</font></td>
+                        <td width="48%" height="24" align="center">
+                        <font color="#FFFFFF">
+                        <a href="/Html/hdzx/list_1416.shtml">
+                        <font color="#FFFFFF">博 人 堂</font></a></font></td>
+                      </tr>
+                      <tr>
+                        <td width="45%" height="24" align="center">
+                        <font color="#FFFFFF"><a href="/ask/">
+                        <font color="#FFFFFF">医问医答</font></a></font></td>
+                        <td width="7%" height="24" align="center">
+                        <font color="#FFFFFF">|</font></td>
+                        <td width="48%" height="24" align="center">
+                        <font color="#FFFFFF"><a href="/search.html">
+                        <font color="#FFFFFF">中华医搜</font></a></font></td>
+                      </tr>
+                    </table>
+                    </td>
+                    <td width="2%" height="60">
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber8">
+                      <tr>
+  <td width="25" height="48" onMouseOver="this.background='images/sy_bj_02.gif';" onMouseOut="this.background='images/sy_bj_01.gif';" background="images/sy_bj_01.gif">
+  <p align="center" style="margin-top: 0; margin-bottom:0; margin-left:2">
+  <font face="黑体" color="#FFFFFF" style="font-size: 12pt">疾<br>病</font></td>
+                      </tr>
+                    </table>
+                    </td>
+                    <td width="12%" height="60">
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="96%" id="AutoNumber12" height="48">
+                      <tr>
+                        <td width="20%" height="24" align="center">
+                        <font color="#FFFFFF"><a href="/Html/list_1647.shtml">
+                        <font color="#FFFFFF">疾病</font></a></font></td>
+                        <td height="24" align="center">
+                        <font color="#FFFFFF">|</font></td>
+                        <td width="20%" height="24" align="center">
+                        <font color="#FFFFFF"><a href="/Html/list_2031.shtml">
+                        <font color="#FFFFFF">医生</font></a></font></td>
+                        <td height="24" align="center">
+                        <font color="#FFFFFF">|</font></td>
+                        <td width="20%" height="24" align="center">
+                        <font color="#FFFFFF"><a href="/Html/list_2069.shtml">
+                        <font color="#FFFFFF">药店</font></a></font></td>
+                        <td height="24" align="center">
+                        <font color="#FFFFFF">|</font></td>
+                        <td width="20%" height="24" align="center">
+                        <font color="#FFFFFF">急救</font></td>
+                      </tr>
+                      <tr>
+                        <td width="20%" height="24" align="center">
+                        <font color="#FFFFFF"><a href="/html/list_1907.shtml">
+                        <font color="#FFFFFF">药品</font></a></font></td>
+                        <td height="24" align="center">
+                        <font color="#FFFFFF">|</font></td>
+                        <td width="20%" height="24" align="center">
+                        <font color="#FFFFFF"><a href="/Html/list_1995.shtml">
+                        <font color="#FFFFFF">医院</font></a></font></td>
+                        <td height="24" align="center">
+                        <font color="#FFFFFF">|</font></td>
+                        <td width="20%" height="24" align="center">
+                        <font color="#FFFFFF"><a href="/Html/list_2068.shtml">
+                        <font color="#FFFFFF">药企</font></a></font></td>
+                        <td height="24" align="center">
+                        <font color="#FFFFFF">|</font></td>
+                        <td width="20%" height="24" align="center">
+                        <font color="#FFFFFF">中医</font></td>
+                      </tr>
+                    </table>
+                    </td>
+                    <td width="2%" height="60">
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber9">
+                      <tr>
+  <td width="25" height="48" onMouseOver="this.background='images/sy_bj_02.gif';" onMouseOut="this.background='images/sy_bj_01.gif';" background="images/sy_bj_01.gif">
+  <p align="center" style="margin-top: 0; margin-bottom:0; margin-left:2">
+  <font face="黑体" color="#FFFFFF" style="font-size: 12pt">健<br>康</font></td>
+                      </tr>
+                    </table>
+                    </td>
+                    <td width="16%" height="60">
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="96%" id="AutoNumber12" height="48">
+                      <tr>
+                        <td width="16%" height="24" align="center">
+                        <font color="#FFFFFF"><a href="/html/list_704.shtml">
+                        <font color="#FFFFFF">性爱</font></a></font></td>
+                        <td height="24" align="center">
+                        <font color="#FFFFFF">|</font></td>
+                        <td width="16%" height="24" align="center">
+                        <font color="#FFFFFF"><a href="/html/list_561.shtml">
+                        <font color="#FFFFFF">美容</font></a></font></td>
+                        <td height="24" align="center">
+                        <font color="#FFFFFF">|</font></td>
+                        <td width="16%" height="24" align="center">
+                        <font color="#FFFFFF"><a href="/html/list_656.shtml">
+                        <font color="#FFFFFF">减肥</font></a></font></td>
+                        <td height="24" align="center">
+                        <font color="#FFFFFF">|</font></td>
+                        <td width="16%" height="24" align="center">
+                        <font color="#FFFFFF"><a href="/html/list_517.shtml">
+                        <font color="#FFFFFF">保健</font></a></font></td>
+                        <td height="24" align="center">
+                        <font color="#FFFFFF">|</font></td>
+                        <td width="16%" height="24" align="center">
+                        <font color="#FFFFFF"><a href="/html/list_1485.shtml">
+                        <font color="#FFFFFF">体检</font></a></font></td>
+                      </tr>
+                      <tr>
+                        <td width="16%" height="24" align="center">
+                        <font color="#FFFFFF"><a href="/html/list_748.shtml">
+                        <font color="#FFFFFF">情感</font></a></font></td>
+                        <td height="24" align="center">
+                        <font color="#FFFFFF">|</font></td>
+                        <td width="16%" height="24" align="center">
+                        <font color="#FFFFFF"><a href="/html/list_613.shtml">
+                        <font color="#FFFFFF">整形</font></a></font></td>
+                        <td height="24" align="center">
+                        <font color="#FFFFFF">|</font></td>
+                        <td width="16%" height="24" align="center">
+                        <font color="#FFFFFF"><a href="/html/list_469.shtml">
+                        <font color="#FFFFFF">饮食</font></a></font></td>
+                        <td height="24" align="center">
+                        <font color="#FFFFFF">|</font></td>
+                        <td width="16%" height="24" align="center">
+                        <font color="#FFFFFF"><a href="/html/list_749.shtml">
+                        <font color="#FFFFFF">心理</font></a></font></td>
+                        <td height="24" align="center">
+                        <font color="#FFFFFF">|</font></td>
+                        <td width="16%" height="24" align="center">
+                        <font color="#FFFFFF"><a href="/Html/list_1632.shtml">
+                        <font color="#FFFFFF">家居</font></a></font></td>
+                      </tr>
+                    </table>
+                    </td>
+                    <td width="2%" height="60">
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="30" id="AutoNumber10" height="48">
+                      <tr>
+  <td width="25" height="48" onMouseOver="this.background='images/sy_bj_02.gif';" onMouseOut="this.background='images/sy_bj_01.gif';" background="images/sy_bj_01.gif">
+  <p align="center" style="margin-top: 0; margin-bottom:0; margin-left:2">
+  <font face="黑体" color="#FFFFFF" style="font-size: 12pt">综<br>合</font></td>
+                      </tr>
+                    </table>
+                    </td>
+                    <td width="9%" height="60">
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="96%" id="AutoNumber12" height="48">
+                      <tr>
+                        <td width="30%" height="24" align="center">
+                        <font color="#FFFFFF"><a href="/html/list_437.shtml">
+                        <font color="#FFFFFF">新闻</font></a></font></td>
+                        <td width="5%" height="24" align="center">
+                        <font color="#FFFFFF">|</font></td>
+                        <td width="30%" height="24" align="center">
+                        <font color="#FFFFFF"><a href="/html/list_1420.shtml">
+                        <font color="#FFFFFF">教育</font></a></font></td>
+                        <td width="5%" height="24" align="center">
+                        <font color="#FFFFFF">|</font></td>
+                        <td width="30%" height="24" align="center">
+                        <font color="#FFFFFF"><a href="/html/list_1504.shtml">
+                        <font color="#FFFFFF">职场</font></a></font></td>
+                      </tr>
+                      <tr>
+                        <td width="30%" height="24" align="center">
+                        <font color="#FFFFFF"><a href="/html/list_1505.shtml">
+                        <font color="#FFFFFF">娱乐</font></a></font></td>
+                        <td width="5%" height="24" align="center">
+                        <font color="#FFFFFF">|</font></td>
+                        <td width="30%" height="24" align="center">
+                        <font color="#FFFFFF"><a href="/html/list_1596.shtml">
+                        <font color="#FFFFFF">时尚</font></a></font></td>
+                        <td width="5%" height="24" align="center">
+                        <font color="#FFFFFF">|</font></td>
+                        <td width="30%" height="24" align="center">
+                        <font color="#FFFFFF">图库</font></td>
+                      </tr>
+                    </table>
+                    </td>
+                    <td width="2%" height="60">
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="30" id="AutoNumber11">
+                      <tr>
+  <td width="30" height="48" onMouseOver="this.background='images/sy_bj_02.gif';" onMouseOut="this.background='images/sy_bj_01.gif';" background="images/sy_bj_01.gif">
+  <p align="center" style="margin-top: 0; margin-bottom:0; margin-left:-2">
+  <font face="黑体" color="#FFFFFF" style="font-size: 12pt">商<br>务</font></td>
+                      </tr>
+                    </table>
+                    </td>
+                    <td width="9%" height="60">
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber13">
+                      <tr>
+                        <td width="45%" height="24" align="center">
+                        <font color="#FFFFFF">健康商城</font></td>
+                        <td width="7%" height="24" align="center">
+                        <font color="#FFFFFF">|</font></td>
+                        <td width="48%" height="24" align="center">
+                        <font color="#FFFFFF">医药展会</font></td>
+                      </tr>
+                      <tr>
+                        <td width="45%" height="24" align="center">
+                        <font color="#FFFFFF">医药招商</font></td>
+                        <td width="7%" height="24" align="center">
+                        <font color="#FFFFFF">|</font></td>
+                        <td width="48%" height="24" align="center">
+                        <font color="#FFFFFF">地方分站</font></td>
+                      </tr>
+                    </table>
+                    </td>
+                  </tr>
+                  </table>
+                </center>
+              </div>
+              </td>
+            </tr>
+          </table>
+        </center>
+      </div>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="960" id="AutoNumber6" bgcolor="#FFFFFF">
+    <tr>
+      <td height="35" valign="top">
+        <table style="BORDER-RIGHT: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid" cellSpacing=0 cellPadding=0 width="98%" align=center border=0 height="34">
+          <tr>
+            <td width=939 height=34>
+            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber16">
+              <tr>
+                <td width="8%">
+                <p align="center"><font color="#FF0000">精彩专题</font></td>
+                <td width="5%" align="center">男科</td>
+                <td width="6%" align="center">妇科</td>
+                <td width="6%" align="center">整形科</td>
+                <td width="6%" align="center">儿科</td>
+                <td width="6%" align="center">肝病科</td>
+                <td width="6%" align="center">肾病科</td>
+                <td width="6%" align="center">皮肤科</td>
+                <td width="6%" align="center">性病科</td>
+                <td width="6%" align="center">不孕不育</td>
+                <td width="6%" align="center">肿瘤科</td>
+                <td width="6%" align="center">糖尿病科</td>
+                <td width="6%" align="center">心血管科</td>
+                <td width="6%" align="center">心理科</td>
+                <td width="6%" align="center">体检科</td>
+                <td width="9%">
+                <p align="center">更多</td>
+              </tr>
+            </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="960" id="AutoNumber118" bgcolor="#FFFFFF">
+    <tr>
+      <td width="100%" height="6"></td>
+    </tr>
+  </table>
+  </center>
+</div>
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="960" id="AutoNumber1">
+    <tr>
+      <td width="100%"></td>
+    </tr>
+  </table>
+  </center>
+</div>
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="960" id="AutoNumber45" bgcolor="#FFFFFF">
+    <tr>
+      <td width="100%" height="130">
+      <div align="center">
+        <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#CCCCCC" width="941" id="AutoNumber3" height="100%">
+          <tr>
+            <td width="100%">
+            <div align="center">
+            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="98%" id="AutoNumber4" height="66">
+              <tr>
+                <td width="16%" height="25"><script language=javascript src=/plus/ShowA.asp?i=52></script></td>
+                <td width="68%" height="25">
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber23">
+                  <tr>
+                    <td width="25%"><script language=javascript src=/plus/ShowA.asp?i=53></script></td>
+                    <td width="25%"><script language=javascript src=/plus/ShowA.asp?i=54></script></td>
+                    <td width="25%"><script language=javascript src=/plus/ShowA.asp?i=55></script></td>
+                    <td width="25%"><script language=javascript src=/plus/ShowA.asp?i=56></script></td>
+                  </tr>
+                </table>
+                </td>
+                <td width="16%" height="25"><script language=javascript src=/plus/ShowA.asp?i=57></script></td>
+              </tr>
+              <tr>
+                <td width="16%" height="25"><script language=javascript src=/plus/ShowA.asp?i=58></script></td>
+                <td width="68%" height="75" rowspan="3"><script language=javascript src=/plus/ShowA.asp?i=64></script></td>
+                <td width="16%" height="25"><script language=javascript src=/plus/ShowA.asp?i=59></script></td>
+                </tr>
+              <tr>
+                <td width="16%" height="25"><script language=javascript src=/plus/ShowA.asp?i=60></script></td>
+                <td width="16%" height="25"><script language=javascript src=/plus/ShowA.asp?i=61></script></td>
+                </tr>
+              <tr>
+                <td width="16%" height="25"><script language=javascript src=/plus/ShowA.asp?i=62></script></td>
+                <td width="16%" height="25"><script language=javascript src=/plus/ShowA.asp?i=63></script></td>
+                </tr>
+              <tr>
+                <td width="16%" height="25"><script language=javascript src=/plus/ShowA.asp?i=65></script></td>
+                <td width="68%" height="25">
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber24">
+                  <tr>
+                    <td width="25%"><script language=javascript src=/plus/ShowA.asp?i=66></script></td>
+                    <td width="25%"><script language=javascript src=/plus/ShowA.asp?i=67></script></td>
+                    <td width="25%"><script language=javascript src=/plus/ShowA.asp?i=68></script></td>
+                    <td width="25%"><script language=javascript src=/plus/ShowA.asp?i=69></script></td>
+                  </tr>
+                </table>
+                </td>
+                <td width="16%" height="25"><script language=javascript src=/plus/ShowA.asp?i=70></script></td>
+              </tr>
+              </table>
+            </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      </td>
+    </tr>
+    <tr>
+      <td width="100%" height="6"></td>
+    </tr>
+  </table>
+  </center>
+</div>
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="960" id="AutoNumber6" bgcolor="#FFFFFF">
+    <tr>
+      <td width="100%" height="100%" valign="top">
+      <div align="center">
+        <center>
+        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="941" id="AutoNumber7">
+          <tr>
+            <td width="234" valign="top">
+            <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#AECBD4" width="98%" id="AutoNumber119" height="405">
+              <tr>
+                <td width="100%" height="405" background="/Images/sy_000.gif" valign="top">
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber120" height="398">
+                    <tr>
+                      <td width="100%" height="236" valign="bottom">
+                      <p align="center">
+                      <a href="/zhuanti/wangying.htm">
+                      <img border="0" src="/Images/zt_001.jpg"></a></td>
+                    </tr>
+                    <tr>
+                      <td width="100%" height="83">
+                      <p align="center"><img border="0" src="/ad/sy_zc_02.jpg"></td>
+                    </tr>
+                    </table>
+                  </center>
+                </div>
+                </td>
+              </tr>
+            </table>
+            </td>
+            <td width="499" valign="top">
+            <div align="center">
+              <center>
+              <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#AECBD4" width="97%" id="AutoNumber9" height="405">
+                <tr>
+                  <td width="100%" height="404" valign="top">
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber10" height="29">
+                    <tr>
+                      <td width="100%" height="29" background="/Images/sy_bj_001.gif">
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber11" height="100%">
+                        <tr>
+                          <td width="24%">
+                          <p align="center"><font color="#FF6600">
+                          <span style="font-size: 10.5pt; font-weight: 700">今日聚焦</span></font></td>
+                          <td width="72%">
+                          <p align="right"><b><font color="#ff000">
+                          <a href="/zhuanti/wangying.htm"><font color="#FF0000">
+                          热门专题:电击戒网瘾，该废该留？</font></a></font></b></td>
+                          <td width="4%">　</td>
+                        </tr>
+                      </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber30" height="10">
+                    <tr>
+                      <td width="100%" height="5"></td>
+                    </tr>
+                  </table>
+                  <div align="center">
+                    <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="97%" id="AutoNumber29" height="80">
+                    <tr>
+                      <td width="100%" height="79">
+                      <p align="left">
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+   <tr>
+    <td align=middle width="100%" height=26>
+    <p style="margin-top: 4; margin-bottom: 4"><font face="华文细黑"><a href="http://192.168.3.251:88/html/jiankangkuaibao_457_12141.shtml" target="_blank">
+    <span style="font-size: 14pt; font-weight:700">部分医院预约电话是中介</span></a></font></td>
+  </tr>
+  <tr>
+    <td class=pd><font color="#666666">&nbsp;&nbsp;&nbsp; 北京市卫生局有关负责人提醒，虽然各三级医院大都已经开展电话或网络预约挂号，但是患者也应珍惜宝贵的专家号资源，预约成功就应尽量按时前往。</font></td>
+ </tr>
+ </table>
+</td>
+                    </tr>
+                  </table>
+                    </center>
+                  </div>
+                  <div align="center">
+                    <center>
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="97%" id="AutoNumber31">
+                      <tr>
+                        <td width="100%" class="dh5"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/html/jiankangkuaibao_457_12130.shtml" target="_blank" title="中国每年近百万人猝死">中国每年近百万人猝死</a>
+</td></tr>
+   </table>
+  </td>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/html/baoguangtai_455_12102.shtml" target="_blank" title="药监局查处在互联网非法宣传销售的假药">药监局查处在互联网非法宣传销</a>
+</td></tr>
+   </table>
+  </td>
+</tr>
+<tr>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/html/jiankangkuaibao_457_12101.shtml" target="_blank" title="卫生部要求及时澄清影响稳定的卫生信息">卫生部要求及时澄清影响稳定的</a>
+</td></tr>
+   </table>
+  </td>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/html/jiankangkuaibao_457_12100.shtml" target="_blank" title="6岁女孩性早熟吓坏家长">6岁女孩性早熟吓坏家长</a>
+</td></tr>
+   </table>
+  </td>
+</tr>
+</table>
+</td>
+                      </tr>
+                    </table>
+                    </center>
+                  </div>
+                  <div align="center">
+                    <center>
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="96%" id="AutoNumber36">
+                      <tr>
+                      <td width="100%" height="8"></td>
+                      </tr>
+                    </table>
+                    </center>
+                  </div>
+                  <div align="center">
+                    <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="97%" id="AutoNumber33" height="35">
+                    <tr>
+                      <td width="100%" height="34">
+                      <p align="left">
+<table cellSpacing=0 cellPadding=0 width="100%" border=0>
+   <tr>
+    <td align=middle width="100%" height=26>
+    <p style="margin-top: 4; margin-bottom: 4"><font face="华文细黑"><a href="http://192.168.3.251:88/Html/byy_727_7834.shtml" target="_blank">
+    <span style="font-size: 14pt; font-weight:700">十种女性应该禁吃避孕药</span></a></font></td>
+  </tr>
+  </table>
+</td>
+                    </tr>
+                  </table>
+                    </center>
+                  </div>
+                  <div align="center">
+                    <center>
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="97%" id="AutoNumber34">
+                      <tr>
+                        <td width="100%" class="dh5"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/Html/xxlbl_737_7896.shtml" target="_blank" title="一个红杏出墙女子的自述">一个红杏出墙女子的自述</a>
+</td></tr>
+   </table>
+  </td>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/Html/xxlza_736_7879.shtml" target="_blank" title="听他们诉说性爱洁癖之事">听他们诉说性爱洁癖之事</a>
+</td></tr>
+   </table>
+  </td>
+</tr>
+<tr>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/Html/byy_727_7837.shtml" target="_blank" title="什么情况下你绝对不能吃避孕药">什么情况下你绝对不能吃避孕药</a>
+</td></tr>
+   </table>
+  </td>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/Html/zazs_728_7770.shtml" target="_blank" title="6种新鲜做爱体位 教你怎么做">6种新鲜做爱体位&nbsp;教你怎么做</a>
+</td></tr>
+   </table>
+  </td>
+</tr>
+<tr>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/Html/zy_724_7706.shtml" target="_blank" title="立秋后,壮阳不忘滋阴">立秋后,壮阳不忘滋阴</a>
+</td></tr>
+   </table>
+  </td>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/Html/fx_723_7696.shtml" target="_blank" title="小胸MM最爱的私密丰胸法">小胸MM最爱的私密丰胸法</a>
+</td></tr>
+   </table>
+  </td>
+</tr>
+</table>
+</td>
+                      </tr>
+                    </table>
+                    </center>
+                  </div>
+                  <div align="center">
+                    <center>
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="98%" id="AutoNumber35">
+                      <tr>
+                      <td width="100%" height="8">
+                      <hr color="#CCCCCC" size="1" style="border-style: dotted; border-width: 1"></td>
+                      </tr>
+                    </table>
+                    </center>
+                  </div>
+                  <div align="center">
+                    <center>
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="97%" id="AutoNumber37">
+                      <tr>
+                        <td width="100%" class="dh5"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/Html/gja_2351_607.shtml" target="_blank" title="宫颈癌到底“迷恋”你什么？">宫颈癌到底“迷恋”你什么？</a>
+</td></tr>
+   </table>
+  </td>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/Html/dca_2322_444.shtml" target="_blank" title="大肠类癌的必知常识">大肠类癌的必知常识</a>
+</td></tr>
+   </table>
+  </td>
+</tr>
+<tr>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/Html/cwa_2318_409.shtml" target="_blank" title="残胃癌：胃病患者术后的隐患">残胃癌：胃病患者术后的隐患</a>
+</td></tr>
+   </table>
+  </td>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/Html/byxgxwl_1378_403.shtml" target="_blank" title="儿童鼻咽血管纤维瘤知多少？">儿童鼻咽血管纤维瘤知多少？</a>
+</td></tr>
+   </table>
+  </td>
+</tr>
+<tr>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/Html/bya_1376_392.shtml" target="_blank" title="治鼻咽癌中药秘方">治鼻咽癌中药秘方</a>
+</td></tr>
+   </table>
+  </td>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/Html/bya_1376_387.shtml" target="_blank" title="鼻咽癌的中西医治疗手段">鼻咽癌的中西医治疗手段</a>
+</td></tr>
+   </table>
+  </td>
+</tr>
+</table>
+</td>
+                      </tr>
+                    </table>
+                    </center>
+                  </div>
+                  </td>
+                </tr>
+              </table>
+              </center>
+            </div>
+            </td>
+            <td width="208" valign="top">
+            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="240" id="AutoNumber8" height="405">
+              <tr>
+                <td width="100%" height="404" valign="top">
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber25">
+                    <tr>
+                      <td width="230" height="50"><script language=javascript src=/plus/ShowA.asp?i=71></script></td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber27">
+                  <tr>
+                    <td width="100%" height="4"></td>
+                  </tr>
+                </table>
+                <div align="center">
+                  <center>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber28" height="360">
+                    <tr>
+                      <td width="100%" height="360">
+                      <div style="padding-left:0px;">
+                      <!-- 选项卡0开始 -->
+                      <div class="nTab">
+                      <!-- 标题开始 -->
+                      <div class="TabTitle">
+                      <ul id="myTab0">
+                      <li class="normal" onmouseover="nTabs(this,0);">综合频道</li>
+                      <li class="active" onmouseover="nTabs(this,1);">时尚健康</li>
+                      <li class="normal" onmouseover="nTabs(this,2);">疾病大全</li>
+                      </ul>
+                      </div>
+                      <!-- 内容开始 -->
+                      <div class="TabContent">
+                      <div id="myTab0_Content0" class="none"><div class="dh5">
+ <ul>
+
+<li>·<a href="http://192.168.3.251:88/html/jiankangkuaibao_457_5715.shtml" target="_blank">没指纹对身体健康是否有害？</a></li>
+
+<li>·<a href="http://192.168.3.251:88/html/baoguangtai_455_5794.html" target="_blank">博士伦盗用质协旗号宣传</a></li>
+
+<li>·<a href="http://192.168.3.251:88/html/quwenyishi_458_5851.html" target="_blank">电视疑为孩子患自闭症的祸首</a></li>
+
+<li>·<a href="http://192.168.3.251:88/html/baoguangtai_455_5787.html" target="_blank">达利园派竟吃出水银&nbsp;公司表示不可</a></li>
+
+<li>·<a href="http://192.168.3.251:88/html/baoguangtai_455_5790.html" target="_blank">“如烟”存在安全隐患&nbsp;能否戒烟受</a></li>
+
+<li>·<a href="http://192.168.3.251:88/html/redianshiping_453_5737.shtml" target="_blank">SK-Ⅱ为什么招中国人“恨”？</a></li>
+
+<li>·<a href="http://192.168.3.251:88/html/jiankangkuaibao_457_12130.shtml" target="_blank">中国每年近百万人猝死</a></li>
+
+<li>·<a href="http://192.168.3.251:88/html/baoguangtai_455_12102.shtml" target="_blank">药监局查处在互联网非法宣传销售</a></li>
+
+<li>·<a href="http://192.168.3.251:88/html/jiankangkuaibao_457_12101.shtml" target="_blank">卫生部要求及时澄清影响稳定的卫</a></li>
+
+<li>·<a href="http://192.168.3.251:88/html/jiankangkuaibao_457_12100.shtml" target="_blank">6岁女孩性早熟吓坏家长</a></li>
+
+<li>·<a href="http://192.168.3.251:88/html/redianshiping_453_12094.shtml" target="_blank">农民工死因拷问鉴定机构良知</a></li>
+
+</ul>
+</div>
+</div>
+                      <div id="myTab0_Content1"><div class="dh5">
+ <ul>
+
+<li>·<a href="http://192.168.3.251:88/Html/tjcs_1492_6971.html" target="_blank">体检过程中&nbsp;怎样要补检？</a></li>
+
+<li>·<a href="http://192.168.3.251:88/Html/nvxgn_715_6737.shtml" target="_blank">从乳房大小可以窥见性欲吗？</a></li>
+
+<li>·<a href="http://192.168.3.251:88/Html/zx_713_6486.shtml" target="_blank">评测早泄程度</a></li>
+
+<li>·<a href="http://192.168.3.251:88/Html/zx_713_6461.shtml" target="_blank">防早泄&nbsp;你能做的N个方法</a></li>
+
+<li>·<a href="http://192.168.3.251:88/Html/yw_712_6428.shtml" target="_blank">阳痿自我治疗大全</a></li>
+
+<li>·<a href="http://192.168.3.251:88/Html/yw_712_6359.shtml" target="_blank">五个偏方治男性阳痿</a></li>
+
+<li>·<a href="http://192.168.3.251:88/Html/xxlbl_737_7896.shtml" target="_blank">一个红杏出墙女子的自述</a></li>
+
+<li>·<a href="http://192.168.3.251:88/Html/xxlza_736_7879.shtml" target="_blank">听他们诉说性爱洁癖之事</a></li>
+
+<li>·<a href="http://192.168.3.251:88/Html/byy_727_7837.shtml" target="_blank">什么情况下你绝对不能吃避孕药</a></li>
+
+<li>·<a href="http://192.168.3.251:88/Html/zazs_728_7770.shtml" target="_blank">6种新鲜做爱体位&nbsp;教你怎么做</a></li>
+
+<li>·<a href="http://192.168.3.251:88/Html/zy_724_7706.shtml" target="_blank">立秋后,壮阳不忘滋阴</a></li>
+
+</ul>
+</div>
+</div>
+                      <div id="myTab0_Content2" class="none"><div class="dh5">
+ <ul>
+
+<li>·<a href="http://192.168.3.251:88/Html/gja_2351_620.shtml" target="_blank">宫颈癌的治疗方法有多种！</a></li>
+
+<li>·<a href="http://192.168.3.251:88/Html/gja_2351_619.shtml" target="_blank">从异常现象看宫颈癌信号</a></li>
+
+<li>·<a href="http://192.168.3.251:88/Html/gja_2351_618.shtml" target="_blank">如何诊断宫颈癌的真与假？</a></li>
+
+<li>·<a href="http://192.168.3.251:88/Html/gja_2351_617.shtml" target="_blank">宫颈癌不是突然发生的</a></li>
+
+<li>·<a href="http://192.168.3.251:88/Html/gja_2351_616.shtml" target="_blank">女性宫颈癌是由吸烟引起的吗？</a></li>
+
+<li>·<a href="http://192.168.3.251:88/Html/gja_2351_615.shtml" target="_blank">宫颈癌平均发病年龄已降到35岁</a></li>
+
+<li>·<a href="http://192.168.3.251:88/Html/gja_2351_614.shtml" target="_blank">宫颈癌护理中常见误区</a></li>
+
+<li>·<a href="http://192.168.3.251:88/Html/gja_2351_613.shtml" target="_blank">宫颈癌：年轻的你别招惹危险的它</a></li>
+
+<li>·<a href="http://192.168.3.251:88/Html/gja_2351_612.shtml" target="_blank">宫颈癌治疗偏方</a></li>
+
+<li>·<a href="http://192.168.3.251:88/Html/gja_2351_611.shtml" target="_blank">丈夫患尿路感染妻子易患宫颈癌</a></li>
+
+<li>·<a href="http://192.168.3.251:88/Html/gja_2351_610.shtml" target="_blank">宫颈癌与营养有何关系？</a></li>
+
+</ul>
+</div>
+</div>
+                      </div>
+                      </div>
+                      </td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+                </td>
+              </tr>
+            </table>
+            </td>
+          </tr>
+        </table>
+        </center>
+      </div>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+    </tr>
+  </table>
+  </center>
+</div>
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="960" id="AutoNumber38" bgcolor="#FFFFFF">
+    <tr>
+      <td width="100%" height="100%" valign="top">
+      <div align="center">
+        <center>
+        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="941" id="AutoNumber7">
+          <tr>
+            <td width="245" valign="top">
+            <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#AECBD4" width="245" id="AutoNumber17" height="300">
+              <tr>
+                <td width="100%" valign="top">
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber18">
+                  <tr>
+                      <td width="100%" height="29" background="/Images/sy_bj_001.gif">
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber39">
+                        <tr>
+                          <td width="44%" class="dh5">
+                          <p align="center"><b><font color="#FF6600">
+                          <a href="/html/list_455.shtml">
+                          <font color="#FF6600">曝光台</font></a></font></b></td>
+                          <td width="32%">　</td>
+                          <td width="24%">
+                          <p align="center"><a href="/html/list_455.shtml">更多&gt;&gt;</a></td>
+                        </tr>
+                      </table>
+                      </td>
+                    </tr>
+                </table>
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber42" height="8">
+                  <tr>
+                    <td width="100%" height="16"></td>
+                  </tr>
+                </table>
+                <div align="center">
+                  <center>
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber41" height="68">
+                  <tr>
+                    <td width="4%" height="68">　</td>
+                    <td width="96%" height="68"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/html/baoguangtai_455_12145.shtml" target="_blank" title="老百姓九州通大药房等售假药">老百姓九州通大药房等售假药</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/html/baoguangtai_455_12136.shtml" target="_blank" title="药监局发互联网购药安全警示 15家网站被曝光">药监局发互联网购药安全警示&nbsp;15家网站</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/html/baoguangtai_455_12132.shtml" target="_blank" title="广告宣传违法　多种药品山西省食药监局叫停">广告宣传违法　多种药品山西省食药监</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/html/baoguangtai_455_12117.shtml" target="_blank" title="“清华脂蛋白”虚假宣传调查">“清华脂蛋白”虚假宣传调查</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/html/baoguangtai_455_12113.shtml" target="_blank" title="5黑网站挂“金字招牌”售假药被曝光">5黑网站挂“金字招牌”售假药被曝光</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/html/baoguangtai_455_12102.shtml" target="_blank" title="药监局查处在互联网非法宣传销售的假药">药监局查处在互联网非法宣传销售的假</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/html/baoguangtai_455_12092.shtml" target="_blank" title="一次性血液灌流器不良反应被紧急叫停">一次性血液灌流器不良反应被紧急叫停</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/html/baoguangtai_455_12091.shtml" target="_blank" title="医院将36个科室出租给无证行医者(图)">医院将36个科室出租给无证行医者(图)</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/html/baoguangtai_455_12057.shtml" target="_blank" title="近期违法保健食品“黑名单”公布">近期违法保健食品“黑名单”公布</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/html/baoguangtai_455_12053.shtml" target="_blank" title="《新闻调查》曝光杨永信电击真相">《新闻调查》曝光杨永信电击真相</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/html/baoguangtai_455_12052.shtml" target="_blank" title="小诊所打广告称“3个月治愈乙肝”遭质疑">小诊所打广告称“3个月治愈乙肝”遭质</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/html/baoguangtai_455_12051.shtml" target="_blank" title="屡上黑榜还涉嫌欺诈健儿贴竟称提高智力">屡上黑榜还涉嫌欺诈健儿贴竟称提高智</a></td>
+</tr>
+</table>
+</td>
+                  </tr>
+                </table>
+                  </center>
+                </div>
+                </td>
+              </tr>
+            </table>
+            </td>
+            <td width="488" valign="top">
+            <div align="center">
+              <center>
+              <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#AECBD4" width="97%" id="AutoNumber9" height="300">
+                <tr>
+                  <td width="100%" height="200" valign="top">
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber10" height="29">
+                    <tr>
+                      <td width="100%" height="29" background="/Images/sy_bj_001.gif">
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber40">
+                        <tr>
+                          <td width="24%" class="dh5">
+                          <p align="center"><b><font color="#FF6600">
+                          <a href="/html/list_437.shtml"><font color="#FF6600">
+                          健康资讯</font></a></font></b></td>
+                          <td width="62%">
+                          <p align="center">　</td>
+                          <td width="14%">
+                          <p align="center"><a href="/html/list_437.shtml">更多&gt;&gt;</a></td>
+                        </tr>
+                      </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber43">
+                    <tr>
+                    <td width="100%" height="16"></td>
+                    </tr>
+                  </table>
+                  <div align="center">
+                    <center>
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="96%" id="AutoNumber44">
+                      <tr>
+                        <td width="100%" class="dh5"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/html/jiankangkuaibao_457_12152.shtml" target="_blank" title="卫生部办公厅通知医疗器械产品临床试用等问题">卫生部办公厅通知医疗器械产</a>
+</td></tr>
+   </table>
+  </td>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/html/guonei_439_12151.shtml" target="_blank" title="卫生部办公厅通知医疗器械产品临床试用等问题">卫生部办公厅通知医疗器械产</a>
+</td></tr>
+   </table>
+  </td>
+</tr>
+<tr>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/html/jiankangkuaibao_457_12150.shtml" target="_blank" title="北京友谊医院开通6预约挂号热线">北京友谊医院开通6预约挂号热</a>
+</td></tr>
+   </table>
+  </td>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/html/zhengcefagui_461_12149.shtml" target="_blank" title="卫生部办公厅通知医疗器械产品临床试用等问题">卫生部办公厅通知医疗器械产</a>
+</td></tr>
+   </table>
+  </td>
+</tr>
+<tr>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/html/jiankangkuaibao_457_12148.shtml" target="_blank" title="南昌乙肝携带者也能办健康证">南昌乙肝携带者也能办健康证</a>
+</td></tr>
+   </table>
+  </td>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/html/jiankangkuaibao_457_12147.shtml" target="_blank" title="东川儿童血铅超标与企业无直接相关">东川儿童血铅超标与企业无直</a>
+</td></tr>
+   </table>
+  </td>
+</tr>
+<tr>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/html/jiankangkuaibao_457_12146.shtml" target="_blank" title="中央确定农村基础养老金每人每月55元">中央确定农村基础养老金每人</a>
+</td></tr>
+   </table>
+  </td>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/html/baoguangtai_455_12145.shtml" target="_blank" title="老百姓九州通大药房等售假药">老百姓九州通大药房等售假药</a>
+</td></tr>
+   </table>
+  </td>
+</tr>
+<tr>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/html/xingyedongtai_462_12144.shtml" target="_blank" title="基本药物要“降价” 生产企业进退有度">基本药物要“降价”&nbsp;生产企业</a>
+</td></tr>
+   </table>
+  </td>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/html/redianshiping_453_12143.shtml" target="_blank" title="“健康证”能否根治乙肝歧视">“健康证”能否根治乙肝歧视</a>
+</td></tr>
+   </table>
+  </td>
+</tr>
+<tr>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/html/quwenyishi_458_12142.shtml" target="_blank" title="研究称长期工作不稳定对健康危害超过吸烟">研究称长期工作不稳定对健康</a>
+</td></tr>
+   </table>
+  </td>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/html/jiankangkuaibao_457_12141.shtml" target="_blank" title="部分医院预约电话是中介">部分医院预约电话是中介</a>
+</td></tr>
+   </table>
+  </td>
+</tr>
+<tr>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/html/jiankangkuaibao_457_12140.shtml" target="_blank" title="办证一波三折 乙肝携带者首获健康证(图)">办证一波三折&nbsp;乙肝携带者首获</a>
+</td></tr>
+   </table>
+  </td>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/html/jiankangkuaibao_457_12139.shtml" target="_blank" title="美国：总统敦促民众接种流感疫苗">美国：总统敦促民众接种流感疫</a>
+</td></tr>
+   </table>
+  </td>
+</tr>
+<tr>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/html/jiankangkuaibao_457_12138.shtml" target="_blank" title="三级医院预约挂号电话公布 多次爽约无法再预约">三级医院预约挂号电话公布&nbsp;多</a>
+</td></tr>
+   </table>
+  </td>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/html/zhengcefagui_461_12137.shtml" target="_blank" title="食药监局制定医疗器械应急审批程序">食药监局制定医疗器械应急审</a>
+</td></tr>
+   </table>
+  </td>
+</tr>
+<tr>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/html/baoguangtai_455_12136.shtml" target="_blank" title="药监局发互联网购药安全警示 15家网站被曝光">药监局发互联网购药安全警示</a>
+</td></tr>
+   </table>
+  </td>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/html/jiankangkuaibao_457_12135.shtml" target="_blank" title="调查显示九成患者惧怕看牙医">调查显示九成患者惧怕看牙医</a>
+</td></tr>
+   </table>
+  </td>
+</tr>
+<tr>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/html/jiankangkuaibao_457_12134.shtml" target="_blank" title="等50分钟问诊5分钟 医院院长扮患者感慨看病难">等50分钟问诊5分钟&nbsp;医院院长</a>
+</td></tr>
+   </table>
+  </td>
+<td width="50%" height="20">
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td> ·<a href="http://192.168.3.251:88/html/guonei_439_12133.shtml" target="_blank" title="疑案：胸罩成“凶”罩了吗？">疑案：胸罩成“凶”罩了吗？</a>
+</td></tr>
+   </table>
+  </td>
+</tr>
+</table>
+</td>
+                      </tr>
+                    </table>
+                    </center>
+                  </div>
+                  </td>
+                </tr>
+              </table>
+              </center>
+            </div>
+            </td>
+            <td width="240" valign="top"><script language=javascript src=/plus/ShowA.asp?i=72></script>
+            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="240" id="AutoNumber38" height="20">
+              <tr>
+                <td width="100%" background="/Images/ad_biaoshi.gif" height="20">　</td>
+              </tr>
+            </table>
+            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#AECBD4" width="240" id="AutoNumber8" height="137">
+              <tr>
+                <td width="100%" valign="top"><script language=javascript src=/plus/ShowA.asp?i=73></script></td>
+              </tr>
+            </table>
+            </td>
+          </tr>
+        </table>
+        </center>
+      </div>
+      </td>
+    </tr>
+    <tr>
+      <td width="100%" height="6"></td>
+    </tr>
+  </table>
+  </center>
+</div>
+</div>
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="960" id="AutoNumber46" bgcolor="#FFFFFF">
+    <tr>
+      <td width="100%">
+      <div align="center">
+        <center>
+        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="941" id="AutoNumber21" height="75">
+          <tr>
+            <td width="100%" height="75"><script src="http://192.168.3.251:88/plus/ShowA.asp?I=74" type="text/javascript"></script></td>
+          </tr>
+        </table>
+        </center>
+      </div>
+      </td>
+    </tr>
+    <tr>
+      <td width="100%" height="6"></td>
+    </tr>
+  </table>
+  </center>
+</div>
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="960" id="AutoNumber47" bgcolor="#FFFFFF">
+    <tr>
+      <td width="100%" height="335" valign="top">
+      <div align="center">
+        <center>
+        <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#AECBD4" width="941" id="AutoNumber46" bgcolor="#F1FBFD" height="450">
+          <tr>
+            <td width="100%" height="450" valign="top">
+            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber47" height="28">
+              <tr>
+                <td width="100%" background="/Images/sy_bj_002.gif" height="28">
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber48">
+                  <tr>
+                    <td width="13%">
+                    <p align="center"><font color="#FF6600">
+                    <span style="font-weight: 700; font-size: 10.5pt">疾病大全</span></font></td>
+                    <td width="53%">　</td>
+                    <td width="34%">　</td>
+                  </tr>
+                </table>
+                </td>
+              </tr>
+            </table>
+            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber50" height="8">
+              <tr>
+                <td width="100%" height="8"></td>
+              </tr>
+            </table>
+            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber49" height="469">
+              <tr>
+                <td width="27%" height="469" valign="top">
+                <div align="center">
+                  <center>
+                  <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#AECBD4" width="94%" id="AutoNumber51" height="115">
+                    <tr>
+                      <td width="100%" height="115" valign="top">
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber52" height="121">
+                        <tr>
+                          <td width="100%" background="/Images/sy_bj_001.gif" height="28">
+                          <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber65">
+                            <tr>
+                              <td width="44%">
+                              <p align="center"><b>妇科疾病库</b></td>
+                              <td width="56%">　</td>
+                            </tr>
+                          </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="110" bgcolor="#FFFFFF">
+                          <div class="sylibiao"> 
+                          <ul> 
+                          <li>&nbsp;·<a href="/Html/list_933.shtml">痛经</a></li> 
+                          <li>·<a href="/Html/list_937.shtml">阴道炎</a></li> 
+                          <li>&nbsp;·<a href="/Html/list_916.shtml">盆腔炎</a></li> 
+                          <li>·<a href="/Html/list_895.shtml">宫颈糜烂</a></li> 
+                          <li>&nbsp;·<a href="/Html/list_878.shtml">不孕症</a></li> 
+                          <li>·<a href="/Html/list_951.shtml">子宫肌瘤</a></li>
+                          <li>&nbsp;·<a target="_blank" href="/Html/list_965.shtml">流产</a></li> 
+                          <li>·<a href="/Html/list_946.shtml">月经不调</a></li> 
+                          </ul> 
+                          </div>
+                          </td>
+                        </tr>
+                      </table>
+                      </td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber53" height="6">
+                  <tr>
+                    <td width="100%" height="6"></td>
+                  </tr>
+                </table>
+                <div align="center">
+                  <center>
+                  <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#AECBD4" width="94%" id="AutoNumber54" height="147">
+                    <tr>
+                      <td width="100%" height="147" valign="top">
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber52" height="147">
+                        <tr>
+                          <td width="100%" background="/Images/sy_bj_001.gif" height="28">
+                          <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber66">
+                            <tr>
+                              <td width="44%">
+                              <p align="center"><b>男科疾病库</b></td>
+                              <td width="56%">　</td>
+                            </tr>
+                          </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="110" bgcolor="#FFFFFF">
+                          <div class="sylibiao"> 
+                          <ul> 
+                          <li>&nbsp;·<a href="/Html/list_1040.shtml">早泄</a></li> 
+                          <li>·<a href="/Html/list_1038.shtml">阴囊湿疹</a></li> 
+                          <li>&nbsp;·<a href="/Html/list_1031.shtml">小阴茎</a></li> 
+                          <li>·<a href="/Html/list_1015.shtml">男性不育症</a></li> 
+                          <li>&nbsp;·<a href="/Html/list_1034.shtml">阳痿</a></li> 
+                          <li>·<a href="/Html/list_1033.shtml">性欲亢进</a></li>
+                          <li>&nbsp;·<a href="/Html/list_1024.shtml">前列腺炎</a></li> 
+                          <li>·<a href="/Html/list_999.shtml">包皮阴茎炎</a></li> 
+                          </ul> 
+                          </div>
+                          </td>
+                        </tr>
+                      </table>
+                      </td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber55">
+                  <tr>
+                    <td width="100%" height="6"></td>
+                  </tr>
+                </table>
+                <div align="center">
+                  <center>
+                  <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#AECBD4" width="94%" id="AutoNumber56" height="143">
+                    <tr>
+                      <td width="100%" height="143" valign="top">
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber52" height="144">
+                        <tr>
+                          <td width="100%" background="/Images/sy_bj_001.gif" height="28">
+                          <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber67">
+                            <tr>
+                              <td width="44%">
+                              <p align="center"><b>内科疾病库</b></td>
+                              <td width="56%">　</td>
+                            </tr>
+                          </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="110" bgcolor="#FFFFFF">
+                          <div class="sylibiao"> 
+                          <ul> 
+                          <li>&nbsp;·<a href="/Html/list_1273.shtml">感冒</a></li> 
+                          <li>·<a href="/Html/list_1671.shtml">高血压</a></li> 
+                          <li>&nbsp;·<a href="/Html/list_2587.shtml">腹泻</a></li> 
+                          <li>·<a href="/Html/list_1683.shtml">急性肾功能衰竭</a></li> 
+                          <li>&nbsp;·<a target="_blank" href="/Html/list_1684.shtml">尿毒症</a></li> 
+                          <li>·<a target="_blank" href="/Html/list_1692.shtml">癫痫</a></li>
+                          <li>&nbsp;·<a target="_blank" href="/Html/list_1708.shtml">过敏性紫癜</a></li> 
+                          <li>·<a target="_blank" href="/Html/list_1716.shtml">类风湿性关节炎</a></li> 
+                          </ul> 
+                          </div>
+                          </td>
+                        </tr>
+                      </table>
+                      </td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber57">
+                  <tr>
+                    <td width="100%" height="6"></td>
+                  </tr>
+                </table>
+                <div align="center">
+                  <center>
+                  <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#AECBD4" width="94%" id="AutoNumber58" height="146">
+                    <tr>
+                      <td width="100%" height="146" valign="top">
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber52" height="147">
+                        <tr>
+                          <td width="100%" background="/Images/sy_bj_001.gif" height="28">
+                          <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber68">
+                            <tr>
+                              <td width="44%">
+                              <p align="center"><b>外科疾病库</b></td>
+                              <td width="56%">　</td>
+                            </tr>
+                          </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="110" bgcolor="#FFFFFF">
+                          <div class="sylibiao"> 
+                          <ul> 
+                          <li>&nbsp;·<a target="_blank" href="/Html/list_1725.shtml">肛门外伤</a></li> 
+                          <li>·<a target="_blank" href="/Html/list_1726.shtml">头外伤</a></li> 
+                          <li>&nbsp;·<a target="_blank" href="/Html/list_1769.shtml">急性阑尾炎</a></li> 
+                          <li>·<a target="_blank" href="/Html/list_1793.shtml">肩周炎</a></li> 
+                          <li>&nbsp;·<a target="_blank" href="/Html/list_1785.shtml">尿道结石</a></li> 
+                          <li>·<a target="_blank" href="/Html/list_1753.shtml">胆管扩张症</a></li>
+                          <li>&nbsp;·<a target="_blank" href="/Html/list_1744.shtml">闭合性脑外伤</a></li> 
+                          <li>·<a target="_blank" href="/Html/list_1746.shtml">胆结石</a></li> 
+                          </ul> 
+                          </div>
+                          </td>
+                        </tr>
+                      </table>
+                      </td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber59">
+                  <tr>
+                    <td width="100%" height="6"></td>
+                  </tr>
+                </table>
+                <div align="center">
+                  <center>
+                  <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#AECBD4" width="94%" id="AutoNumber60" height="147">
+                    <tr>
+                      <td width="100%" height="147" valign="top">
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber52" height="147">
+                        <tr>
+                          <td width="100%" background="/Images/sy_bj_001.gif" height="28">
+                          <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber69">
+                            <tr>
+                              <td width="44%">
+                              <p align="center"><b>五官科疾病库</b></td>
+                              <td width="56%">　</td>
+                            </tr>
+                          </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="110" bgcolor="#FFFFFF">
+                          <div class="sylibiao"> 
+                          <ul> 
+                          <li>&nbsp;·近视眼</li> 
+                          <li>·中耳炎</li> 
+                          <li>&nbsp;·鼻窦炎</li> 
+                          <li>·牙周病</li> 
+                          <li>&nbsp;·红眼病</li> 
+                          <li>·麦粒肿</li>
+                          <li>&nbsp;·儿童龋齿</li> 
+                          <li>·口腔溃疡</li>  
+                          </ul> 
+                          </div>
+                          </td>
+                        </tr>
+                      </table>
+                      </td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber63">
+                  <tr>
+                    <td width="100%" height="6"></td>
+                  </tr>
+                </table>
+                <div align="center">
+                  <center>
+                  <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#AECBD4" width="94%" id="AutoNumber64" height="144">
+                    <tr>
+                      <td width="100%" height="144" valign="top">
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber52" height="145">
+                        <tr>
+                          <td width="100%" background="/Images/sy_bj_001.gif" height="28">
+                          <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber70">
+                            <tr>
+                              <td width="44%">
+                              <p align="center"><b>皮肤科疾病库</b></td>
+                              <td width="56%">　</td>
+                            </tr>
+                          </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="110" bgcolor="#FFFFFF">
+                          <div class="sylibiao"> 
+                          <ul> 
+                          <li>&nbsp;·湿疹</li> 
+                          <li>·水痘</li> 
+                          <li>&nbsp;·脚气</li> 
+                          <li>·白癜风</li> 
+                          <li>&nbsp;·荨麻疹</li> 
+                          <li>·皮肤过敏</li>
+                          <li>&nbsp;·带状疱疹</li> 
+                          <li>·尖锐湿疣</li> 
+                          </ul> 
+                          </div>
+                          </td>
+                        </tr>
+                      </table>
+                      </td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+                </td>
+                <td width="1%" height="469" bgcolor="#FFFFFF">　</td>
+                <td width="72%" height="469" bgcolor="#FFFFFF" valign="top">
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber77" height="765">
+                  <tr>
+                    <td width="48%" height="765" valign="top">
+                    <div align="center">
+                      <center>
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="320" id="AutoNumber78" height="287">
+                        <tr>
+                          <td width="320" background="/Images/sy_bj_003.gif" height="30" class="dh5">
+                          <p style="margin-top: 6; line-height:150%">&nbsp;&nbsp;&nbsp;&nbsp; <b>
+                          &nbsp;<font color="#FF6600"><a href="/Html/list_866.shtml"><font color="#FF6600">妇科疾病</font></a></font></b></td>
+                        </tr>
+                        <tr>
+                          <td width="320" height="10"></td>
+                        </tr>
+                        <tr>
+                          <td width="320" height="91">
+                          
+    <p align="center"><a href="http://192.168.3.251:88/Html/fljxndy_886_5.shtml" target="_blank" style="text-decoration: none">
+    <font size="3" face="华文细黑">尿路感染为何“青睐”女性</font></a></p>
+<p>&nbsp;<font color="#666666">&nbsp;&nbsp;<span style="font-size: 9pt">女性尿路感染的发病率明显增高，除了和女性尿路解剖生理特殊，夏季气温较高，空气湿度大，为细菌的生长繁殖创造了良好的条件，给尿路感染的发生带来了潜在的...</span></font></p>
+</td>
+                        </tr>
+                        <tr>
+                          <td width="320" height="11">
+                      <hr color="#CCCCCC" size="1" style="border-style: dotted; border-width: 1" width="96%"></td>
+                        </tr>
+                        <tr>
+                          <td width="320" height="148" class="dh5">
+                          
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_933.shtml" target="_blank">痛经</a> | <a href='http://192.168.3.251:88/Html/tj_933_369.shtml' target='_blank'>引起痛经的几种妇科疾病</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_933.shtml" target="_blank">痛经</a> | <a href='http://192.168.3.251:88/Html/tj_933_368.shtml' target='_blank'>痛经原因要细细辨明</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_933.shtml" target="_blank">痛经</a> | <a href='http://192.168.3.251:88/Html/tj_933_367.shtml' target='_blank'>痛经治疗方法</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_933.shtml" target="_blank">痛经</a> | <a href='http://192.168.3.251:88/Html/tj_933_366.shtml' target='_blank'>缓解痛经的妙方</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_933.shtml" target="_blank">痛经</a> | <a href='http://192.168.3.251:88/Html/tj_933_365.shtml' target='_blank'>几款可缓解痛经的食疗秘方</a>
+</ul>
+ </td>
+                        </tr>
+                      </table>
+                      </center>
+                    </div>
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber80" height="10">
+                      <tr>
+                        <td width="100%" height="10"></td>
+                      </tr>
+                    </table>
+                    <div align="center">
+                      <center>
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="320" id="AutoNumber82" height="299">
+                        <tr>
+                          <td width="320" background="/Images/sy_bj_003.gif" height="30" class="dh5">
+                          <p style="margin-top: 6; line-height:150%">&nbsp;&nbsp;&nbsp;&nbsp; <b>
+                          &nbsp;<font color="#FF6600"><a href="/Html/list_869.shtml"><font color="#FF6600">内科疾病</font></a></font></b></td>
+                        </tr>
+                        <tr>
+                          <td width="320" height="10"></td>
+                        </tr>
+                        <tr>
+                          <td width="320" height="91">
+                          
+    <p align="center"><a href="http://192.168.3.251:88/Html/lxxgm_1299_18.shtml" target="_blank" style="text-decoration: none">
+    <font size="3" face="华文细黑">雌激素与“男流感”</font></a></p>
+<p>&nbsp;<font color="#666666">&nbsp;&nbsp;<span style="font-size: 9pt">据英国媒体13日报道，加拿大一项最新研究发现，男性更容易出现“男流感”症状是因为女性确实比男性拥有更为强大的免疫系统。</span></font></p>
+</td>
+                        </tr>
+                        <tr>
+                          <td width="320" height="15">
+                      <hr color="#CCCCCC" size="1" style="border-style: dotted; border-width: 1" width="96%"></td>
+                        </tr>
+                        <tr>
+                          <td width="320" height="148" class="dh5">
+                          
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_1239.shtml" target="_blank">病毒性肺炎</a> | <a href='http://192.168.3.251:88/Html/bdxfy_1239_248.shtml' target='_blank'>病毒性肺炎可以并发哪些疾病？</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_1239.shtml" target="_blank">病毒性肺炎</a> | <a href='http://192.168.3.251:88/Html/bdxfy_1239_247.shtml' target='_blank'>病毒性肺炎应该如何治疗？</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_1239.shtml" target="_blank">病毒性肺炎</a> | <a href='http://192.168.3.251:88/Html/bdxfy_1239_246.shtml' target='_blank'>病毒性肺炎应该如何预防？</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_1239.shtml" target="_blank">病毒性肺炎</a> | <a href='http://192.168.3.251:88/Html/bdxfy_1239_245.shtml' target='_blank'>病毒性肺炎应该做哪些检查？</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_1239.shtml" target="_blank">病毒性肺炎</a> | <a href='http://192.168.3.251:88/Html/bdxfy_1239_244.shtml' target='_blank'>病毒性肺炎有哪些表现及如何诊断？</a>
+</ul>
+ </td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="9"></td>
+                        </tr>
+                      </table>
+                      </center>
+                    </div>
+                    <div align="center">
+                      <center>
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="320" id="AutoNumber84">
+                        <tr>
+                          <td width="320" background="/Images/sy_bj_003.gif" height="30" class="dh5">
+                          <p style="margin-top: 6; line-height:150%">&nbsp;&nbsp;&nbsp;&nbsp; <b><font color="#FF6600">
+                          <a href="/Html/list_872.shtml"><font color="#FF6600">
+                          五官科疾病</font></a></font></b></td>
+                        </tr>
+                        <tr>
+                          <td width="320" height="10"></td>
+                        </tr>
+                        <tr>
+                          <td width="320" height="91">
+                          
+    <p align="center"><a href="http://192.168.3.251:88/Html/jsy_1879_20.shtml" target="_blank" style="text-decoration: none">
+    <font size="3" face="华文细黑">父母高度近视 孩子会遗传吗？</font></a></p>
+<p>&nbsp;<font color="#666666">&nbsp;&nbsp;<span style="font-size: 9pt">在日常生活中，我们见到近视有两种类型，一种是单纯近视，另一种是高度近视，它们的发生与遗传因素有一定的关系。</span></font></p>
+</td>
+                        </tr>
+                        <tr>
+                          <td width="320" height="11">
+                      <hr color="#CCCCCC" size="1" style="border-style: dotted; border-width: 1" width="96%"></td>
+                        </tr>
+                        <tr>
+                          <td width="320" height="148" class="dh5">
+                          
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_1878.shtml" target="_blank">青光眼</a> | <a href='http://192.168.3.251:88/Html/qgy_1878_88.shtml' target='_blank'>用验方治疗青光眼</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_1878.shtml" target="_blank">青光眼</a> | <a href='http://192.168.3.251:88/Html/qgy_1878_87.shtml' target='_blank'>眼球变大当心先天性青光眼</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_1878.shtml" target="_blank">青光眼</a> | <a href='http://192.168.3.251:88/Html/qgy_1878_86.shtml' target='_blank'>小心青光眼致盲不可逆</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_1878.shtml" target="_blank">青光眼</a> | <a href='http://192.168.3.251:88/Html/qgy_1878_85.shtml' target='_blank'>冬季骤冷骤热易诱发青光眼</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_1878.shtml" target="_blank">青光眼</a> | <a href='http://192.168.3.251:88/Html/qgy_1878_84.shtml' target='_blank'>青光眼 我该拿你怎么办？</a>
+</ul>
+ </td>
+                        </tr>
+                      </table>
+                      </center>
+                    </div>
+                    </td>
+                    <td width="2%" height="765">　</td>
+                    <td width="48%" height="765" valign="top">
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="320" id="AutoNumber79" height="293">
+                      <tr>
+                          <td width="320" background="/Images/sy_bj_003.gif" height="30" class="dh5">
+                          <p style="margin-top: 6; line-height:150%">&nbsp;&nbsp;&nbsp;&nbsp; <b>
+                          &nbsp;<font color="#FF6600"><a href="/Html/list_867.shtml"><font color="#FF6600">男科疾病</font></a></font></b></td>
+                        </tr>
+                      <tr>
+                          <td width="320" height="10"></td>
+                        </tr>
+                      <tr>
+                          <td width="320" height="91">
+                          
+    <p align="center"><a href="http://192.168.3.251:88/Html/qlxy_1024_15.shtml" target="_blank" style="text-decoration: none">
+    <font size="3" face="华文细黑">前列腺炎不等于男性阳痿</font></a></p>
+<p>&nbsp;<font color="#666666">&nbsp;&nbsp;<span style="font-size: 9pt">只要前列腺稍有不适，就立刻根据宣传单上的地址，去那些小医院就诊。首先，从生理上来讲，男性的勃起与阴茎的解剖结构、神经、血管和内分泌密切相关。而前...</span></font></p>
+</td>
+                        </tr>
+                      <tr>
+                          <td width="320" height="11">
+                      <hr color="#CCCCCC" size="1" style="border-style: dotted; border-width: 1" width="96%"></td>
+                        </tr>
+                      <tr>
+                          <td width="320" height="148" class="dh5">
+                          
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_1000.shtml" target="_blank">不射精症</a> | <a href='http://192.168.3.251:88/Html/bsjz_1000_208.shtml' target='_blank'>自我锻炼 加强射精能力</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_1000.shtml" target="_blank">不射精症</a> | <a href='http://192.168.3.251:88/Html/bsjz_1000_207.shtml' target='_blank'>不射精 试试食疗“高招”</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_1000.shtml" target="_blank">不射精症</a> | <a href='http://192.168.3.251:88/Html/bsjz_1000_206.shtml' target='_blank'>不射精的各种症状表现及治疗</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_1000.shtml" target="_blank">不射精症</a> | <a href='http://192.168.3.251:88/Html/bsjz_1000_205.shtml' target='_blank'>不射精也有“假”</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_1000.shtml" target="_blank">不射精症</a> | <a href='http://192.168.3.251:88/Html/bsjz_1000_204.shtml' target='_blank'>不射精偏爱中国男子</a>
+</ul>
+ </td>
+                        </tr>
+                    </table>
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber81" height="10">
+                      <tr>
+                        <td width="100%" height="10"></td>
+                      </tr>
+                    </table>
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="320" id="AutoNumber83" height="298">
+                      <tr>
+                          <td width="320" background="/Images/sy_bj_003.gif" height="30" class="dh5">
+                          <p style="margin-top: 6; line-height:150%">&nbsp;&nbsp;&nbsp;&nbsp; <b>
+                          &nbsp;<font color="#FF6600"><a href="/Html/list_870.shtml"><font color="#FF6600">外科疾病</font></a></font></b></td>
+                        </tr>
+                      <tr>
+                          <td width="320" height="10"></td>
+                        </tr>
+                      <tr>
+                          <td width="320" height="91">
+                          
+    <p align="center"><a href="http://192.168.3.251:88/Html/xtxxzb_1732_68.shtml" target="_blank" style="text-decoration: none">
+    <font size="3" face="华文细黑">留意小儿先天性心脏病</font></a></p>
+<p>&nbsp;<font color="#666666">&nbsp;&nbsp;<span style="font-size: 9pt">先天性心脏病大多可进行手术治疗，但不同的先天性心脏病的手术方式和最佳手术时期不一。就室间隔缺损而言，一般认为在学龄前期进行手术成功率较高，危险较...</span></font></p>
+</td>
+                        </tr>
+                      <tr>
+                          <td width="320" height="15">
+                      <hr color="#CCCCCC" size="1" style="border-style: dotted; border-width: 1" width="96%"></td>
+                        </tr>
+                      <tr>
+                          <td width="320" height="148" class="dh5">
+                          
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_1725.shtml" target="_blank">肛门外伤</a> | <a href='http://192.168.3.251:88/Html/gmws_1725_288.shtml' target='_blank'>肛门外伤的预防</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_1725.shtml" target="_blank">肛门外伤</a> | <a href='http://192.168.3.251:88/Html/gmws_1725_287.shtml' target='_blank'>肛门外伤的治疗方法</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_1725.shtml" target="_blank">肛门外伤</a> | <a href='http://192.168.3.251:88/Html/gmws_1725_286.shtml' target='_blank'>肛门外伤的预防注意事项</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_1725.shtml" target="_blank">肛门外伤</a> | <a href='http://192.168.3.251:88/Html/gmws_1725_285.shtml' target='_blank'>肛门外伤的治疗</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_1725.shtml" target="_blank">肛门外伤</a> | <a href='http://192.168.3.251:88/Html/gmws_1725_284.shtml' target='_blank'>肛门裂开的病例</a>
+</ul>
+ </td>
+                        </tr>
+                      <tr>
+                        <td width="100%" height="9"></td>
+                      </tr>
+                    </table>
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="320" id="AutoNumber85">
+                      <tr>
+                          <td width="320" background="/Images/sy_bj_003.gif" height="30" class="dh5">
+                          <p style="margin-top: 6; line-height:150%">&nbsp;&nbsp;&nbsp;&nbsp; <b><font color="#FF6600">
+                          <a href="/Html/list_871.shtml"><font color="#FF6600">
+                          皮肤科疾病</font></a></font></b></td>
+                        </tr>
+                      <tr>
+                          <td width="320" height="10"></td>
+                        </tr>
+                      <tr>
+                          <td width="320" height="91">
+                          
+    <p align="center"><a href="http://192.168.3.251:88/Html/lb_1864_91.shtml" target="_blank" style="text-decoration: none">
+    <font size="3" face="华文细黑">口述：离奇染淋病</font></a></p>
+<p>&nbsp;<font color="#666666">&nbsp;&nbsp;<span style="font-size: 9pt">我突然想起在组织情缘活动时，一位女嘉宾描述过的择偶标准，寻找时要从容，交往时要包容，生活中要信任。婚姻又何尝不是如此？没了从容、包容和信任，一座城...</span></font></p>
+</td>
+                        </tr>
+                      <tr>
+                          <td width="320" height="11">
+                      <hr color="#CCCCCC" size="1" style="border-style: dotted; border-width: 1" width="96%"></td>
+                        </tr>
+                      <tr>
+                          <td width="320" height="148" class="dh5">
+                          
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_1864.shtml" target="_blank">淋病</a> | <a href='http://192.168.3.251:88/Html/lb_1864_98.shtml' target='_blank'>淋病患者首选头孢曲松</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_1864.shtml" target="_blank">淋病</a> | <a href='http://192.168.3.251:88/Html/lb_1864_97.shtml' target='_blank'>妊娠合并淋病患者的分娩期护理</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_1864.shtml" target="_blank">淋病</a> | <a href='http://192.168.3.251:88/Html/lb_1864_96.shtml' target='_blank'>案例：隐性淋病的曝光</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_1864.shtml" target="_blank">淋病</a> | <a href='http://192.168.3.251:88/Html/lb_1864_95.shtml' target='_blank'>妊娠合并淋病患者的心理护理</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_1864.shtml" target="_blank">淋病</a> | <a href='http://192.168.3.251:88/Html/lb_1864_94.shtml' target='_blank'>中医方法治疗淋病</a>
+</ul>
+ </td>
+                        </tr>
+                    </table>
+                    </td>
+                  </tr>
+                </table>
+                </td>
+              </tr>
+            </table>
+            </td>
+          </tr>
+        </table>
+        </center>
+      </div>
+      </td>
+    </tr>
+    <tr>
+      <td width="100%" height="6"></td>
+    </tr>
+  </table>
+  </center>
+</div>
+</div>
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="960" id="AutoNumber61" bgcolor="#FFFFFF">
+    <tr>
+      <td width="100%">
+      <div align="center">
+        <center>
+        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="941" id="AutoNumber21" height="75">
+          <tr>
+            <td width="100%" height="75"><script src="http://192.168.3.251:88/plus/ShowA.asp?I=75" type="text/javascript"></script></td>
+          </tr>
+        </table>
+        </center>
+      </div>
+      </td>
+    </tr>
+    <tr>
+      <td width="100%" height="6">
+      <p></p>
+      <p></p>
+      <p></p>
+      <p>
+      <p></td>
+    </tr>
+  </table>
+  </center>
+</div>
+</div>
+</div>
+</div>
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="960" id="AutoNumber86" bgcolor="#FFFFFF">
+    <tr>
+      <td width="100%" height="335" valign="top">
+      <div align="center">
+        <center>
+        <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#AECBD4" width="941" id="AutoNumber46" bgcolor="#F1FBFD" height="450">
+          <tr>
+            <td width="100%" height="450" valign="top">
+            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber47" height="28">
+              <tr>
+                <td width="100%" background="/Images/sy_bj_002.gif" height="28">
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber48">
+                  <tr>
+                    <td width="13%">
+                    <p align="center"><font color="#FF6600">
+                    <span style="font-weight: 700; font-size: 10.5pt">时尚健康</span></font></td>
+                    <td width="53%">　</td>
+                    <td width="34%">　</td>
+                  </tr>
+                </table>
+                </td>
+              </tr>
+            </table>
+            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber50" height="8">
+              <tr>
+                <td width="100%" height="8"></td>
+              </tr>
+            </table>
+            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber49" height="469">
+              <tr>
+                <td width="27%" height="469" valign="top">
+                <div align="center">
+                  <center>
+                  <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#AECBD4" width="94%" id="AutoNumber51" height="145">
+                    <tr>
+                      <td width="100%" height="145" valign="top">
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber52" height="146">
+                        <tr>
+                          <td width="100%" background="/Images/sy_bj_001.gif" height="28">
+                          <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber65">
+                            <tr>
+                              <td width="44%">
+                              <p align="center"><strong>两性乐园</strong></td>
+                              <td width="56%">　</td>
+                            </tr>
+                          </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="110" bgcolor="#FFFFFF">
+                          <div class="sylibiao"> 
+                          <ul> 
+                          <li>&nbsp;·性新闻</li> 
+                          <li>·性疾病</li> 
+                          <li>&nbsp;·性保健</li> 
+                          <li>·性技巧</li> 
+                          <li>&nbsp;·性生理</li> 
+                          <li>·性心理</li>
+                          <li>&nbsp;·性文化</li> 
+                          <li>·性教育</li> 
+                          </ul> 
+                          </div>
+                          </td>
+                        </tr>
+                      </table>
+                      </td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber53" height="6">
+                  <tr>
+                    <td width="100%" height="6"></td>
+                  </tr>
+                </table>
+                <div align="center">
+                  <center>
+                  <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#AECBD4" width="94%" id="AutoNumber54" height="147">
+                    <tr>
+                      <td width="100%" height="147" valign="top">
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber52" height="147">
+                        <tr>
+                          <td width="100%" background="/Images/sy_bj_001.gif" height="28">
+                          <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber66">
+                            <tr>
+                              <td width="44%">
+                              <p align="center"><b>情爱天地</b></td>
+                              <td width="56%">　</td>
+                            </tr>
+                          </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="110" bgcolor="#FFFFFF">
+                          <div class="sylibiao"> 
+                          <ul> 
+                          <li>&nbsp;·女人帮</li> 
+                          <li>·侃男人</li> 
+                          <li>&nbsp;·恋爱滋味</li> 
+                          <li>·单身物语</li> 
+                          <li>&nbsp;·情感生活</li> 
+                          <li>·情爱副刊</li>
+                          <li>&nbsp;·星座情缘</li> 
+                          <li>·明星情感</li> 
+                          </ul> 
+                          </div>
+                          </td>
+                        </tr>
+                      </table>
+                      </td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber55">
+                  <tr>
+                    <td width="100%" height="6"></td>
+                  </tr>
+                </table>
+                <div align="center">
+                  <center>
+                  <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#AECBD4" width="94%" id="AutoNumber56" height="143">
+                    <tr>
+                      <td width="100%" height="143" valign="top">
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber52" height="144">
+                        <tr>
+                          <td width="100%" background="/Images/sy_bj_001.gif" height="28">
+                          <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber67">
+                            <tr>
+                              <td width="44%">
+                              <p align="center"><b>美容美体</b></td>
+                              <td width="56%">　</td>
+                            </tr>
+                          </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="110" bgcolor="#FFFFFF">
+                          <div class="sylibiao"> 
+                          <ul> 
+                          <li>&nbsp;·减肥热点</li> 
+                          <li>·减肥常识</li> 
+                          <li>&nbsp;·局部减肥</li> 
+                          <li>·药物减肥</li> 
+                          <li>&nbsp;·手术减肥</li> 
+                          <li>·中医减肥</li>
+                          <li>&nbsp;·饮食减肥</li> 
+                          <li>·运动减肥</li> 
+                          </ul> 
+                          </div>
+                          </td>
+                        </tr>
+                      </table>
+                      </td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber57">
+                  <tr>
+                    <td width="100%" height="6"></td>
+                  </tr>
+                </table>
+                <div align="center">
+                  <center>
+                  <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#AECBD4" width="94%" id="AutoNumber58" height="146">
+                    <tr>
+                      <td width="100%" height="146" valign="top">
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber52" height="147">
+                        <tr>
+                          <td width="100%" background="/Images/sy_bj_001.gif" height="28">
+                          <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber68">
+                            <tr>
+                              <td width="44%">
+                              <p align="center"><b>医学整形</b></td>
+                              <td width="56%">　</td>
+                            </tr>
+                          </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="110" bgcolor="#FFFFFF">
+                          <div class="sylibiao"> 
+                          <ul> 
+                          <li>&nbsp;·整形动态</li> 
+                          <li>·整形常识</li> 
+                          <li>&nbsp;·整形手术</li> 
+                          <li>·整形要点</li> 
+                          <li>&nbsp;·整形技术</li> 
+                          <li>·明星整形</li>
+                          <li>&nbsp;·专家谈论</li> 
+                          <li>·整形杂谈</li> 
+                          </ul> 
+                          </div>
+                          </td>
+                        </tr>
+                      </table>
+                      </td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber59">
+                  <tr>
+                    <td width="100%" height="6"></td>
+                  </tr>
+                </table>
+                <div align="center">
+                  <center>
+                  <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#AECBD4" width="94%" id="AutoNumber60" height="147">
+                    <tr>
+                      <td width="100%" height="147" valign="top">
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber52" height="147">
+                        <tr>
+                          <td width="100%" background="/Images/sy_bj_001.gif" height="28">
+                          <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber69">
+                            <tr>
+                              <td width="44%">
+                              <p align="center"><b>营养饮食</b></td>
+                              <td width="56%">　</td>
+                            </tr>
+                          </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="110" bgcolor="#FFFFFF">
+                          <div class="sylibiao"> 
+                          <ul> 
+                          <li>&nbsp;·科学饮食</li> 
+                          <li>·美容饮食</li> 
+                          <li>&nbsp;·形体塑身</li> 
+                          <li>·时期营养</li> 
+                          <li>&nbsp;·食物营养</li> 
+                          <li>·疾病调养</li>
+                          <li>&nbsp;·天天饮食</li> 
+                          <li>·美食DIY</li> 
+                          </ul> 
+                          </div>
+                          </td>
+                        </tr>
+                      </table>
+                      </td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber63">
+                  <tr>
+                    <td width="100%" height="6"></td>
+                  </tr>
+                </table>
+                <div align="center">
+                  <center>
+                  <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#AECBD4" width="94%" id="AutoNumber64" height="144">
+                    <tr>
+                      <td width="100%" height="144" valign="top">
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber52" height="145">
+                        <tr>
+                          <td width="100%" background="/Images/sy_bj_001.gif" height="28">
+                          <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber70">
+                            <tr>
+                              <td width="44%">
+                              <p align="center"><b>保健养生</b></td>
+                              <td width="56%">　</td>
+                            </tr>
+                          </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="110" bgcolor="#FFFFFF">
+                          <div class="sylibiao"> 
+                          <ul> 
+                          <li>&nbsp;·家庭保健</li> 
+                          <li>·人群保健</li> 
+                          <li>&nbsp;·大众健身</li> 
+                          <li>·养生之道</li> 
+                          <li>&nbsp;·生活保健</li> 
+                          <li>·四季保健</li>
+                          <li>&nbsp;·亚健康</li> 
+                          <li>·保健产品</li> 
+                          </ul> 
+                          </div>                          
+                          </td>
+                        </tr>
+                      </table>
+                      </td>
+                    </tr>
+                  </table>
+                  </center>
+                </div>
+                </td>
+                <td width="1%" height="469" bgcolor="#FFFFFF">　</td>
+                <td width="72%" height="469" bgcolor="#FFFFFF" valign="top">
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber77" height="765">
+                  <tr>
+                    <td width="48%" height="765" valign="top">
+                    <div align="center">
+                      <center>
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="320" id="AutoNumber78" height="287">
+                        <tr>
+                          <td width="320" background="/Images/sy_bj_003.gif" height="30" class="dh5">
+                          <p style="margin-top: 6; line-height:150%">&nbsp;&nbsp;&nbsp;&nbsp; <b>
+                          &nbsp;<font color="#FF6600"><a href="/Html/list_704.shtml"><font color="#FF6600">两性乐园</font></a></font></b></td>
+                        </tr>
+                        <tr>
+                          <td width="320" height="10"></td>
+                        </tr>
+                        <tr>
+                          <td width="320" height="91">
+                          
+<p align="center">
+    <a href="http://192.168.3.251:88/Html/byy_727_7834.shtml" target="_blank" style="text-decoration: none">
+    <font size="3" face="华文细黑">十种女性应该禁吃避孕药</font></a></p>
+<p><font color="#666666">&nbsp;&nbsp;<span style="font-size: 9pt">一般而言，凡是身体健康的已婚育龄妇女均可使用避孕药，但处于下列情况的妇女不宜使用口服避孕药：</span></font></p>
+</td>
+                        </tr>
+                        <tr>
+                          <td width="320" height="11">
+                      <hr color="#CCCCCC" size="1" style="border-style: dotted; border-width: 1" width="96%"></td>
+                        </tr>
+                        <tr>
+                          <td width="320" height="148" class="dh5">
+                          
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_737.shtml" target="_blank">性心理病例</a> | <a href='http://192.168.3.251:88/Html/xxlbl_737_7905.shtml' target='_blank'>“性爱成瘾” 当女人变成色情狂之后</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_737.shtml" target="_blank">性心理病例</a> | <a href='http://192.168.3.251:88/Html/xxlbl_737_7904.shtml' target='_blank'>不协调的夫妻性生活</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_737.shtml" target="_blank">性心理病例</a> | <a href='http://192.168.3.251:88/Html/xxlbl_737_7903.shtml' target='_blank'>被“性病”折磨的男人</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_737.shtml" target="_blank">性心理病例</a> | <a href='http://192.168.3.251:88/Html/xxlbl_737_7902.shtml' target='_blank'>被扭曲的青春性意识</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_737.shtml" target="_blank">性心理病例</a> | <a href='http://192.168.3.251:88/Html/xxlbl_737_7901.shtml' target='_blank'>扒洞偷窥的小伙 </a>
+</ul>
+ </td>
+                        </tr>
+                      </table>
+                      </center>
+                    </div>
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber80" height="10">
+                      <tr>
+                        <td width="100%" height="10"></td>
+                      </tr>
+                    </table>
+                    <div align="center">
+                      <center>
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="320" id="AutoNumber82" height="299">
+                        <tr>
+                          <td width="320" background="/Images/sy_bj_003.gif" height="30" class="dh5">
+                          <p style="margin-top: 6; line-height:150%">&nbsp;&nbsp;&nbsp;&nbsp; <b>
+                          &nbsp;<font color="#FF6600"><a href="/Html/list_517.shtml"><font color="#FF6600">保健养生</font></a></font></b></td>
+                        </tr>
+                        <tr>
+                          <td width="320" height="10"></td>
+                        </tr>
+                        <tr>
+                          <td width="320" height="91">
+                          
+<p align="center">
+    <a href="http://192.168.3.251:88/Html/qiujibaojian_547_1402.shtml" target="_blank" style="text-decoration: none">
+    <font size="3" face="华文细黑">秋天用热毛巾敷脸可补水</font></a></p>
+<p><font color="#666666">&nbsp;&nbsp;<span style="font-size: 9pt">秋天驱走了夏日的暑气，但也同时悄无声息地带走了我们皮肤的水分，让脸部、颈部变得干燥。不过，你也不必为此“大动干戈”，把各种瓶瓶罐罐的化妆品搬回家...</span></font></p>
+</td>
+                        </tr>
+                        <tr>
+                          <td width="320" height="15">
+                      <hr color="#CCCCCC" size="1" style="border-style: dotted; border-width: 1" width="96%"></td>
+                        </tr>
+                        <tr>
+                          <td width="320" height="148" class="dh5">
+                          
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_544.shtml" target="_blank">调节改善</a> | <a href='http://192.168.3.251:88/Html/diaojiegaishan_544_1541.shtml' target='_blank'>四大睡眠恶习非改不可</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_544.shtml" target="_blank">调节改善</a> | <a href='http://192.168.3.251:88/Html/diaojiegaishan_544_1540.shtml' target='_blank'>嗜睡也是一种失眠吗？</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_544.shtml" target="_blank">调节改善</a> | <a href='http://192.168.3.251:88/Html/diaojiegaishan_544_1539.shtml' target='_blank'>早醒 是抑郁“信号兵”</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_544.shtml" target="_blank">调节改善</a> | <a href='http://192.168.3.251:88/Html/diaojiegaishan_544_1538.shtml' target='_blank'>经常按摩才能睡得好</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_544.shtml" target="_blank">调节改善</a> | <a href='http://192.168.3.251:88/Html/diaojiegaishan_544_1537.shtml' target='_blank'>专家建议假睡危害不容忽视</a>
+</ul>
+ </td>
+                        </tr>
+                        <tr>
+                          <td width="100%" height="9"></td>
+                        </tr>
+                      </table>
+                      </center>
+                    </div>
+                    <div align="center">
+                      <center>
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="320" id="AutoNumber84">
+                        <tr>
+                          <td width="320" background="/Images/sy_bj_003.gif" height="30" class="dh5">
+                          <p style="margin-top: 6; line-height:150%">&nbsp;&nbsp;&nbsp;&nbsp; <b>
+                          &nbsp;<font color="#FF6600"><a href="/Html/list_561.shtml"><font color="#FF6600">美容美体</font></a></font></b></td>
+                        </tr>
+                        <tr>
+                          <td width="320" height="10"></td>
+                        </tr>
+                        <tr>
+                          <td width="320" height="91">
+                          
+<p align="center">
+    <a href="http://192.168.3.251:88/Html/hufadaren_606_2633.html" target="_blank" style="text-decoration: none">
+    <font size="3" face="华文细黑">大胸女星性感美胸私招</font></a></p>
+<p><font color="#666666">&nbsp;&nbsp;<span style="font-size: 9pt">提到大胸女星，很多人会直接想到性感。而真正了解美胸的人又不是很多，让我们来看看这些明星们是如何做美胸文章的，还等什么，让我们一起往下看吧，保证你看...</span></font></p>
+</td>
+                        </tr>
+                        <tr>
+                          <td width="320" height="11">
+                      <hr color="#CCCCCC" size="1" style="border-style: dotted; border-width: 1" width="96%"></td>
+                        </tr>
+                        <tr>
+                          <td width="320" height="148" class="dh5">
+                          
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_573.shtml" target="_blank">美白祛斑</a> | <a href='http://192.168.3.251:88/Html/meibaiban_573_7633.shtml' target='_blank'>八种美白水果 让你一吃就变白</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_585.shtml" target="_blank">运动塑体</a> | <a href='http://192.168.3.251:88/Html/yundongsuti_585_7632.shtml' target='_blank'>做对仰卧起坐 20分钟摆脱腰腹肥肉</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_586.shtml" target="_blank">饮食塑体</a> | <a href='http://192.168.3.251:88/Html/yinshisuti_586_7631.shtml' target='_blank'>秋季多吃奇异果 补充维C大瘦身</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_590.shtml" target="_blank">丰胸秘籍</a> | <a href='http://192.168.3.251:88/Html/fengxiongmiji_590_7627.shtml' target='_blank'>当心五大恶习让你的胸部缩水(图)</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_606.shtml" target="_blank">美体达人</a> | <a href='http://192.168.3.251:88/Html/hufadaren_606_2706.html' target='_blank'>大胸部美女F4示范提胸紧胸</a>
+</ul>
+ </td>
+                        </tr>
+                      </table>
+                      </center>
+                    </div>
+                    </td>
+                    <td width="2%" height="765">　</td>
+                    <td width="48%" height="765" valign="top">
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="320" id="AutoNumber79" height="293">
+                      <tr>
+                          <td width="320" background="/Images/sy_bj_003.gif" height="30" class="dh5">
+                          <p style="margin-top: 6; line-height:150%">&nbsp;&nbsp;&nbsp;&nbsp; <b>
+                          &nbsp;<font color="#FF6600"><a href="/Html/list_748.shtml"><font color="#FF6600">情爱天地</font></a></font></b></td>
+                        </tr>
+                      <tr>
+                          <td width="320" height="10"></td>
+                        </tr>
+                      <tr>
+                          <td width="320" height="91">
+                          
+<p align="center">
+    <a href="http://192.168.3.251:88/Html/nrqr_761_6258.shtml" target="_blank" style="text-decoration: none">
+    <font size="3" face="华文细黑">男人到底为什么会花心</font></a></p>
+<p><font color="#666666">&nbsp;&nbsp;<span style="font-size: 9pt">男人到底为什么会花心???男人多多少少是荣誉的奴隶，所以，为了成就感而闹得后院起火的男人，很多，很可怜。</span></font></p>
+</td>
+                        </tr>
+                      <tr>
+                          <td width="320" height="11">
+                      <hr color="#CCCCCC" size="1" style="border-style: dotted; border-width: 1" width="96%"></td>
+                        </tr>
+                      <tr>
+                          <td width="320" height="148" class="dh5">
+                          
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_761.shtml" target="_blank">男人七日</a> | <a href='http://192.168.3.251:88/Html/nrqr_761_7315.shtml' target='_blank'>穷男人更喜欢偏胖的女人</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_761.shtml" target="_blank">男人七日</a> | <a href='http://192.168.3.251:88/Html/nrqr_761_6276.shtml' target='_blank'>在女人面前男人为何更害羞</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_761.shtml" target="_blank">男人七日</a> | <a href='http://192.168.3.251:88/Html/nrqr_761_6275.shtml' target='_blank'>男人如何答女人的傻问题</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_761.shtml" target="_blank">男人七日</a> | <a href='http://192.168.3.251:88/Html/nrqr_761_6274.shtml' target='_blank'>5种男人最爱的生活状态</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_761.shtml" target="_blank">男人七日</a> | <a href='http://192.168.3.251:88/Html/nrqr_761_6273.shtml' target='_blank'>男人9个姿态可以征服一切女人</a>
+</ul>
+ </td>
+                        </tr>
+                    </table>
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber81" height="10">
+                      <tr>
+                        <td width="100%" height="10"></td>
+                      </tr>
+                    </table>
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="320" id="AutoNumber83" height="298">
+                      <tr>
+                          <td width="320" background="/Images/sy_bj_003.gif" height="30" class="dh5">
+                          <p style="margin-top: 6; line-height:150%">&nbsp;&nbsp;&nbsp;&nbsp; <b>
+                          &nbsp;<font color="#FF6600"><a href="/Html/list_469.shtml"><font color="#FF6600">营养饮食</font></a></font></b></td>
+                        </tr>
+                      <tr>
+                          <td width="320" height="10"></td>
+                        </tr>
+                      <tr>
+                          <td width="320" height="91">
+                          
+<p align="center">
+    <a href="http://192.168.3.251:88/Html/chengrenyingyang_489_7398.shtml" target="_blank" style="text-decoration: none">
+    <font size="3" face="华文细黑">高龄老人脑溢血的营养饮食方</font></a></p>
+<p><font color="#666666">&nbsp;&nbsp;<span style="font-size: 9pt">虽然老年痴呆的原因不明，但脑溢血等血管疾病，引起脑中血液循环不妳可能是原因之一，因此预防脑溢血是很重要的。</span></font></p>
+</td>
+                        </tr>
+                      <tr>
+                          <td width="320" height="15">
+                      <hr color="#CCCCCC" size="1" style="border-style: dotted; border-width: 1" width="96%"></td>
+                        </tr>
+                      <tr>
+                          <td width="320" height="148" class="dh5">
+                          
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_491.shtml" target="_blank">果蔬谷物</a> | <a href='http://192.168.3.251:88/Html/guoshuguwu_491_7630.shtml' target='_blank'>黄瓜会破坏其他食物营养</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_491.shtml" target="_blank">果蔬谷物</a> | <a href='http://192.168.3.251:88/Html/guoshuguwu_491_7629.shtml' target='_blank'>黑芝麻红豆粥滋补功效强</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_487.shtml" target="_blank">幼儿营养</a> | <a href='http://192.168.3.251:88/Html/youeryingyang_487_7626.shtml' target='_blank'>喂奶粉9个最易犯的错误</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_514.shtml" target="_blank">饮食快讯</a> | <a href='http://192.168.3.251:88/Html/yinshikuaixun_514_7625.shtml' target='_blank'>医学博士公布不同体型人群科学饮食方案</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_509.shtml" target="_blank">其它美食</a> | <a href='http://192.168.3.251:88/Html/qitagaodian_509_7624.shtml' target='_blank'>意式主食——芝士焗螺丝粉</a>
+</ul>
+ </td>
+                        </tr>
+                      <tr>
+                        <td width="100%" height="9"></td>
+                      </tr>
+                    </table>
+                    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="320" id="AutoNumber85">
+                      <tr>
+                          <td width="320" background="/Images/sy_bj_003.gif" height="30" class="dh5">
+                          <p style="margin-top: 6; line-height:150%">&nbsp;&nbsp;&nbsp;&nbsp; <b>
+                          &nbsp;<font color="#FF6600"><a href="/Html/list_1485.shtml"><font color="#FF6600">健康体检</font></a></font></b></td>
+                        </tr>
+                      <tr>
+                          <td width="320" height="10"></td>
+                        </tr>
+                      <tr>
+                          <td width="320" height="91">
+                          
+<p align="center">
+    <a href="http://192.168.3.251:88/Html/sytj_1499_6794.shtml" target="_blank" style="text-decoration: none">
+    <font size="3" face="华文细黑">生育前必不可少的检查项目</font></a></p>
+<p><font color="#666666">&nbsp;&nbsp;<span style="font-size: 9pt">如果选择了放弃婚检，专家认为，你有必要在准备怀孕阶段把婚检的大部分项目认真地查一遍，这对于生育一个健康的宝宝关系重大。</span></font></p>
+</td>
+                        </tr>
+                      <tr>
+                          <td width="320" height="11">
+                      <hr color="#CCCCCC" size="1" style="border-style: dotted; border-width: 1" width="96%"></td>
+                        </tr>
+                      <tr>
+                          <td width="320" height="148" class="dh5">
+                          
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_1645.shtml" target="_blank">体检机构</a> | <a href='http://192.168.3.251:88/Html/tjjg_1645_http://www.mztj.cn/' target='_blank'>民众专业体检中心</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_1502.shtml" target="_blank">婚前体检</a> | <a href='http://192.168.3.251:88/Html/hqtj_1502_7694.shtml' target='_blank'>男性体检该怎么查？</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_1502.shtml" target="_blank">婚前体检</a> | <a href='http://192.168.3.251:88/Html/hqtj_1502_7693.shtml' target='_blank'>血精要做哪些检查</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_1502.shtml" target="_blank">婚前体检</a> | <a href='http://192.168.3.251:88/Html/hqtj_1502_7692.shtml' target='_blank'>男性生育力 主要检查</a>
+</ul>
+
+<ul>
+  ·<a href="http://192.168.3.251:88/Html/list_1502.shtml" target="_blank">婚前体检</a> | <a href='http://192.168.3.251:88/Html/hqtj_1502_7691.shtml' target='_blank'>精液检查要注意什么</a>
+</ul>
+ </td>
+                        </tr>
+                    </table>
+                    </td>
+                  </tr>
+                </table>
+                </td>
+              </tr>
+            </table>
+            </td>
+          </tr>
+        </table>
+        </center>
+      </div>
+      </td>
+    </tr>
+    <tr>
+      <td width="100%" height="6"></td>
+    </tr>
+  </table>
+  </center>
+</div>
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="960" id="AutoNumber87" bgcolor="#FFFFFF">
+    <tr>
+      <td width="100%">
+      <div align="center">
+        <center>
+        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="941" id="AutoNumber21" height="75" bgcolor="#FFFFFF">
+          <tr>
+            <td width="100%" height="75"><script src="http://192.168.3.251:88/plus/ShowA.asp?I=76" type="text/javascript"></script></td>
+          </tr>
+        </table>
+        </center>
+      </div>
+      </td>
+    </tr>
+    <tr>
+      <td width="100%" height="6"></td>
+    </tr>
+  </table>
+  </center>
+</div>
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="960" id="AutoNumber88" bgcolor="#FFFFFF">
+    <tr>
+      <td width="100%" height="100%" valign="top">
+      <div align="center">
+        <center>
+        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="941" id="AutoNumber7">
+          <tr>
+            <td width="245" valign="top">
+            <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#AECBD4" width="245" id="AutoNumber17" height="298">
+              <tr>
+                <td width="100%" valign="top" height="298">
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber18">
+                  <tr>
+                      <td width="100%" height="29" background="/Images/sy_bj_001.gif">
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber39">
+                        <tr>
+                          <td width="38%">
+                          <p align="center"><font color="#FF6600">
+                          <span style="font-weight: 700; font-size: 10.5pt">医生点评</span></font></td>
+                          <td width="38%">
+                          　</td>
+                          <td width="24%">
+                          <p align="center">更多&gt;&gt;</td>
+                        </tr>
+                      </table>
+                      </td>
+                    </tr>
+                </table>
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber42" height="8">
+                  <tr>
+                    <td width="100%" height="16"></td>
+                  </tr>
+                </table>
+                <div align="center">
+                  <center>
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber41" height="68">
+                  <tr>
+                    <td width="4%" height="68">　</td>
+                    <td width="96%" height="68"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/bjs_2036_95.shtml" target="_blank" title="万焕忠">万焕忠</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/bjzm_2035_89.shtml" target="_blank" title="阴道不规则出血的“元凶”">阴道不规则出血的“元凶”</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/bjzm_2035_84.shtml" target="_blank" title="产房10个最让女人困惑问题详解">产房10个最让女人困惑问题详解</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/bjzm_2035_79.shtml" target="_blank" title="专家提醒：莫让孩子暑假“飙肥”">专家提醒：莫让孩子暑假“飙肥”</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/bjzm_2035_77.shtml" target="_blank" title="院士：重评中药注射剂">院士：重评中药注射剂</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/bjzm_2035_76.shtml" target="_blank" title="中药为什么要配伍使用">中药为什么要配伍使用</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/bjzm_2035_73.shtml" target="_blank" title="喝豆浆 3天瘦9斤">喝豆浆&nbsp;3天瘦9斤</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/myjt_2033_71.shtml" target="_blank" title="男人无精子不等于不育">男人无精子不等于不育</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/myjt_2033_63.shtml" target="_blank" title="新知：适当饮茶也能壮阳？">新知：适当饮茶也能壮阳？</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/myjt_2033_59.shtml" target="_blank" title="中西药注射液忌“婚配”">中西药注射液忌“婚配”</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/myjt_2033_58.shtml" target="_blank" title="中气虚易得胃下垂">中气虚易得胃下垂</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/ysdp_2031_43.shtml" target="_blank" title="张亚历">张亚历</a></td>
+</tr>
+</table>
+</td>
+                  </tr>
+                </table>
+                  </center>
+                </div>
+                </td>
+              </tr>
+            </table>
+            </td>
+            <td width="7" valign="top">
+            　</td>
+            <td width="337" valign="top">
+            <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#AECBD4" width="100%" id="AutoNumber89" height="297">
+              <tr>
+                <td width="100%" height="297" valign="top">
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber103">
+                  <tr>
+                    <td width="100%">
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber104">
+                  <tr>
+                      <td width="100%" height="29" background="/Images/sy_bj_001.gif">
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber105">
+                        <tr>
+                          <td width="32%">
+                          <p align="center"><font color="#FF6600">
+                          <span style="font-weight: 700; font-size: 10.5pt">医院名录</span></font></td>
+                          <td width="50%">　</td>
+                          <td width="18%">
+                          <p align="center">更多&gt;&gt;</td>
+                        </tr>
+                      </table>
+                      </td>
+                    </tr>
+                </table>
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber106" height="8">
+                  <tr>
+                    <td width="100%" height="16"></td>
+                  </tr>
+                </table>
+                <div align="center">
+                  <center>
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber107" height="68">
+                  <tr>
+                    <td width="3%" height="68">　</td>
+                    <td width="97%" height="68"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/mzbb_1999_634.shtml" target="_blank" title="北京妇产医院出诊/停诊信息">北京妇产医院出诊/停诊信息</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/mzbb_1999_630.shtml" target="_blank" title="安贞医院出诊/停诊信息">安贞医院出诊/停诊信息</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/mzbb_1999_629.shtml" target="_blank" title="北京朝阳医院出诊/停诊信息">北京朝阳医院出诊/停诊信息</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/mzbb_1999_628.shtml" target="_blank" title="中日友好医院出诊/停诊信息">中日友好医院出诊/停诊信息</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/jyzn_1997_627.shtml" target="_blank" title="北京宣武医院挂号现状">北京宣武医院挂号现状</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/jyzn_1997_626.shtml" target="_blank" title="北京中医医院挂号经历">北京中医医院挂号经历</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/jyzn_1997_625.shtml" target="_blank" title="北医三院看不孕攻略">北医三院看不孕攻略</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/jyzn_1997_624.shtml" target="_blank" title="阜外医院PK安贞医院">阜外医院PK安贞医院</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/jyzn_1997_623.shtml" target="_blank" title="北京天坛医院就医挂号攻略">北京天坛医院就医挂号攻略</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/jyzn_1997_622.shtml" target="_blank" title="北医三院生殖中心看病最新攻略">北医三院生殖中心看病最新攻略</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/jyzn_1997_621.shtml" target="_blank" title="北京协和医院看不孕不育最新攻略">北京协和医院看不孕不育最新攻略</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/jyzn_1997_620.shtml" target="_blank" title="北京同仁医院轻松挂号之兵法">北京同仁医院轻松挂号之兵法</a></td>
+</tr>
+</table>
+</td>
+                  </tr>
+                </table>
+                  </center>
+                </div>
+                    </td>
+                  </tr>
+                </table>
+                </td>
+              </tr>
+            </table>
+            </td>
+            <td width="8" valign="top">　</td>
+            <td width="344" valign="top">
+            <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#AECBD4" width="100%" id="AutoNumber90" height="297">
+              <tr>
+                <td width="100%" height="297" valign="top">
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber108">
+                  <tr>
+                    <td width="100%">
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber109">
+                  <tr>
+                      <td width="100%" height="29" background="/Images/sy_bj_001.gif">
+                      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber110">
+                        <tr>
+                          <td width="32%">
+                          <p align="center"><font color="#FF6600">
+                          <span style="font-weight: 700; font-size: 10.5pt">药企药店</span></font></td>
+                          <td width="51%">　</td>
+                          <td width="17%">
+                          <p align="center">更多&gt;&gt;</td>
+                        </tr>
+                      </table>
+                      </td>
+                    </tr>
+                </table>
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber111" height="8">
+                  <tr>
+                    <td width="100%" height="16"></td>
+                  </tr>
+                </table>
+                <div align="center">
+                  <center>
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber112" height="68">
+                  <tr>
+                    <td width="3%" height="68">　</td>
+                    <td width="97%" height="68"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/xydt_2071_201.shtml" target="_blank" title="医药业闻“基”起舞 互相渗透是“基”调">医药业闻“基”起舞&nbsp;互相渗透是“基”调</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/xydt_2071_200.shtml" target="_blank" title="大药企收缩全球生产线 持续调整削减成本">大药企收缩全球生产线&nbsp;持续调整削减成本</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/yyyx_2205_199.shtml" target="_blank" title="医药联盟：满怀希望艰难前行">医药联盟：满怀希望艰难前行</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/xydt_2071_198.shtml" target="_blank" title="西南合成拟用地块增资重庆大新药业">西南合成拟用地块增资重庆大新药业</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/xydt_2071_197.shtml" target="_blank" title="开门融资 医药民营企业“快鱼吃慢鱼”">开门融资&nbsp;医药民营企业“快鱼吃慢鱼”</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/xydt_2071_196.shtml" target="_blank" title="保健行业期盼实行备案制 转向“轻审批重监管”">保健行业期盼实行备案制&nbsp;转向“轻审批重监管</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/xydt_2071_195.shtml" target="_blank" title="甲型流感疫苗“战役打响” 研发公司狼烟四起">甲型流感疫苗“战役打响”&nbsp;研发公司狼烟四起</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/shdq_2073_194.shtml" target="_blank" title="上海第一医药股份有限公司">上海第一医药股份有限公司</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/xydt_2071_153.shtml" target="_blank" title="生物公司牵手药厂期待爆炸式增长">生物公司牵手药厂期待爆炸式增长</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/yqyd_2067_152.shtml" target="_blank" title="制药巨头辉瑞掘金中国农村医药市场">制药巨头辉瑞掘金中国农村医药市场</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/yqyd_2067_151.shtml" target="_blank" title="沃华医药上半年盈利3991万元">沃华医药上半年盈利3991万元</a></td>
+</tr>
+<tr>
+  <td height="20"><img src="/Upfiles/list_ico1.gif" alt="" border="0"/><a href="http://192.168.3.251:88/Html/yqyd_2067_150.shtml" target="_blank" title="诺和诺德加速渗透我国糖尿病药物市场">诺和诺德加速渗透我国糖尿病药物市场</a></td>
+</tr>
+</table>
+</td>
+                  </tr>
+                </table>
+                  </center>
+                </div>
+                    </td>
+                  </tr>
+                </table>
+                </td>
+              </tr>
+            </table>
+            </td>
+          </tr>
+        </table>
+        </center>
+      </div>
+      </td>
+    </tr>
+    <tr>
+      <td width="100%" height="6"></td>
+    </tr>
+  </table>
+  </center>
+</div>
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="960" id="AutoNumber91" bgcolor="#FFFFFF" height="190">
+    <tr>
+      <td width="100%" height="190" valign="top">
+      <div align="center">
+        <center>
+        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="941" id="AutoNumber93" height="28">
+          <tr>
+            <td width="100%" background="/Images/sy_bj_004.gif" height="28">
+            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber117" height="22">
+              <tr>
+                <td width="18%" height="22">　</td>
+                <td width="72%" height="22">　</td>
+                <td width="10%" height="22">
+                <p align="center" style="margin-top: 4"><font color="#FFFFFF">
+                <b>精确搜索</b></font></td>
+              </tr>
+            </table>
+            </td>
+          </tr>
+        </table>
+        </center>
+      </div>
+      <div align="center">
+        <center>
+        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#B3E3D3" width="941" id="AutoNumber92" height="244">
+          <tr>
+            <td width="100%" height="244" background="/Images/sy_bj_006.gif" valign="top">
+            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber98" height="239">
+              <tr>
+                <td width="4%" height="29">　</td>
+                <td width="30%" height="29" class="syjb">
+                <div>
+                <ul>
+                <li>癌症</li>
+                <li>艾滋病</li>
+                <li>阿尔茨海默</li>
+                <li>阿米巴肠病</li>
+                </ul>
+                </div>
+                </td>
+                <td width="4%" height="29">　</td>
+                <td width="30%" height="29" class="syjb">
+                <div>
+                <ul>
+                <li>白癜风</li>
+                <li>白内障</li>
+                <li>鼻窦炎</li>
+                <li>扁桃体炎</li>
+                </ul>
+                </div>
+                </td>
+                <td width="4%" height="29">　</td>
+                <td width="28%" height="29" class="syjb">
+                <div>
+                <ul>
+                <li>猝死</li>
+                <li>痤疮</li>
+                <li>肠梗阻</li>
+                <li>产褥感染</li>
+                </ul>
+                </div>
+                </td>
+              </tr>
+              <tr>
+                <td width="4%" height="32">　</td>
+                <td width="30%" height="32" class="syjb">
+                <div>
+                <ul>
+                <li>低血压</li>
+                <li>胆结石</li>
+                <li>带状疱疹</li>
+                <li>毒蛇咬伤</li>
+                </ul>
+                </div>
+                </td>
+                <td width="4%" height="32">　</td>
+                <td width="30%" height="32" class="syjb">
+                <div>
+                <ul>
+                <li>耳鸣</li>
+                <li>耳聋</li>
+                <li>鹅口疮</li>
+                <li>儿童口吃</li>
+                </ul>
+                </div>
+                </td>
+                <td width="4%" height="32">　</td>
+                <td width="28%" height="32" class="syjb">
+                <div>
+                <ul>
+                <li>发热</li>
+                <li>肥胖</li>
+                <li>腹泻</li>
+                <li>附件炎</li>
+                </ul>
+                </div>
+                </td>
+              </tr>
+              <tr>
+                <td width="4%" height="29">　</td>
+                <td width="30%" height="29" class="syjb">
+                <div>
+                <ul>
+                <li>高血压</li>
+                <li>冠心病</li>
+                <li>骨质疏松</li>
+                <li>股骨头坏死</li>
+                </ul>
+                </div>
+                </td>
+                <td width="4%" height="29">　</td>
+                <td width="30%" height="29" class="syjb">
+                <div>
+                <ul>
+                <li>黄疸</li>
+                <li>蛔虫病</li>
+                <li>黄褐斑</li>
+                <li>红斑狼疮</li>
+                </ul>
+                </div>
+                </td>
+                <td width="4%" height="29">　</td>
+                <td width="28%" height="29" class="syjb">
+                <div>
+                <ul>
+                <li>脚气</li>
+                <li>颈椎病</li>
+                <li>尖锐湿疣</li>
+                <li>肌营养不良</li>
+                </ul>
+                </div>
+                </td>
+              </tr>
+              <tr>
+                <td width="4%" height="30">　</td>
+                <td width="30%" height="30" class="syjb">
+                <div>
+                <ul>
+                <li>咳嗽</li>
+                <li>口臭</li>
+                <li>狂犬病</li>
+                <li>口腔溃疡</li>
+                </ul>
+                </div>
+                </td>
+                <td width="4%" height="30">　</td>
+                <td width="30%" height="30" class="syjb">
+                <div>
+                <ul>
+                <li>淋病</li>
+                <li>卵巢癌</li>
+                <li>阑尾炎</li>
+                <li>淋巴结肿大</li>
+                </ul>
+                </div>
+                </td>
+                <td width="4%" height="30">　</td>
+                <td width="28%" height="30" class="syjb">
+                <div>
+                <ul>
+                <li>梅毒</li>
+                <li>麦粒肿</li>
+                <li>毛囊炎</li>
+                <li>慢性咽炎</li>
+                </ul>
+                </div>
+                </td>
+              </tr>
+              <tr>
+                <td width="4%" height="30">　</td>
+                <td width="30%" height="30" class="syjb">
+                <div>
+                <ul>
+                <li>脑血栓</li>
+                <li>牛皮癣</li>
+                <li>男性不育</li>
+                <li>女性不孕</li>
+                </ul>
+                </div>
+                </td>
+                <td width="4%" height="30">　</td>
+                <td width="30%" height="30" class="syjb">
+                <div>
+                <ul>
+                <li>贫血</li>
+                <li>偏头痛</li>
+                <li>盆腔炎</li>
+                <li>皮肤过敏</li>
+                </ul>
+                </div>
+                </td>
+                <td width="4%" height="30">　</td>
+                <td width="28%" height="30" class="syjb">
+                <div>
+                <ul>
+                <li>龋齿</li>
+                <li>雀斑</li>
+                <li>青光眼</li>
+                <li>前列腺炎</li>
+                </ul>
+                </div>
+                </td>
+              </tr>
+              <tr>
+                <td width="4%" height="30">　</td>
+                <td width="30%" height="30" class="syjb">
+                <div>
+                <ul>
+                <li>褥疮</li>
+                <li>乳腺癌</li>
+                <li>软下疳</li>
+                <li>乳房纤维瘤</li>
+                </ul>
+                </div>
+                </td>
+                <td width="4%" height="30">　</td>
+                <td width="30%" height="30" class="syjb">
+                <div>
+                <ul>
+                <li>湿疹</li>
+                <li>失眠症</li>
+                <li>肾积水</li>
+                <li>手足口病</li>
+                </ul>
+                </div>
+                </td>
+                <td width="4%" height="30">　</td>
+                <td width="28%" height="30" class="syjb">
+                <div>
+                <ul>
+                <li>头痛</li>
+                <li>秃头</li>
+                <li>痛经</li>
+                <li>体型异常</li>
+                </ul>
+                </div>
+                </td>
+              </tr>
+              <tr>
+                <td width="4%" height="30">　</td>
+                <td width="30%" height="30" class="syjb">
+                <div>
+                <ul>
+                <li>外痔</li>
+                <li>外阴炎</li>
+                <li>外耳道炎</li>
+                <li>腕管综合征</li>
+                </ul>
+                </div>
+                </td>
+                <td width="4%" height="30">　</td>
+                <td width="30%" height="30" class="syjb">
+                <div>
+                <ul>
+                <li>眩晕</li>
+                <li>性早熟</li>
+                <li>血友病</li>
+                <li>心肌梗塞</li>
+                </ul>
+                </div>
+                </td>
+                <td width="4%" height="30">　</td>
+                <td width="28%" height="30" class="syjb">
+                <div>
+                <ul>
+                <li>阴道出血</li>
+                <li>阴囊肿大</li>
+                <li>抑郁症</li>
+                <li>运动神经元</li>
+                </ul>
+                </div>
+                </td>
+              </tr>
+              <tr>
+                <td width="4%" height="30">　</td>
+                <td width="30%" height="30" class="syjb">
+                <div>
+                <ul>
+                <li>早搏</li>
+                <li>中风</li>
+                <li>直肠癌</li>
+                <li>重症肌无力</li>
+                </ul>
+                </div>
+                </td>
+                <td width="4%" height="30">　</td>
+                <td width="30%" height="30" class="syjb">
+                <div>
+                <ul>
+                <li>早产儿</li>
+                <li>子宫肌瘤</li>
+                <li>主动脉瘤</li>
+                <li>支气管扩张</li>
+                </ul>
+                </div>
+                </td>
+                <td width="4%" height="30">　</td>
+                <td width="28%" height="30" class="syjb">
+                <div>
+                <ul>
+                <li>脂肪瘤</li>
+                <li>早孕反应</li>
+                <li>直肠息肉</li>
+                <li>坐骨神经痛</li>
+                </ul>
+                </div>
+                </td>
+              </tr>
+            </table>
+            </td>
+          </tr>
+          </table>
+        </center>
+      </div>
+      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber94">
+        <tr>
+      <td width="100%" height="6"></td>
+        </tr>
+      </table>
+      <div align="center">
+        <center>
+        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="941" id="AutoNumber95" height="30">
+          <tr>
+            <td width="100%" background="/Images/sy_bj_005.gif" height="30">
+            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber116" height="20">
+              <tr>
+                <td width="18%" height="20">　</td>
+                <td width="72%" height="20">　</td>
+                <td width="10%" height="20">
+                <p align="center" style="margin-top: 4"><font color="#FFFFFF">
+                <b>精确搜索</b></font></td>
+              </tr>
+            </table>
+            </td>
+          </tr>
+        </table>
+        </center>
+      </div>
+      <div align="center">
+        <center>
+        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#B3E3D3" width="941" id="AutoNumber96" height="127">
+          <tr>
+            <td width="100%" height="127" background="/Images/sy_bj_007.gif" valign="top">
+            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber99" height="94">
+              <tr>
+                <td width="6%" height="29">
+                <p align="center"><font color="#FFFFFF"><b>北京</b></font></td>
+                <td width="94%" height="29">
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber113">
+                  <tr>
+                    <td width="94%" class="syyy">
+                    <div>
+                    <ul>
+                    <li>中日友好医院</li>
+                    <li>武警总医院</li>
+                    <li>北京大学人民医院</li>
+                    <li>北京大学第一医院</li>
+                    <li>卫生部北京医院</li>
+                    <li>广安门医院</li>
+                    <li>北京友谊医院</li>
+                    </ul>
+                    </div>
+                    </td>
+                    <td width="9%">
+                    <p align="center">更多&gt;&gt;</td>
+                  </tr>
+                </table>
+                </td>
+              </tr>
+              <tr>
+                <td width="6%" height="32" align="center">
+                <p style="margin-top: 2"><font color="#FFFFFF"><b>上海</b></font></td>
+                <td width="94%" height="32">
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber114">
+                  <tr>
+                    <td width="94%" class="syyy">
+                    <div>
+                    <ul>
+                    <li>上海长征医院</li>
+                    <li>交通大学新华医院</li>
+                    <li>复旦大学儿科医院</li>
+                    <li>复旦大学华山医院</li>
+                    <li>复旦大学肿瘤医院</li>
+                    <li>上海瑞金医院</li>
+                    <li>上海第九人民医院</li>
+                    </ul>
+                    </div>
+                    </td>
+                    <td width="9%">
+                    <p align="center" style="margin-top: 4">更多&gt;&gt;</td>
+                  </tr>
+                </table>
+                </td>
+              </tr>
+              <tr>
+                <td width="6%" height="31" align="center">
+                <p style="margin-top: 2"><font color="#FFFFFF"><b>广州</b></font></td>
+                <td width="94%" height="31">
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber115">
+                  <tr>
+                    <td width="94%" class="syyy">
+                    <div>
+                    <ul>
+                    <li>中大附属第一医院</li>
+                    <li>中大附属第二医院</li>
+                    <li>中大附属第三医院</li>
+                    <li>广东省中医院</li>
+                    <li>南方医大南方医院</li>
+                    <li>中山眼科中心</li>
+                    <li>广医附二院</li>
+                    </ul>
+                    </div>
+                    </td>
+                    <td width="9%">
+                    <p align="center" style="margin-top: 4">更多&gt;&gt;</td>
+                  </tr>
+                </table>
+                </td>
+              </tr>
+              <tr>
+                <td width="6%" height="31" align="center">
+                <p style="margin-top: 2"><font color="#FFFFFF"><b>深圳</b></font></td>
+                <td width="94%" height="31">
+                <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber115">
+                  <tr>
+                    <td width="94%" class="syyy">
+                    <div>
+                    <ul>
+                    <li>北京大学深圳医院</li>
+                    <li>深圳第二人民医院</li>
+                    <li>深圳市人民医院</li>
+                    <li>深圳市中医院</li>
+                    <li>深圳市眼科医院</li>
+                    <li>深圳市第三人民医院</li>
+                    <li>福田区妇幼保健院</li>
+                    </ul>
+                    </div>
+                    </td>
+                    <td width="9%">
+                    <p align="center" style="margin-top: 4">更多&gt;&gt;</td>
+                  </tr>
+                </table>
+                </td>
+              </tr>
+            </table>
+            </td>
+          </tr>
+          </table>
+        </center>
+      </div>
+      <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber97">
+        <tr>
+      <td width="100%" height="25">　</td>
+        </tr>
+      </table>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+</div>
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="960" id="AutoNumber100" bgcolor="#FFFFFF" height="31">
+    <tr>
+      <td width="100%" height="31">
+      <div align="center">
+        <center>
+        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="55%" id="AutoNumber102" height="97">
+          <tr>
+            <td width="20%" align="center" height="50">
+            <a target="_blank" href="http://net.china.cn/chinese/index.htm">
+            <img border="1" src="/Images/sy_bs_001.gif" style="border: 1px solid #CCCCCC" width="118" height="48"></a></td>
+            <td width="20%" align="center" height="50">
+            <a target="_blank" href="http://www.bj.cyberpolice.cn/index.htm">
+            <img border="1" src="/Images/sy_bs_002.gif" style="border: 1px solid #CCCCCC" width="118" height="48"></a></td>
+            <td width="20%" align="center" height="50">
+            <a href="http://www.ctws.com.cn/">
+            <img border="0" src="/Images/sy_bs_004.gif" style="border: 1px solid #CCCCCC" width="118" height="48"></a></td>
+            <td width="20%" align="center" height="50">
+            <a href="http://www.itrust.org.cn/">
+            <img border="0" src="/Images/sy_bs_003.gif" style="border: 0px solid #CCCCCC; " width="118" height="48"></a></td>
+          </tr>
+          <tr>
+            <td width="80%" align="center" colspan="4" height="47">
+            <font color="#666666">文明办网文明上网举报电话：010-86249698　举报邮箱：</font><a href="mailto:jk899@163.com?subject=不良信息举报">jk899@163.com</a></td>
+          </tr>
+        </table>
+        </center>
+      </div>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="960" id="AutoNumber101" bgcolor="#FFFFFF">
+    <tr>
+      <td width="100%">         <p align="center"><a href="/medical/info/aboutus.htm">网站简介</a> |
+         <a href="/map.asp">网站地图</a> | <a href="/medical/info/job.htm">招贤纳士</a> |
+         <a href="/medical/info/friend.htm">合作伙伴</a> |
+         <a href="/medical/info/chanpin.htm">产品服务</a> |
+         <a href="/medical/info/ad.htm">广告服务</a> |
+         <a href="/medical/info/fuwu.htm">服务条款</a> |
+         <a href="/medical/info/yinsi.htm">隐私保护</a> |
+         <a href="/medical/info/guestbook.htm">意见反馈</a>  |
+         <a href="/medical/info/service.htm">客户服务</a> |
+         <a href="/medical/info/article.htm">网上投稿</a><br>
+	Copyright<font face=Arial color=#ff0000> &copy; </font>	2000-2009　jk899.com　All rights reserved 版权所有 
+         <a href="/">中华健康医学网</a> -- 引领健康生活<font face=Arial color=#ff0000>e</font>时代!<br>
+	强烈建议您使用IE6.0以上浏览器，1024*768分辨率访问本站，可获得最佳效果！<br>
+	<font color=#FF0000>北京市生殖健康研究会官方网站</font>  <a href=http://www.miibeian.gov.cn/>京ICP备08001435号</a><div style="display:none">{$GetSiteOnline}</div></td>
+    </tr>
+  </table>
+  </center>
+</div>
+</div>
+</div>
+</body>
+</html>
+<script src="http://192.168.3.251:88/ks_inc/ajax.js" type="text/javascript"></script>
+<!-- published at 2010-5-29 13:55:56 www.jk899.com -->

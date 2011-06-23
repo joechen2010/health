@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>插入文章内容分页参数设置</title>
+<script language="JavaScript" src="../../KS_Inc/Common.js"></script>
+<script language="javascript">
+function OK() {
+    var Val;
+    Val = '{=GetArticleContent('+document.myform.DlHTML.value+','+document.myform.sLen.value+','+document.myform.sEnable.value+','+document.myform.sPageWord.value+')}';  
+    window.returnValue = Val;
+    window.close();
+}
+</script>
+<link href="Editor.css" rel="stylesheet"></head>
+<body>
+<form name="myform">
+  <br>
+  <table  width='96%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+<tr>
+<td>
+<FIELDSET align=center>
+ <LEGEND align=left>显示文章内容分页设置</LEGEND>
+ <table  width='100%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+ 
+  <tr >
+    <td width="40%" align="right"><div align="center">是否过虑HTML代码：</div></td>
+    <td width="60%" ><select name="DlHTML">
+      <option value="True">是</option>
+      <option value="False">否</option>
+    </select></td>
+  </tr>
+  <tr >
+    <td width="40%" align="right"><div align="center">每页显示的字符：</div></td>
+    <td width="60%" ><input name="sLen" type="text" onBlur="CheckNumber(this,'每页显示的字符');" size="6" value="200"></td>
+  </tr>
+    <tr >
+    <td width="40%" align="right"><div align="center">是否显示转到该页：</div></td>
+    <td width="60%" ><select name="sEnable">
+      <option value="True">是</option>
+      <option value="False">否</option>
+    </select></td>
+  </tr>
+  <tr >
+    <td width="40%" align="right"><div align="center">是否显示字符设置：</div></td>
+    <td width="60%" ><select name="sPageWord">
+      <option value="True">是</option>
+      <option value="False">否</option>
+    </select></td>
+  </tr>  
+  
+</table>
+</FIELDSET>
+</td>
+</tr>
+<tr><td><div align="center"><input TYPE='button' value=' 确 定 ' onCLICK='OK()'></div></td></tr>
+</table>
+</form>
+</body>
+</html>
+ 

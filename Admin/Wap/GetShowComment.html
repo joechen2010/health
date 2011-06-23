@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>插入发表评论参数设置</title>
+<script language="JavaScript" src="../../KS_Inc/Common.js"></script>
+<script language="javascript">
+function OK() {
+    var Val;
+    Val = '{=GetShowComment('+document.myform.Num.value+','+document.myform.LenNum.value+')}';  
+    window.returnValue = Val;
+    window.close();
+}
+</script>
+<link href="Editor.css" rel="stylesheet"></head>
+<body>
+<form name="myform">
+  <br>
+  <table  width='96%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+<tr>
+<td>
+<FIELDSET align=center>
+ <LEGEND align=left>显示发表评论设置</LEGEND>
+ <table  width='100%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+  <tr >
+    <td width="40%" align="right"><div align="center">显示记录数：</div></td>
+    <td width="60%" ><input name="Num" type="text" onBlur="CheckNumber(this,'显示记录数');" size="10" value="3"></td>
+  </tr>
+  <tr>
+    <td align="right"><div align="center">内容显示上限字符：</div></td>
+    <td ><input name="LenNum" type="text" onBlur="CheckNumber(this,'内容显示上限字符');" size="10" value="60"></td>
+  </tr>
+</table>
+</FIELDSET>
+</td>
+</tr>
+<tr><td><div align="center"><input TYPE='button' value=' 确 定 ' onCLICK='OK()'></div></td></tr>
+</table>
+</form>
+</body>
+</html>
+ 

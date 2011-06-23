@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>插入栏目终级分页参数设置</title>
+<script language="JavaScript" src="../../KS_Inc/Common.js"></script>
+<script language="javascript">
+function OK() {
+    var Val;
+    Val = '{$GetShowClassCent('+document.myform.style.value+',,'+document.myform.Preface.value+''+document.myform.strType.value+','+document.myform.Num1.value+','+document.myform.Num2.value+','+document.myform.T_Len.value+','+document.myform.PageStyle.value+')}';  
+    window.returnValue = Val;
+    window.close();
+}
+</script>
+<link href="Editor.css" rel="stylesheet"></head>
+<body>
+<form name="myform">
+  <br>
+  <table  width='96%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+<tr>
+<td>
+<FIELDSET align=center>
+ <LEGEND align=left>显示栏目终级分页设置</LEGEND>
+ <table  width='100%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+ 
+    <tr >
+    <td width="40%" align="right"><div align="center">是否显示样式选择：</div></td>
+    <td width="60%" ><select name="style">
+      <option value="True">显示</option>
+      <option value="False">不显示</option>
+    </select></td>
+  </tr>
+    <tr >
+    <td width="40%" align="right"><div align="center">是否显示排序选择：</div></td>
+    <td width="60%" ><select name="Preface">
+      <option value="True">显示</option>
+      <option value="False">不显示</option>
+    </select></td>
+  </tr>
+   <tr >
+    <td width="40%" align="right"><div align="center">默认显示样式：</div></td>
+    <td width="60%" ><select name="strType">
+      <option value="1">文字简版</option>
+      <option value="2">豪华详版</option>
+    </select></td>
+  </tr>
+
+  
+  <tr >
+    <td width="40%" align="right"><div align="center">文字简版每页显示记录数：</div></td>
+    <td width="60%" ><input name="Num1" type="text" onBlur="CheckNumber(this,'文字简版每页显示记录数');" size="10" value="10"></td>
+  </tr>
+    <tr >
+    <td width="40%" align="right"><div align="center">豪华详版每页显示记录数：</div></td>
+    <td width="60%" ><input name="Num2" type="text" onBlur="CheckNumber(this,'豪华详版每页显示记录数');" size="10" value="6"></td>
+  </tr>
+  <tr>
+    <td align="right"><div align="center">链接标题字符：</div></td>
+    <td ><input name="T_Len" type="text" onBlur="CheckNumber(this,'链接标题字符');" size="10" value="30"></td>
+  </tr>
+  
+   <tr >
+    <td width="40%" align="right"><div align="center">上下分页样式：</div></td>
+    <td width="60%" ><select name="PageStyle">
+      <option value="1">首页 上一页 下一页 尾页</option>
+      <option value="2">下页 尾页1 2 3 [4] 5 6 7首页 上页</option>
+      <option value="2">下页 尾页首页 上页</option>
+    </select></td>
+  </tr>
+  
+</table>
+</FIELDSET>
+</td>
+</tr>
+<tr><td><div align="center"><input TYPE='button' value=' 确 定 ' onCLICK='OK()'></div></td></tr>
+</table>
+</form>
+</body>
+</html>
+ 

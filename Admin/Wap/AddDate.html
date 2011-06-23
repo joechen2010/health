@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>插入时间参数设置</title>
+<script language="JavaScript" src="../../KS_Inc/Common.js"></script>
+<script language="javascript">
+function OK() {
+    var Val;
+    Val = '{=GetCurrentTime('+document.myform.AddDate.value+')}';  
+    window.returnValue = Val;
+    window.close();
+}
+</script>
+<link href="Editor.css" rel="stylesheet"></head>
+<body>
+<form name="myform">
+  <br>
+  <table  width='96%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+<tr>
+<td>
+<FIELDSET align=center>
+ <LEGEND align=left>时间样式设置</LEGEND>
+ <table  width='100%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+  <tr >
+    <td width="40%" align="right"><div align="center">时间样式：</div></td>
+    <td width="60%" ><select name="AddDate">
+<option value="1" >2005-10-1</option>
+<option value="2">2005.10.1</option>
+<option value="3">2005/10/1</option>
+<option value="4">10/1/2005</option>
+<option value="5">2005年10月</option>
+<option value="6">2005年10月1日</option>
+<option value="7">10.1.2005</option>
+<option value="8">10-1-2005</option>
+<option value="9">10/1</option>
+<option value="10">10.1</option>
+<option value="11">10月1日</option>
+<option value="12">1日12时</option>
+<option value="13">1日12点</option>
+<option value="14">12时12分</option>
+<option value="15">12:12</option>
+<option value="16">10-1</option>
+<option value="17">10/1 12:00</option>
+			  
+<optgroup  label="--加括号格式--"></optgroup>
+<option value="21" >(2005-10-1)</option> 
+<option value="22">(2005.10.1)</option>
+<option value="23">(2005/10/1)</option>
+<option value="24">(10/1/2005)</option>
+<option value="225">(2005年10月)</option>
+<option value="26">(2005年10月1日)</option>
+<option value="27">(10.1.2005)</option>
+<option value="28">(10-1-2005)</option>
+<option value="29">(10/1)</option>
+<option value="30">(10.1)</option>
+<option value="31">(10月1日)</option>
+<option value="32">(1日12时)</option>
+<option value="33">(1日12点)</option>
+<option value="34">(12时12分)</option>
+<option value="35">(12:12)</option>
+<option value="36">(10-1)</option>
+<option value="37">(10/1 12:00)</option>
+
+
+<optgroup  label="--加中括号格式--"></optgroup>
+
+<option value="41">[2005.10.1]</option>
+<option value="42">[2005.10.1]</option>
+<option value="43">[2005/10/1]</option>
+<option value="44">[10/1/2005]</option>
+<option value="45">[2005年10月]</option>
+<option value="46">[2005年10月1日]</option>
+<option value="47">[10.1.2005]</option>
+<option value="48">[10-1-2005]</option>
+<option value="49">[10/1]</option>
+<option value="50">[10.1]</option>
+<option value="51">[10月1日]</option>
+<option value="52">[1日12时]</option>
+<option value="53">[1日12点]</option>
+<option value="54">[12时12分]</option>
+<option value="55">[12:12]</option>
+<option value="56">[10-1]</option>
+<option value="57">[10/1 12:00]</option>
+</select></td>
+  </tr>
+
+</table>
+</FIELDSET>
+</td>
+</tr>
+<tr><td><div align="center"><input TYPE='button' value=' 确 定 ' onCLICK='OK()'></div></td></tr>
+</table>
+</form>
+</body>
+</html>
+ 

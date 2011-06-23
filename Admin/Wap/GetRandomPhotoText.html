@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>插入随机图文参数设置</title>
+<script language="JavaScript" src="../../KS_Inc/Common.js"></script>
+<script language="javascript">
+function OK() {
+    var Val;
+    Val = '{$GetRandomPhotoText('+document.myform.width.value+','+document.myform.height.value+','+document.myform.strName.value+','+document.myform.strTitleNum.value+','+document.myform.strNum.value+','+document.myform.strLineNum.value+','+document.myform.strAttach.value+')}';  
+    window.returnValue = Val;
+    window.close();
+}
+</script>
+<link href="Editor.css" rel="stylesheet"></head>
+<body>
+<form name="myform">
+  <br>
+  <table  width='96%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+<tr>
+<td>
+<FIELDSET align=center>
+ <LEGEND align=left>显示随机图文设置</LEGEND>
+ <table  width='100%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+ 
+   <tr >
+    <td width="40%" align="right"><div align="center">图片宽度设置：</div></td>
+    <td width="60%" ><input name="width" type="text" onBlur="CheckNumber(this,'宽度设置');" size="6" value="70"></td>
+  </tr>
+  
+    <tr >
+    <td width="40%" align="right"><div align="center">图片高度设置：</div></td>
+    <td width="60%" ><input name="height" type="text" onBlur="CheckNumber(this,'高度设置');" size="6" value="90"></td>
+  </tr>
+  
+  <tr >
+    <td width="40%" align="right"><div align="center">是否显示标题：</div></td>
+    <td width="60%" ><select name="strName">
+      <option value="True">显示</option>
+      <option value="False">不显示</option>
+    </select></td>
+  </tr>
+  
+  <tr >
+    <td width="40%" align="right"><div align="center">链接标题字符：</div></td>
+    <td width="60%" ><input name="strTitleNum" type="text" onBlur="CheckNumber(this,'链接标题字符');" size="6" value="30"></td>
+  </tr>
+  
+    <tr >
+    <td width="40%" align="right"><div align="center">显示图片数量：</div></td>
+    <td width="60%" ><input name="strNum" type="text" onBlur="CheckNumber(this,'显示图片数量');" size="6" value="2"></td>
+  </tr>
+  
+    <tr >
+    <td width="40%" align="right"><div align="center">每行显示数量：</div></td>
+    <td width="60%" ><input name="strLineNum" type="text" onBlur="CheckNumber(this,'每行显示数量');" size="6" value="2"></td>
+  </tr>
+  
+         <tr >
+    <td width="40%" align="right"><div align="center">显示附加内容：</div></td>
+    <td width="60%" ><select name="strAttach">
+      <option value="True">显示</option>
+      <option value="False">不显示</option>
+    </select></td>
+  </tr>
+  
+</table>
+</FIELDSET>
+</td>
+</tr>
+<tr><td><div align="center"><input TYPE='button' value=' 确 定 ' onCLICK='OK()'></div></td></tr>
+</table>
+</form>
+</body>
+</html>
+ 

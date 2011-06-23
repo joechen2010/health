@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>插入状态栏打字效果参数设置</title>
+<script language="JavaScript" src="../KS_Inc/Common.js"></script>
+<script language="javascript">
+function OK() {
+    var Val;
+	if (document.myform.text.value=='')
+	  {
+	   alert('请输入文字!')
+	   document.myform.text.focus();
+	   return false;
+	  }
+    Val = '{=JS_Status1("'+document.myform.text.value+'",'+document.myform.speed.value+')}';  
+    window.returnValue = Val;
+    window.close();
+}
+</script>
+<script language="JavaScript">
+var msg = "欢迎您使用科汛网站管理系统! " ;
+var interval = 120
+var spacelen = 120;
+var space10=" ";
+var seq=0;
+function KS_Status1() {
+len = msg.length;
+window.status = msg.substring(0, seq+1);
+seq++;
+if ( seq >= len ) {
+seq = 0;
+window.status = '';
+window.setTimeout("KS_Status1();", interval );
+}
+else
+window.setTimeout("KS_Status1();", interval );
+}
+KS_Status1();
+</script>
+<link href="Editor.css" rel="stylesheet"></head>
+<body>
+<form name="myform">
+  <br>
+  <table  width='96%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+<tr>
+<td>
+<FIELDSET align=center>
+ <LEGEND align=left>状态栏打字效果设置</LEGEND>
+ <table  width='100%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+  <tr >
+    <td align="right"><div align="center">待显示的文字</div></td>
+    <td ><input name="text" type="text" id="text" size="60"></td>
+  </tr>
+  <tr >
+    <td align="right">&nbsp;</td>
+    <td >如: 欢迎光临本站!!!</td>
+  </tr>
+  <tr >
+    <td width="24%" align="right"><div align="center">滚动速度</div></td>
+    <td width="76%" ><input name="speed" type="text" id="speed" value="120" size="8" onBlur="CheckNumber(this,'滚动速度');">值越大,速度越慢</td>
+  </tr>
+</table>
+</FIELDSET>
+</td>
+</tr>
+<tr><td><div align="center"><input TYPE='button' value=' 确 定 ' onCLICK='OK()'></div></td></tr>
+</table>
+</form>
+</body>
+</html>
+ 

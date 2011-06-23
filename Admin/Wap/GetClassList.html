@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>插入频道栏目参数设置</title>
+<script language="JavaScript" src="../../KS_Inc/Common.js"></script>
+<script language="javascript">
+function OK() {
+    var Val;
+    Val = '{$GetClassList('+document.myform.Num.value+','+document.myform.Cent.value+')}';  
+    window.returnValue = Val;
+    window.close();
+}
+</script>
+<link href="Editor.css" rel="stylesheet"></head>
+<body>
+<form name="myform">
+  <br>
+  <table  width='96%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+<tr>
+<td>
+<FIELDSET align=center>
+ <LEGEND align=left>频道栏目设置</LEGEND>
+ <table  width='100%' border='0'  align='center' cellpadding='2' cellspacing='1'>
+  <tr >
+    <td width="40%" align="right"><div align="center">一行导航数量：</div></td>
+    <td width="60%" ><input name="Num" type="text" onBlur="CheckNumber(this,'一行导航数量');" size="30" value="2"></td>
+  </tr>
+  <tr>
+    <td align="right"><div align="center">导航分隔符号：</div></td>
+    <td ><input name="Cent" type="text" id="Cent" size="30" value="|"></td>
+  </tr>
+</table>
+</FIELDSET>
+</td>
+</tr>
+<tr><td><div align="center"><input TYPE='button' value=' 确 定 ' onCLICK='OK()'></div></td></tr>
+</table>
+</form>
+</body>
+</html>
